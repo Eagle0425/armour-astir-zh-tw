@@ -10,7 +10,7 @@
 
 扮演書的設定、裝備、起始及額外動作在同一章完整呈現。插畫頁保留來源頁碼與簡短圖說；本網站不重製全部原書插畫。中文角色卡 PDF 不在這次交付範圍；全書可由 `site/reader.html` 閱讀、列印或使用瀏覽器另存。
 
-依使用者要求，**未讀取或採用機翻檔**。中文內容直接對照英文原書翻譯。免費版與參考表只辨認用途及重複範圍，不覆蓋插畫版正文規則。
+依使用者要求，**未讀取或採用機翻檔**。中文內容直接對照英文原書翻譯。配套文件的獨立摘要與欄位已選錄整理，重複內容連至正文，版本差異分開列示。
 
 ## 玩家手冊與 GM 工作台
 
@@ -18,7 +18,7 @@
 
 玩家列印 `site/player-reader.html`，GM 列印 `site/gm-reader.html`；`site/reader.html` 保留含 GM 的完整原書版本。
 
-核心書以外五份 PDF 的盤點見[資源翻譯盤點](https://eagle0425.github.io/armour-astir-zh-tw/#resources)與 `translation/resource-inventory.json`。四份配套 PDF 尚未中文化；主要規則已有正文譯文，不能當成 PDF 表單或摘要本身已完成。角色卡的 Let Loose、Arcane Generator 以及綜合參考表的部門門檻與核心書有差異，未拿它們覆蓋核心規則。
+核心書以外五份 PDF 的盤點見[資源翻譯盤點](https://eagle0425.github.io/armour-astir-zh-tw/#resources)與 `translation/resource-inventory.json`。四份配套文件的獨立內容已整理為五章網站補充：創角檢核、角色卡與母艦表欄位、擲骰狀態來源、衝突回合主持速查、配套文件版本差異。中文配套 PDF 尚未製作。角色卡的 Let Loose、Arcane Generator 以及綜合參考表的部門門檻與核心書有差異，未拿它們覆蓋核心規則。
 
 ## 閱讀功能
 
@@ -30,7 +30,7 @@
 
 ## 翻譯與校訂
 
-`content/pages/p001.md` 至 `p174.md` 是唯一中文正文來源；`glossary.json` 保存集中術語。`chapters.json` 決定導覽及頁面範圍。
+`content/pages/p001.md` 至 `p174.md` 是唯一中文正文來源；`glossary.json` 保存集中術語。`chapters.json` 決定核心書導覽及頁面範圍。`content/supplements/` 與 `supplements.json` 保存五章補充、角色分區、來源頁序與來源／譯文指紋；使用獨立錨點，不冒用核心書頁碼。補充內容經本次英文對照與自校，尚未經獨立終校，不計入核心書 174 頁的初校範圍。
 
 174 頁已完成一次由不同翻譯工作單元進行的 AI 語義初校。覆核保留了原始問題紀錄，再另記修正；沒有把「頁數齊全」當成語義正確的證明。這是可閱讀的完整譯稿與初校版，尚未經熟悉本作的人類譯者進行出版級終校。
 

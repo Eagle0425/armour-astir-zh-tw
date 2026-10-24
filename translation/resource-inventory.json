@@ -1,7 +1,7 @@
 {
   "checked_on": "2026-10-25",
   "scope": "工作區原始PDF；排除本專案衍生草稿、建置與機翻檔",
-  "method": "檔案與頁數盤點、全文抽字比對、章節／表單欄位對照及具體規則差異核對；不是所有配套PDF的逐句翻譯或終校。",
+  "method": "英文原檔全文抽字比對、表單欄位核對及摘要與核心書逐項對照；新增章節為選錄翻譯與整理，非配套PDF逐頁重排。未使用機翻檔。",
   "core_source": "ArmourAstir_af_illus.pdf",
   "supplement_count": 5,
   "supporting_pdf_count": 4,
@@ -55,10 +55,12 @@
       "pages": 17,
       "title": "八種角色卡與母艦表",
       "kind": "可列印遊玩表單",
-      "status": "角色規則多已收錄；中文表單尚未製作",
-      "content_status": "八種扮演書的動作與設定已收錄於玩家手冊，但表單含異版規則。",
+      "status": "欄位指引與版本差異已加入網站；中文PDF未製作",
+      "content_status": "八種角色與母艦表的欄位對照、填寫用途及異版動作已收錄。重複的動作與設定連至各扮演書。",
       "artifact_status": "尚無中文角色卡、母艦表或可填寫PDF。",
       "chapters": [
+        "sheet-guide",
+        "version-notes",
         "arcanist",
         "impostor",
         "paradigm",
@@ -69,7 +71,7 @@
         "artificer",
         "carrier"
       ],
-      "details": "第1–16頁為八種角色各兩頁；第17頁為母艦表。姓名、危難、引力時鐘、牽引、聚光、機體／艙室與記錄欄位仍是英文，尚未製作中文表單。",
+      "details": "第1–16頁為八種角色各兩頁，第17頁為母艦表。中文欄位指引已涵蓋個人、機體、艙室、母艦武器與時鐘等記錄用途。",
       "priority": "優先製作中文版角色卡與母艦表，先決定採用核心書規則",
       "evidence": [
         {
@@ -93,7 +95,7 @@
             80,
             81
           ],
-          "finding": "獨立母艦記錄表，包含艦員、移動類型、路數、武器與艙室等欄位。"
+          "finding": "獨立母艦記錄表，包含艦員、移動類型、路數、武器、時鐘與備註欄位。"
         }
       ],
       "relative_path": "Resources_FreeVersion/ArmourAstir_sheets.pdf",
@@ -105,17 +107,19 @@
       "pages": 6,
       "title": "玩家規則速查",
       "kind": "獨立速查表",
-      "status": "規則多已收錄；此速查PDF尚未中文化",
-      "content_status": "創角、危難、基本動作與休整的主要規則已在玩家手冊，獨立摘要的編排與文字尚未逐頁翻譯。",
+      "status": "獨立創角摘要與危難辨識已加入網站；中文PDF未製作",
+      "content_status": "六步創角檢核、八種角色一句話描述、危難辨識重點已收錄；重複的基本動作、休整及主要概念直接連正文。",
       "artifact_status": "尚無同用途的六頁中文速查PDF。",
       "chapters": [
+        "creation-checklist",
+        "version-notes",
         "setup",
         "concepts",
         "basic-summary",
         "downtime",
         "plan-prepare"
       ],
-      "details": "第1頁創角／扮演書／擲骰；第2頁危難、牽引、成長與引力；第3–4頁基本動作；第5–6頁休整。這是摘要與重新編排，不能以核心書已譯就宣稱本PDF已完成。",
+      "details": "第1–2頁的獨立摘要已選錄整理。第3–6頁與核心書重複的動作及休整不另複製。",
       "priority": "其次製作玩家桌上速查表",
       "evidence": [
         {
@@ -157,14 +161,16 @@
       "pages": 4,
       "title": "衝突回合速查",
       "kind": "主持／全桌共用速查表",
-      "status": "相關規則已在GM工作台；此PDF尚未中文化",
-      "content_status": "衝突回合流程、六種場景及雙方成果已在GM工作台，獨立摘要文字與表格尚未逐頁翻譯。",
+      "status": "主持流程速查已加入GM工作台；中文PDF未製作",
+      "content_status": "回合概要及成果查閱流程已整理，六種場景與勢力成果連往現有正文；平手措辭差異另列。",
       "artifact_status": "尚無四頁中文衝突回合速查PDF。",
       "chapters": [
+        "conflict-reference",
+        "version-notes",
         "conflict-turn",
         "conflict-scenes"
       ],
-      "details": "包含回合概要、場景挑戰／結局、部門及派系成果。衝突回合由全桌參與，集中在GM工作台方便主持和共用。",
+      "details": "第1、4頁的概要整理成主持速查；各場景挑戰與收束已有完整中文正文。",
       "priority": "製作GM／全桌共用衝突回合速查表",
       "evidence": [
         {
@@ -197,18 +203,20 @@
       "pages": 10,
       "title": "綜合參考表",
       "kind": "玩家／主持混合參考表",
-      "status": "主要題材已有譯文；本PDF未中文化且有異版差異",
-      "content_status": "包含擲骰、動作、休整、衝突場景及雙方類型；多數內容已分別收錄玩家手冊與GM工作台。",
+      "status": "集中來源清單與異版差異已加入網站；中文PDF未製作",
+      "content_status": "第10頁的有利／不利來源已按優勢、劣勢、自信與絕境分開核對整理，衝突門檻差異另列。",
       "artifact_status": "尚無十頁中文對應PDF。",
       "chapters": [
+        "roll-reference",
+        "version-notes",
         "concepts",
         "basic-summary",
         "downtime",
         "conflict-turn",
         "conflict-scenes"
       ],
-      "details": "第1–5頁主要為玩家規則與休整；第6–9頁為衝突與勢力；第10頁彙整優劣勢／自信與絕境來源，另有衝突回合流程。該彙整尚未作為獨立中文速查頁整理。",
-      "priority": "先比對異版再整合，不直接照抄門檻",
+      "details": "第1–9頁的重複規則連往玩家或GM正文；第10頁獨立來源清單已收錄，並補明危難溢出的精確條件。",
+      "priority": "若製作中文PDF，沿用已核對的核心書門檻與分開列出的版本差異",
       "evidence": [
         {
           "pdf_page": 6,
@@ -236,7 +244,7 @@
             33,
             66
           ],
-          "finding": "集中列出優劣勢及自信／絕境來源；各機制多已在正文，但這份彙整本身尚未獨立翻譯。"
+          "finding": "集中列出優劣勢及自信／絕境來源；各機制多已在正文，但這份彙整已整理於擲骰狀態來源速查。"
         }
       ],
       "relative_path": "Resources_FreeVersion/Reference_Sheets.pdf",
@@ -244,11 +252,11 @@
       "chinese_pdf_available": false
     }
   ],
-  "conclusion": "尚未中文化的配套成品主要是17頁角色／母艦表、6頁玩家速查、4頁衝突速查、10頁綜合參考表。127頁免費核心版多為重複內容，無須當成另一部擴充重翻。",
+  "conclusion": "四份配套文件中辨識出的獨立摘要、表單欄位、集中來源清單及版本差異，已整理為五個網站補充章節。重複規則直接連往現有正文；中文配套PDF尚未製作。免費基本版主要與核心書重複。",
   "next_priority": [
     "以核心書版本為準重製角色卡及母艦表",
     "製作玩家規則速查PDF",
     "製作衝突回合速查PDF",
-    "比對綜合參考表異版並整理來源彙整"
+    "依網站已整理的來源清單與版本差異，製作綜合速查PDF"
   ]
 }

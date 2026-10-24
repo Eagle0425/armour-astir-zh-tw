@@ -51,7 +51,8 @@ def render(md, page):
         flush_table()
         m=re.match(r'^(#{1,6})\s+(.+)',line)
         if m:
-            flush_para();close_lists();level=min(6,len(m[1])+1);hcount+=1;anchor=f'p{page:03}-h{hcount}'
+            flush_para();close_lists();level=min(6,len(m[1])+1);hcount+=1
+            anchor=f'{page}-h{hcount}' if isinstance(page,str) else f'p{page:03}-h{hcount}'
             heads.append({'level':level,'text':re.sub(r'[*`]', '',m[2]),'anchor':anchor})
             result.append(f'<h{level} id="{anchor}">'+inline(m[2])+f'</h{level}>');continue
         m=re.match(r'^(\s*)([-*+]|\d+[.)])\s+(.+)',line)
@@ -72,10 +73,34 @@ def render(md, page):
 def edition(chapters, mode):
     selected=[dict(c) for c in chapters if c['audience'] in (mode,'shared')]
     if mode=='gm':
-        selected.sort(key=lambda c: (c['audience']=='shared',c.get('derived',False),c['start']))
+        selected.sort(key=lambda c: (c['audience']=='shared',c.get('derived',False),c.get('supplement',False),c['start'],c.get('order',0)))
         for c in selected:
-            if c['audience']=='shared':c['group']='共用規則與資料'
+            if c['audience']=='shared' and not c.get('supplement'):c['group']='共用規則與資料'
     return selected
+
+def page_anchor(p):
+    return p.get('anchor') or f'p{p["page"]:03}'
+
+def page_source(p):
+    return p.get('sourceLabel') or f'英文原書第 {p["page"]} 頁'
+
+def page_ranges(numbers):
+    runs=[]
+    for n in numbers:
+        if runs and n==runs[-1][-1]+1:runs[-1].append(n)
+        else:runs.append([n])
+    return ', '.join(str(r[0]) if len(r)==1 else f'{r[0]}–{r[-1]}' for r in runs)
+
+def load_supplements():
+    items=json.loads((ROOT/'supplements.json').read_text(encoding='utf8'))
+    for c in items:
+        md=(ROOT/c['file']).read_text(encoding='utf8')
+        assert digest(md)==c['target_sha256'],f'Supplement changed; review and refresh manifest: {c["id"]}'
+        anchor='s-'+c['id'];body,heads=render(md,anchor)
+        label='；'.join(s['file']+' p.'+page_ranges(s['pages']) for s in c['sources'])
+        c['sourceLabel']=label
+        c['pages']=[{'page':None,'anchor':anchor,'sourceLabel':label,'title':c['title'],'html':body,'text':md,'headings':heads,'chapter':c['id']}]
+    return items
 
 def split_director_notes(chapters):
     views=copy.deepcopy(chapters);notes=[];routes={}
@@ -119,22 +144,23 @@ def split_director_notes(chapters):
 def write_reader(site, chapters, directory, name, title):
     is_full=name=='reader.html'; included={p['page'] for c in chapters for p in c['pages']};included_chapters={c['id'] for c in chapters}
     home='gm.html' if name=='gm-reader.html' else 'index.html'
-    reader=['<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' · Armour Astir</title><link rel="stylesheet" href="styles.css?v=20261025-3"></head><body><main style="max-width:900px;margin:auto"><h1>'+title+'</h1><p>Armour Astir: Advent · <a href="'+home+'">回到閱讀介面</a></p>']
+    reader=['<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' · Armour Astir</title><link rel="stylesheet" href="styles.css?v=20261025-4"></head><body><main style="max-width:900px;margin:auto"><h1>'+title+'</h1><p>Armour Astir: Advent · <a href="'+home+'">回到閱讀介面</a></p>']
     if is_full:reader.append('<p class="notice">這是含 GM 內容的完整原書列印版。分區列印請開啟<a href="player-reader.html">玩家手冊</a>或<a href="gm-reader.html">GM 工作台</a>。</p>')
     reader.append('<nav><ol>')
-    reader += [f'<li><a href="#{c["id"]}">{html.escape(c["title"])}</a>（{c["start"]}–{c["end"]}）</li>' for c in chapters]
+    reader += [f'<li><a href="#{c["id"]}">{html.escape(c["title"])}</a>'+('（配套補充）' if c.get('supplement') else f'（{c["start"]}–{c["end"]}）')+'</li>' for c in chapters]
     reader.append('</ol></nav>')
     for c in chapters:
         reader.append(f'<header class="article-head" id="{c["id"]}"><h1>{html.escape(c["title"])}</h1><p>{html.escape(c["english"])}</p></header>')
         for p in c['pages']:
             def target(m):
-                anchor=m[2];number=int(re.match(r'p(\d+)',anchor)[1])
-                if number in included and m[1] in included_chapters:return 'href="#'+anchor+'"'
-                other=next(x for x in directory if x['id']==m[1])
+                anchor=m[2] or m[1]
+                if m[1] in included_chapters:return 'href="#'+anchor+'"'
+                other=next((x for x in directory if x['id']==m[1]),None)
+                if other is None:return 'href="'+home+'#'+m[1]+'"'
                 path='gm-reader.html' if other['audience']=='gm' else 'player-reader.html'
                 return 'href="'+path+'#'+anchor+'"'
-            body=re.sub(r'href="#([a-z0-9-]+)/(p\d{3}(?:-h\d+)?)"',target,p['html'])
-            reader.append(f'<section class="page-block" id="p{p["page"]:03}"><div class="page-marker">英文原書第 {p["page"]} 頁</div>{body}</section>')
+            body=re.sub(r'href="#([a-z0-9-]+)(?:/([a-z0-9-]+))?"',target,p['html'])
+            reader.append(f'<section class="page-block" id="{page_anchor(p)}"><div class="page-marker">{html.escape(page_source(p))}</div>{body}</section>')
     reader.append('</main></body></html>')
     (site/name).write_text('\n'.join(reader),encoding='utf8',newline='\n')
 
@@ -164,6 +190,8 @@ def build():
     reviews=json.loads(reviews_path.read_text(encoding='utf8')) if reviews_path.exists() else {'status':'draft','note':'獨立初校尚在進行。'}
     site=ROOT/'site'
     view_chapters,anchor_routes,note_pages=split_director_notes(chapters)
+    supplements=load_supplements()
+    view_chapters+=supplements
     directory=[{k:c[k] for k in ['id','title','start','end','audience']} for c in view_chapters]
     inventory=json.loads((ROOT/'translation/resource-inventory.json').read_text(encoding='utf8'))
     counts={}
@@ -171,11 +199,11 @@ def build():
         selected=edition(view_chapters,mode)
         data={'title':'Armour Astir: Advent','updated':'2026-10-25','mode':mode,'chapters':selected,'directory':directory,'anchorRoutes':anchor_routes,'sources':sources,'reviews':reviews,'totalPages':174,'totalChapters':len(chapters),'resources':inventory}
         (site/name).write_text('window.AA_DATA = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf8',newline='\n')
-        counts[mode]={'chapters':len(selected),'pages':sum(len(c['pages']) for c in selected),'chapter_ids':[c['id'] for c in selected]}
+        counts[mode]={'chapters':len(selected),'pages':sum(len(c['pages']) for c in selected if not c.get('supplement')),'supplements':sum(bool(c.get('supplement')) for c in selected),'chapter_ids':[c['id'] for c in selected]}
     shell=(site/'index.html').read_text(encoding='utf8').replace('src="data.js?', 'src="gm-data.js?').replace('<body>','<body class="gm-workshop">').replace('玩家手冊 · Armour Astir','GM 工作台 · Armour Astir').replace('ADVENT ／ 玩家手冊','ADVENT ／ GM 工作台').replace('PLAYER / FIELD MANUAL','DIRECTOR / WORKSHOP').replace('href="gm.html#home">GM 工作台 ↗','href="index.html#home">← 玩家手冊').replace('id="reader-link" href="player-reader.html">玩家手冊列印版','id="reader-link" href="gm-reader.html">GM 工作台列印版').replace('搜尋玩家手冊','搜尋 GM 工作台').replace('href="player-reader.html">玩家手冊靜態閱讀版','href="gm-reader.html">GM 工作台靜態閱讀版')
     (site/'gm.html').write_text(shell,encoding='utf8',newline='\n')
     (ROOT/'translation/coverage.json').write_text(json.dumps({'source_policy':'English originals only; machine-translated files not used','source_pages':174,'translated_pages':len(all_pages),'chapters':len(chapters),'pages':audit},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    write_reader(site,chapters,directory,'reader.html','完整原書閱讀／列印（含 GM）')
+    write_reader(site,chapters+supplements,directory,'reader.html','完整原書與配套補充閱讀／列印（含 GM）')
     write_reader(site,edition(view_chapters,'player'),directory,'player-reader.html','玩家手冊閱讀／列印')
     write_reader(site,edition(view_chapters,'gm'),directory,'gm-reader.html','GM 工作台閱讀／列印')
     (ROOT/'translation/editions.json').write_text(json.dumps({'date':'2026-10-25','policy':'Public reading partitions, not access control; shared rules appear in both. Canonical translation pages are unchanged. Director notes are transferred to a derived GM-only chapter; old note anchors redirect.','director_note_pages':note_pages,'editions':counts},ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')

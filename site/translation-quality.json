@@ -400,8 +400,9 @@
   },
   "editions": {
     "player": {
-      "chapters": 40,
+      "chapters": 44,
       "pages": 110,
+      "supplements": 4,
       "chapter_ids": [
         "intro",
         "contents",
@@ -442,12 +443,17 @@
         "example-astirs",
         "dangers-examples",
         "glossary",
-        "credits"
+        "credits",
+        "creation-checklist",
+        "sheet-guide",
+        "roll-reference",
+        "version-notes"
       ]
     },
     "gm": {
-      "chapters": 24,
+      "chapters": 26,
       "pages": 92,
+      "supplements": 2,
       "chapter_ids": [
         "conflict-turn",
         "conflict-scenes",
@@ -467,12 +473,14 @@
         "magic-objects",
         "magic-weapons",
         "enchanting-game",
+        "conflict-reference",
         "gm-notes",
         "contents",
         "concepts",
         "dangers-examples",
         "glossary",
-        "credits"
+        "credits",
+        "version-notes"
       ]
     }
   },

@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 import hashlib, json, re
-from build import ROOT, render, edition
+from build import ROOT, render, edition, load_supplements, page_anchor
 
 def check(ok, message):
     if not ok: raise SystemExit('FAIL: '+message)
@@ -22,7 +22,8 @@ class Scan(HTMLParser):
 
 coverage=json.loads((ROOT/'translation/coverage.json').read_text(encoding='utf8'))
 chapters=json.loads((ROOT/'chapters.json').read_text(encoding='utf8'))
-ids={c['id'] for c in chapters};page_routes={}
+supplements=load_supplements()
+ids={c['id'] for c in chapters+supplements};page_routes={}
 all_headings=set()
 for c in chapters:
     for n in range(c['start'],c['end']+1):page_routes[n]=c['id']
@@ -67,15 +68,15 @@ for mode,name in [('player','data.js'),('gm','gm-data.js')]:
     data=json.loads(raw.removeprefix('window.AA_DATA = ').strip().removesuffix(';'))
     datasets[mode]=data
     check(data['mode']==mode,f'Wrong reader mode in {name}')
-    expected=edition(chapters+[{'id':'gm-notes','audience':'gm','start':21,'derived':True,'group':'主持補充'}],mode)
+    expected=edition(chapters+[{'id':'gm-notes','audience':'gm','start':21,'derived':True,'group':'主持補充'}]+supplements,mode)
     check([c['id'] for c in data['chapters']]==[c['id'] for c in expected],f'Wrong audience or order in {name}')
     check(all(c['audience'] in [mode,'shared'] for c in data['chapters']),f'Other-role body leaked into {name}')
-    check(data['totalChapters']==58 and len(data['directory'])==59,'Cross-role route directory incomplete')
+    check(data['totalChapters']==58 and len(data['directory'])==59+len(supplements),'Cross-role route directory incomplete')
     rendered_pages={int(x[1:]) for x in readers['gm-reader.html' if mode=='gm' else 'player-reader.html'].ids if re.fullmatch('p[0-9]{3}',x)}
-    expected_pages={p['page'] for c in data['chapters'] for p in c['pages']}
+    expected_pages={p['page'] for c in data['chapters'] for p in c['pages'] if p['page'] is not None}
     check(rendered_pages==expected_pages,f'Wrong printable edition {mode}')
-player_pages={p['page'] for c in datasets['player']['chapters'] for p in c['pages']}
-gm_pages={p['page'] for c in datasets['gm']['chapters'] for p in c['pages']}
+player_pages={p['page'] for c in datasets['player']['chapters'] for p in c['pages'] if p['page'] is not None}
+gm_pages={p['page'] for c in datasets['gm']['chapters'] for p in c['pages'] if p['page'] is not None}
 check(player_pages|gm_pages==set(range(1,175)),'Reader split dropped core pages')
 shared_pages={n for c in chapters if c['audience']=='shared' for n in range(c['start'],c['end']+1)}
 note_pages={21,22,23,24,25,26,27,28,29,31,32,33,36,37,44,90}
@@ -114,3 +115,28 @@ for resolution in json.loads((ROOT/'translation/resolutions.json').read_text(enc
     check(hashlib.sha256(target.read_text(encoding='utf8').encode()).hexdigest()==resolution['target_sha256'],f'Review resolution stale p{resolution["page"]}; update review rather than just rebuilding')
 print('PASS: 174 source-page fingerprints; 58 chapters; eight complete playbook ranges; cantrip/Soldier inventory; internal routes; reader links; source card structure; relative static assets; review regression checks.')
 print('PASS: separate player/GM datasets, search scope and printable page sets; complete cross-reader anchors; five-resource inventory and source fingerprints.')
+
+# Companion pages have their own source labels and anchors, never fake core page numbers.
+resource_map={x['file']:x for x in inventory['resources']}
+for c in supplements:
+    check(c['id'] not in {x['id'] for x in chapters},'Supplement collides with core chapter')
+    for src in c['sources']:
+        check(src['sha256']==resource_map[src['file']]['sha256'],'Stale companion source fingerprint')
+        check(all(1<=n<=resource_map[src['file']]['pages'] for n in src['pages']),'Invalid companion source page')
+    p=c['pages'][0];check(p['page'] is None and p['sourceLabel'],'Supplement must not impersonate core pagination')
+    scan=Scan();scan.feed(p['html'])
+    for href in scan.links:
+        if not href.startswith('#'):continue
+        target,*part=href[1:].split('/')
+        check(target in ids or target in ['resources','about'],'Bad companion route '+href)
+        if part:check(part[0] in all_headings or (re.fullmatch('p[0-9]{3}',part[0]) and page_routes.get(int(part[0][1:]))==target),'Bad companion core anchor '+href)
+    for mode,data in datasets.items():
+        selected=[x for x in data['chapters'] if x['id']==c['id']]
+        check(bool(selected)==(c['audience'] in [mode,'shared']),'Companion audience mismatch')
+        if selected:
+            check(selected[0]['pages'][0]['text']==p['text'],'Stale companion search text')
+            reader=readers['gm-reader.html' if mode=='gm' else 'player-reader.html']
+            check(page_anchor(p) in reader.ids,'Companion missing from print edition')
+    check(page_anchor(p) in readers['reader.html'].ids,'Companion missing from full reader')
+check(len(supplements)==5,'Expected five companion chapters')
+print('PASS: five companion chapters; source/target fingerprints; role isolation; core cross-links; distinct supplemental pagination and print anchors.')

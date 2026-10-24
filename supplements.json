@@ -1,0 +1,159 @@
+[
+  {
+    "id": "creation-checklist",
+    "title": "創角檢核",
+    "english": "Character Creation Checklist",
+    "audience": "player",
+    "group": "玩家配套速查",
+    "start": 0,
+    "end": 0,
+    "supplement": true,
+    "order": 0,
+    "file": "content/supplements/creation-checklist.md",
+    "target_sha256": "6c9915dbc3834b6f1b741a677bafec024a07c1f8de16968b0377c81b231ed06c",
+    "sources": [
+      {
+        "file": "AAA_RulesReference.pdf",
+        "pages": [
+          1,
+          2
+        ],
+        "sha256": "95a5d3951b0b717034b73c9e6020f087acfea08a482e9cb0cfbac83badb40dbe"
+      }
+    ],
+    "review": "依英文原文與核心書完成本次整理及自校；未經獨立終校。"
+  },
+  {
+    "id": "sheet-guide",
+    "title": "角色卡與母艦表欄位",
+    "english": "Character & Carrier Sheet Guide",
+    "audience": "player",
+    "group": "玩家配套速查",
+    "start": 0,
+    "end": 0,
+    "supplement": true,
+    "order": 1,
+    "file": "content/supplements/sheet-guide.md",
+    "target_sha256": "a2c87f48e1222f2f3e3aa774e6a4793888719a25b2a8068c072f9179e8b06c6b",
+    "sources": [
+      {
+        "file": "ArmourAstir_sheets.pdf",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "sha256": "7d273619c35430f7b1862b30a7618e73aa2c0c3f50e9dacb70a2120e8147b4c6"
+      }
+    ],
+    "review": "依英文原文與核心書完成本次整理及自校；未經獨立終校。"
+  },
+  {
+    "id": "roll-reference",
+    "title": "擲骰狀態來源速查",
+    "english": "Roll State Sources",
+    "audience": "player",
+    "group": "玩家配套速查",
+    "start": 0,
+    "end": 0,
+    "supplement": true,
+    "order": 2,
+    "file": "content/supplements/roll-reference.md",
+    "target_sha256": "c7e7919aea73c08f2132cac6b82be896a955dab2e3735af9a7f7f9c4494a5797",
+    "sources": [
+      {
+        "file": "Reference_Sheets.pdf",
+        "pages": [
+          10
+        ],
+        "sha256": "f981f360275cc9a6af52352a0f6cc4e8b0dc5b4f0b662b94ba361d7bca49a5d4"
+      }
+    ],
+    "review": "依英文原文與核心書完成本次整理及自校；未經獨立終校。"
+  },
+  {
+    "id": "conflict-reference",
+    "title": "衝突回合主持速查",
+    "english": "Conflict Turn Quick Reference",
+    "audience": "gm",
+    "group": "主持補充",
+    "start": 0,
+    "end": 0,
+    "supplement": true,
+    "order": 3,
+    "file": "content/supplements/conflict-reference.md",
+    "target_sha256": "88ccc737f25b366b98479e932719b010c156627ad8418e7756ab0a21882b1afe",
+    "sources": [
+      {
+        "file": "AAA_ConflictTurnRef.pdf",
+        "pages": [
+          1,
+          4
+        ],
+        "sha256": "ed4cbafb59752a88abfeed78dca2dc2c44ad58ddce8115752c5db67a951c578d"
+      }
+    ],
+    "review": "依英文原文與核心書完成本次整理及自校；未經獨立終校。"
+  },
+  {
+    "id": "version-notes",
+    "title": "配套文件版本差異",
+    "english": "Companion Version Differences",
+    "audience": "shared",
+    "group": "配套版本與來源",
+    "start": 0,
+    "end": 0,
+    "supplement": true,
+    "order": 4,
+    "file": "content/supplements/version-notes.md",
+    "target_sha256": "c640e1f30dbdd1dd5a36e3b5ad935d64d55c0dab04e4cae53dd3480b4957d0d0",
+    "sources": [
+      {
+        "file": "ArmourAstir_sheets.pdf",
+        "pages": [
+          4,
+          9,
+          16
+        ],
+        "sha256": "7d273619c35430f7b1862b30a7618e73aa2c0c3f50e9dacb70a2120e8147b4c6"
+      },
+      {
+        "file": "AAA_RulesReference.pdf",
+        "pages": [
+          2
+        ],
+        "sha256": "95a5d3951b0b717034b73c9e6020f087acfea08a482e9cb0cfbac83badb40dbe"
+      },
+      {
+        "file": "AAA_ConflictTurnRef.pdf",
+        "pages": [
+          4
+        ],
+        "sha256": "ed4cbafb59752a88abfeed78dca2dc2c44ad58ddce8115752c5db67a951c578d"
+      },
+      {
+        "file": "Reference_Sheets.pdf",
+        "pages": [
+          6,
+          10
+        ],
+        "sha256": "f981f360275cc9a6af52352a0f6cc4e8b0dc5b4f0b662b94ba361d7bca49a5d4"
+      }
+    ],
+    "review": "依英文原文與核心書完成本次整理及自校；未經獨立終校。"
+  }
+]
