@@ -1,0 +1,6 @@
+source/
+drafts/
+__pycache__/
+site/preview*
+node_modules/
+.local/

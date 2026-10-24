@@ -1,0 +1,13 @@
+{
+  "language": "zh-TW",
+  "source": "English original PDFs only; user prohibits machine-translated files",
+  "proper_nouns": "Keep uncommon personal/place names in English unless transparent direct translation; preserve identifiable original in first occurrence",
+  "register": "Natural precise Taiwan Traditional Chinese; preserve you and full mechanics",
+  "term_gloss": "First technical occurrence may include English; UI Chinese first",
+  "translation": "Complete prose, all examples and tables; no summaries or invented rules",
+  "deployment": {
+    "target": "github-pages",
+    "base": "/armour-astir-zh-tw/"
+  },
+  "reference": "game-doc-template translation skill adapted to page-aligned Markdown; Root static architecture"
+}

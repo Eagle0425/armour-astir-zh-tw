@@ -1,0 +1,86 @@
+{
+  "policy": "Preserved original wording, values and identifiers rather than inventing errata. Source uncertainty is distinct from translation review failure.",
+  "issues": [
+    {
+      "page": 39,
+      "kind": "source-cross-reference",
+      "detail": "Original Arcanist introduction mentions expend rituals, while its listed move is Adaptive Rituals. Original reference translated faithfully as 消耗儀式; no new move invented."
+    },
+    {
+      "page": 45,
+      "kind": "source-cross-reference",
+      "detail": "Original introduction mentions bless, which is not a listed Paradigm move in this edition. Kept 祝福 faithfully."
+    },
+    {
+      "page": 48,
+      "kind": "source-cross-reference",
+      "detail": "Original prose calls receiving boons receive boons, while actual starting move is Patron; translated descriptive reference faithfully."
+    },
+    {
+      "page": 60,
+      "kind": "source-cross-reference",
+      "detail": "Original mentions borrowed time, not found in the assigned playbooks; preserved 借來的時間（borrowed time） rather than silently substituting Borrowed Power."
+    },
+    {
+      "page": 68,
+      "kind": "source-inconsistency",
+      "detail": "Original opens with five tiers I–V but also explicitly lists VI. Both statements preserved."
+    },
+    {
+      "page": 69,
+      "kind": "source-formula-ambiguity",
+      "detail": "Original prose says take tier difference and roll d6 without explicitly saying multiply, but its worked example uses 4×5=20 minutes. Translation preserves prose and complete numerical example without inventing a clarifying rule."
+    },
+    {
+      "page": 76,
+      "kind": "fictional-dialect",
+      "detail": "Keeper transcript uses intentionally nonstandard fictional dialect. Original PDF visually verified. Contextual Chinese translation given, with difficult original utterances retained verbatim in parentheses. Exact interpretation of KOLP SIE OBER remains uncertain and merits editorial review."
+    },
+    {
+      "page": 88,
+      "issue": "Burstcaster appears under Drain Weapons (-1 Power) but its printed tag list omits drain. Kept grouping and printed tags without silently adding a tag."
+    },
+    {
+      "page": 97,
+      "issue": "Protean lists ELEMENTAL approach with ALCHEMICAL core, although p83 Alchemical options are Mundane or Arcane. Preserved printed card."
+    },
+    {
+      "page": 97,
+      "issue": "Protean Transmutation Link is printed +adapted (aerial form), unlike the creation part's +aerial OR +aquatic. Preserved printed card."
+    },
+    {
+      "page": 99,
+      "issue": "Aries Familiar Matrix part lists Wisp Familiars III while weapon list lists Mote Familiar III. Both retained exactly as printed."
+    },
+    {
+      "page": 109,
+      "issue": "Vulnerability paragraph prints minor Division threshold 3+, whereas p106 gives minor Division Strength 4+. Preserved 3+ at p109 rather than correcting the rule."
+    },
+    {
+      "page": 136,
+      "issue": "Original gives 4–5 Sides two Branches each, then 5+ Sides one Branch each; five overlaps. Translation preserves this rather than inventing a correction."
+    },
+    {
+      "page": 160,
+      "issue": "Springtail mounted Paracausal Hook uses drain3; standalone gear entry uses drain2. Both retained."
+    },
+    {
+      "pages": [
+        163,
+        164
+      ],
+      "issue": "Jocasta Nixon in fiction vs Jocasta Nyxon in faction text. Both original spellings retained."
+    },
+    {
+      "pages": [
+        162,
+        165
+      ],
+      "issue": "Steel Chariot faction vs Iron Chariot in Hammer description. Both retained."
+    },
+    {
+      "page": 131,
+      "issue": "Mercenary Forceknife has no listed tier in original. No tier invented."
+    }
+  ]
+}

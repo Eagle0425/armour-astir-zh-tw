@@ -1,0 +1,1748 @@
+{
+  "source_policy": "English originals only; machine-translated files not used",
+  "source_pages": 174,
+  "translated_pages": 174,
+  "chapters": 58,
+  "pages": [
+    {
+      "page": 1,
+      "source_sha256": "d69bbcdc3994bb153fc4a9660fb0ae8fb2b9b71615e271f4ed2b09d4f3a15e9f",
+      "source_characters": 19,
+      "target_sha256": "5d3e7e4d76f569f0af409000e49ff1441570295f1df8c2605088a6da313cdda2",
+      "target_characters": 44,
+      "file": "content/pages/p001.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 2,
+      "source_sha256": "ddb880b33ec0cb7ef431df300e9c96a51e6322b176f547117851dd6f5ab16734",
+      "source_characters": 478,
+      "target_sha256": "da9a2ebd206f124438f2a5a9fc783961e8883dea0b368f976121f7cc44f04c94",
+      "target_characters": 165,
+      "file": "content/pages/p002.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 3,
+      "source_sha256": "8d82b94d47db3560e802deede80be51d9f9c65f7989349d5a12d069b6ae1c02c",
+      "source_characters": 1582,
+      "target_sha256": "6e82d19d0c6dbb71c842c6092b10e43d66e0e09ae10a20366353085802129411",
+      "target_characters": 894,
+      "file": "content/pages/p003.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 4,
+      "source_sha256": "7f3a5334e81685c4b89f0a77e12e133c0930037d829ee9ee504e3790e1a978c3",
+      "source_characters": 2764,
+      "target_sha256": "8995fae9aa3a3cc667a4ab7c1131e1f95fd9ce6cf396d01e09b9e6afac9c4816",
+      "target_characters": 2025,
+      "file": "content/pages/p004.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 5,
+      "source_sha256": "41ba49bdd274f80d664781c42b8ec38fe976520e89fac7e0207dc744a8117d29",
+      "source_characters": 3289,
+      "target_sha256": "f23feae591102bbfe4e5f25c151a170982732c609d359dea8c12c71c6633cd38",
+      "target_characters": 1034,
+      "file": "content/pages/p005.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 6,
+      "source_sha256": "6f905445d549f510ecf5174ff607d560e12b5adf4e512010eab9ce942a4891f0",
+      "source_characters": 1429,
+      "target_sha256": "fed518abe51eafd37076c086cbaaa58869aa8a5175e103915b037a1754ffa003",
+      "target_characters": 423,
+      "file": "content/pages/p006.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 7,
+      "source_sha256": "cd7305f062ddf1bb8c59f32f27e3f7734b5743521c9a14035975b5b1abde78f9",
+      "source_characters": 2801,
+      "target_sha256": "4173dde6e53fdd1a71bb5a34914c15463a2fc6887b1e1a77af66fd0c0a86d9c2",
+      "target_characters": 4264,
+      "file": "content/pages/p007.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 8,
+      "source_sha256": "03281747e0e873c54087ae3b862af655a9081e06789d52b6b7dfa7e26d56d1a1",
+      "source_characters": 3099,
+      "target_sha256": "f3af3e93e73dadd6f99f2e1dd66b5ff0e47d23412f37ba74ac682b4c067ae5f8",
+      "target_characters": 913,
+      "file": "content/pages/p008.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 9,
+      "source_sha256": "6daaaeb67bf2c0f7ff3f0b39266716290018521079c21b00f82b3a0a1545b8ca",
+      "source_characters": 3353,
+      "target_sha256": "11cbce8bf336e6961f102fc8ab889a012b514c120c2a6ef8673f89e8f65ec909",
+      "target_characters": 937,
+      "file": "content/pages/p009.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 10,
+      "source_sha256": "d94e9c01d548035c1267d0984f5c6dcc0b57f9ae692fd7e550195335510d9962",
+      "source_characters": 2606,
+      "target_sha256": "4428a4a9ed0742100a92dfef9d269ef26722a15bf5b7eb7c4ded0d36ef66d577",
+      "target_characters": 773,
+      "file": "content/pages/p010.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 11,
+      "source_sha256": "488f75778b9d2afa8c4e799a8f7b844bf864eb6b1430eb567041ed36b3b8453e",
+      "source_characters": 3255,
+      "target_sha256": "9b046bcd3a9991f3960341142c40841a2b52b20ee52d8be22c2d8a4eb50f6ddb",
+      "target_characters": 846,
+      "file": "content/pages/p011.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 12,
+      "source_sha256": "099a4931b107b21fc60138748f4de127cb4fdd63e812804852235295881e1d4a",
+      "source_characters": 3623,
+      "target_sha256": "3160e7ac66b20a6bac281738535bfcc95476de307b5a06bff3b630beeea744e1",
+      "target_characters": 961,
+      "file": "content/pages/p012.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 13,
+      "source_sha256": "dd0d9f44fe4fd82d4e2d37bba4c3769d97e4dfb54105c9b1330d289abc8e748c",
+      "source_characters": 3860,
+      "target_sha256": "dfe3a02db1875e83c29a990e7b143e013b35f8f4b944c228fa9cffd6118a66f1",
+      "target_characters": 1020,
+      "file": "content/pages/p013.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 14,
+      "source_sha256": "f91be52f0760bbd07f05af242911efba95977b8791c4792636ab018c9afbd95b",
+      "source_characters": 2979,
+      "target_sha256": "818d478afe06a2056f6a9cce4c972bf1e48ce0b12d3907353fc779dbbe627795",
+      "target_characters": 827,
+      "file": "content/pages/p014.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 15,
+      "source_sha256": "6cc32ce188b6c25057564fd0e383d1f501f010957ccc0285bde4ea31ced74d9e",
+      "source_characters": 3176,
+      "target_sha256": "ac4381f149fe96ae46316a96dc56e6f8677b10b3af3508828683ea23c998c634",
+      "target_characters": 742,
+      "file": "content/pages/p015.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 16,
+      "source_sha256": "1cac6dfa3bc7ddda212d5eaf1cae0fe9b9a20cd1b5bff097711435ce5928e207",
+      "source_characters": 2525,
+      "target_sha256": "2a59dd43e6b833bed0ce26a0f4bf1066575cfc1fb6404790bcaf10dda9ef32ae",
+      "target_characters": 619,
+      "file": "content/pages/p016.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 17,
+      "source_sha256": "f22b1428f11c003497f01d2d1044a46e8e5f5d27bac36d1bf9bc9027006d64a0",
+      "source_characters": 3037,
+      "target_sha256": "5608c17412a1236aaae39ee7d3595e48b35286bc32c953d19c5e82c62b5fe377",
+      "target_characters": 727,
+      "file": "content/pages/p017.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 18,
+      "source_sha256": "741f1f30259fdc216e36006bee14f9175fd09095d87f799ffd776564b7186b84",
+      "source_characters": 1441,
+      "target_sha256": "7806e4adaaa73740d3f216222ee40fe87306b3ae40ea9e639ea668f5f3758f50",
+      "target_characters": 365,
+      "file": "content/pages/p018.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 19,
+      "source_sha256": "1c5108103d3ddb5467b7ed03580231829872a323f2a95d2a0f6cd1224489b0a6",
+      "source_characters": 2499,
+      "target_sha256": "2d175822712aa2f88e959a316888083ce0c3b2b82c58441b95c967f32a8c26ef",
+      "target_characters": 884,
+      "file": "content/pages/p019.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 20,
+      "source_sha256": "dd379cc769ef2f947de44bfbc4112ddf5e4035b671bfcde36470adb64aa9bb84",
+      "source_characters": 2720,
+      "target_sha256": "0b40cd58613f0921db2b7075ca0b4ef8b1d61a174bdf8d9797d405d2390b8dbe",
+      "target_characters": 1009,
+      "file": "content/pages/p020.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 21,
+      "source_sha256": "4371ada22ff2bfe2bc5dc009a8b3d55c3515689506498f528223425f94f6a208",
+      "source_characters": 4202,
+      "target_sha256": "e3ea4abeff099cd256913b96e20300e5ad14fae87ec1ee57bcccf190cd5a0e8b",
+      "target_characters": 1003,
+      "file": "content/pages/p021.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 22,
+      "source_sha256": "34dd694d257363c5be1f87e2138d42f0cfa837890ff9ea17c92686ad73ed476a",
+      "source_characters": 3829,
+      "target_sha256": "00f085734c02cea2178fe7d6e30c7c8db32bfd15312736c0cf9cc426ee7eb8ff",
+      "target_characters": 989,
+      "file": "content/pages/p022.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 23,
+      "source_sha256": "76dbcc50b4f77a91989586e1179241274f5fafc75e1a7e64f6f3b9e5bc41c2df",
+      "source_characters": 2419,
+      "target_sha256": "9f325d2cd1e1223cb195073581705250d2635b2c979522b184cab2087f425d7f",
+      "target_characters": 623,
+      "file": "content/pages/p023.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 24,
+      "source_sha256": "db98a068d2cd816c1e7e4bef0a6641ecfcec5e596ff85123a85690693e462bb6",
+      "source_characters": 3437,
+      "target_sha256": "6fc5411dba575c6fc746a75123ece7ff039f330bfd9bfbd9dc03f7b6b5e95a55",
+      "target_characters": 928,
+      "file": "content/pages/p024.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 25,
+      "source_sha256": "96b48633e848b4f7ab44cee643926c01d5df0f1312b3c9e209e929783dc63a14",
+      "source_characters": 3164,
+      "target_sha256": "bd67e36fc401ea2a0ef6a3f4ef3a2ae4976e3d819a1d717204f91c213fad1ff1",
+      "target_characters": 789,
+      "file": "content/pages/p025.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 26,
+      "source_sha256": "3e19cb0886d519a2e896f5cdcb56d4af532730ca15642fbe5a8cfeca51dae60d",
+      "source_characters": 3783,
+      "target_sha256": "bd8759f12508fe3d8f906fa188c7e2594f63eeb65380bffa6368133830ac0312",
+      "target_characters": 869,
+      "file": "content/pages/p026.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 27,
+      "source_sha256": "21b3cbebe1d95fc2e9bc913799dd1cebafb4c007dda7eab867cf8d808de9dbff",
+      "source_characters": 4059,
+      "target_sha256": "a38d0a5672724cdf061478c7d63d258e2c1eec7977845a0cb4ce2bbbb8c53e52",
+      "target_characters": 956,
+      "file": "content/pages/p027.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 28,
+      "source_sha256": "346f8f83232f9374d5ec623636e89be3110960890e4cf41cf9ce380a1c85d40f",
+      "source_characters": 3825,
+      "target_sha256": "87bb212451da8efe09c6c610f438a19c233264b71b3145210b8d4890b05b2663",
+      "target_characters": 957,
+      "file": "content/pages/p028.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 29,
+      "source_sha256": "4af0dbcef5bb8521f9fedd5e93809a1abe6ae5d8b1aa0330fbd5e552427a5261",
+      "source_characters": 3948,
+      "target_sha256": "c01b4d6110a518dc44941ebd5986d51d67e10f38fe9c5c661cb2a36200fe3488",
+      "target_characters": 957,
+      "file": "content/pages/p029.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 30,
+      "source_sha256": "9029813f14ea2cbd455be3586036c1d6d9bcc9a26536b55d5d5f322e2aeb86cf",
+      "source_characters": 2167,
+      "target_sha256": "90e6d0b2cdf9e3c374aa0bae7b0c8bbaac6e9896a6eb30edc1c3d14b2e096699",
+      "target_characters": 646,
+      "file": "content/pages/p030.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 31,
+      "source_sha256": "08c9f96e5b2c123375caad9bab6f51dd19fe2f398eeab4157c463b7806a3da73",
+      "source_characters": 2948,
+      "target_sha256": "057c90c74b01d8e78c8929373c0b27d34818d95d2b7394554649bcee173b2b8a",
+      "target_characters": 810,
+      "file": "content/pages/p031.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 32,
+      "source_sha256": "78fc64885ece20ea4d943aa401a157bd6c5860a0511d5b7f3bea53e5d7b30257",
+      "source_characters": 2358,
+      "target_sha256": "abaee94894c6b00bd4a88209d6b27e7b51c814d308a009a104a8a8a27d3830a0",
+      "target_characters": 597,
+      "file": "content/pages/p032.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 33,
+      "source_sha256": "7ad2b0e9de0011b1f72d50271b4b75ac4ee14021d42704a6fa0f44a8854c1ed7",
+      "source_characters": 3816,
+      "target_sha256": "297ef174240c204b731b07018a5eea1e85f85e83f0d0846028dc1b622c6e0132",
+      "target_characters": 901,
+      "file": "content/pages/p033.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 34,
+      "source_sha256": "2d9161ceb6c9f788ac2f5613ab1ea5d7b286be5a89d9ce58ad6f2464b85a8baa",
+      "source_characters": 423,
+      "target_sha256": "80abb4ee7d669ab6ef85d6cc0eab5ab669739e0604abe20b623b60c94cc8be6e",
+      "target_characters": 173,
+      "file": "content/pages/p034.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 35,
+      "source_sha256": "b5890b01314dac41a37be9a3c92965f290c9536e46d63461d2aeb7431a6fadf9",
+      "source_characters": 3444,
+      "target_sha256": "27160e74483a47d096cf98f2cd3f0d1e4dc2449572164885debe45a942280baa",
+      "target_characters": 903,
+      "file": "content/pages/p035.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 36,
+      "source_sha256": "2f10f053d0549b76715d17e846eab7c94440c4cd24615f158b9dd2b9ce063235",
+      "source_characters": 3488,
+      "target_sha256": "50878dfe789c717378fe75e1e3329bc15e50f2b92daeb572ab329d9838886139",
+      "target_characters": 1019,
+      "file": "content/pages/p036.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 37,
+      "source_sha256": "499687b267d44479cf125d7015ffa14e3f35a1f145416322a22363d269f863cd",
+      "source_characters": 2690,
+      "target_sha256": "e85bf6412d1ac89bda846e9632ef11b5b94cff5b51304427d5c3713e0946981a",
+      "target_characters": 741,
+      "file": "content/pages/p037.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 38,
+      "source_sha256": "3156a9058055cc82bc34ad39f18385af3221eef732504e45b846692aa0bcdb14",
+      "source_characters": 2129,
+      "target_sha256": "0a7f9751ef487ed8471c776f0f96a24ad9d7ac0950dec1cd20b6aafbe2f97577",
+      "target_characters": 689,
+      "file": "content/pages/p038.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 39,
+      "source_sha256": "91e32f8dab5df40f5cc23a819bcb0e1302e1997897a6e7639868851b11536656",
+      "source_characters": 2885,
+      "target_sha256": "76426dfb1b83bc9ebfda8c203e5c9c9a2844c0cb618b7bb27e81941cfc229b62",
+      "target_characters": 1147,
+      "file": "content/pages/p039.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 40,
+      "source_sha256": "5744db1fb04569ecc7f6643832a6a06a77e66ffb395259fe8220fee5025e009e",
+      "source_characters": 2840,
+      "target_sha256": "acaf9a5c0c65041330308a2efccec7c3df6e55a5c2735c97bbf2756b6e61c727",
+      "target_characters": 1122,
+      "file": "content/pages/p040.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 41,
+      "source_sha256": "13aceede4b78303543c158fba79ee8f13c519f69436ec3bc2a48d3da0f4b8a56",
+      "source_characters": 26,
+      "target_sha256": "cc74824d0f0ab06fdfb1d12502269922d407ac9c89b4b724080ec2e44a1289f7",
+      "target_characters": 21,
+      "file": "content/pages/p041.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 42,
+      "source_sha256": "c3c574e74f158406ca59ca9ec782aab4f83a09752a7410d3b7de7548f4852587",
+      "source_characters": 3377,
+      "target_sha256": "e9ed5a0063a2e196383fc68634852b5b61162ccc263e8f971e8b89c26994deda",
+      "target_characters": 1292,
+      "file": "content/pages/p042.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 43,
+      "source_sha256": "eb43fdfd8c0244829be754aa42fa1e604e3d283403957ea97f6bbb741143f5b1",
+      "source_characters": 2120,
+      "target_sha256": "f86ac700b075b025e303c89804a2a1bb7d5151bc8878b95a749004f2caf6636c",
+      "target_characters": 913,
+      "file": "content/pages/p043.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 44,
+      "source_sha256": "39da1561683761d0a1e2a3404abcc615c91a9549c2779f2148948b271fcb81d5",
+      "source_characters": 2219,
+      "target_sha256": "b8b1e7f3ecdd490c72695c41b4797e87c084703d3630892a764bb3817b4cedbe",
+      "target_characters": 677,
+      "file": "content/pages/p044.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 45,
+      "source_sha256": "6560660624f3b6d5cebe3e87e9c80acde5fc94375ee7eb4a848d5e29886d7b21",
+      "source_characters": 3245,
+      "target_sha256": "0cf4de6f1e4b19adb09af8b2b662a6029bdae868e88501dd56702e7779d1650b",
+      "target_characters": 1225,
+      "file": "content/pages/p045.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 46,
+      "source_sha256": "8732b34b10940d21f1f82ccf8974d8cd507eff1850e645dc88293abcbd1e8434",
+      "source_characters": 3050,
+      "target_sha256": "a57b830b8a894321124294a0fb57dddaa2c0f32b9510d911c10c050fc7d54280",
+      "target_characters": 1181,
+      "file": "content/pages/p046.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 47,
+      "source_sha256": "99d357fd3c8cb50cfe015fdf46377c4fac4eda7cbc5951022474d22402005164",
+      "source_characters": 22,
+      "target_sha256": "f707646e753d2fe95ca8e0bbdcf82164820a06369717f00541b1faa3cb7562f9",
+      "target_characters": 17,
+      "file": "content/pages/p047.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 48,
+      "source_sha256": "36917e8bd08203696eff4e16ce196bbf28c5160aa7229cc9045bb631bd2fc9f4",
+      "source_characters": 3226,
+      "target_sha256": "b7cc338cf285595d5172a56f68d63cbe4d3bb6d74d9936193b9cff2c3cceb36f",
+      "target_characters": 1302,
+      "file": "content/pages/p048.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 49,
+      "source_sha256": "d917374f4cd2b439c0087557216f62e63b5de864b3556cdf217b68a4232e30e5",
+      "source_characters": 2991,
+      "target_sha256": "d11c04fd08ffcde0a8d37e169c694a14484544be72f9d26f84b16686ed2b45c8",
+      "target_characters": 1341,
+      "file": "content/pages/p049.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 50,
+      "source_sha256": "204073b00789a6f5e8c87f655cae32836e5cf6eb632c0aa01000b26d9783d9b5",
+      "source_characters": 3387,
+      "target_sha256": "ef30257d513d7942a08b2a145f1f7adf4e73ec23f8273520fb1bd8ea714e5264",
+      "target_characters": 1240,
+      "file": "content/pages/p050.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 51,
+      "source_sha256": "ccf6c704982468b27925ba86b856f8f3b3c5acc36b52dd508f8c432efa82c8d6",
+      "source_characters": 2753,
+      "target_sha256": "be0e77abc83628cdd3efb5170794175a3030b3969d2b10270007d031c26ad173",
+      "target_characters": 1103,
+      "file": "content/pages/p051.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 52,
+      "source_sha256": "a85bf5687cee2083796b85b53a87a553b0dd27c73369634f4550f032cfd033b3",
+      "source_characters": 25,
+      "target_sha256": "122f51b185586fc814d5073d2438a387375dc2a2a7231c04b4bfa172b1cbc1e5",
+      "target_characters": 19,
+      "file": "content/pages/p052.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 53,
+      "source_sha256": "b35ce2b02d40ca209b6319765790ee59ac5120c9b48fd90f756313251a102370",
+      "source_characters": 2997,
+      "target_sha256": "543724cfd3ee4f9be1372c032a70658edbb0859e0f63e0cacdcb5cefda9edea5",
+      "target_characters": 1138,
+      "file": "content/pages/p053.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 54,
+      "source_sha256": "72251834c8b684300fccf4b54a5d826bccaea7ba7d39105e5597aa776b1ec888",
+      "source_characters": 2526,
+      "target_sha256": "489d2c1fb589c3be3971e6dcfdb97cde9fe47da2027024f30b34b67092c647ff",
+      "target_characters": 980,
+      "file": "content/pages/p054.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 55,
+      "source_sha256": "85bd414e9fd085ad21e9536f7dbf64d39d9c948710acaf6fade890366dd94673",
+      "source_characters": 2601,
+      "target_sha256": "5cf9597fb055d0966a1aa34e23722c5c0c251b4fbedc61bd2fc3af2eb509f9ad",
+      "target_characters": 969,
+      "file": "content/pages/p055.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 56,
+      "source_sha256": "d2e5f0cee4c5c5fcb419be51449caeeab2f6f00a97bbc9452a6b580797e51553",
+      "source_characters": 2947,
+      "target_sha256": "a6e1ca3679160459e069a81033b9bc92b976d91ad5d20209ccee1619e19d1bd5",
+      "target_characters": 1192,
+      "file": "content/pages/p056.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 57,
+      "source_sha256": "b79e1f1f5024edbc3419ada13e58e62f8d3293d69d1cd71a61a2631b56491429",
+      "source_characters": 23,
+      "target_sha256": "38140120052a807592794f3a2f6dbff69eea38e5198075a888e302097c8d5512",
+      "target_characters": 17,
+      "file": "content/pages/p057.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 58,
+      "source_sha256": "4da6aa5f71f9383c6cf3ffa25e018e2734dad3e2fd2de2bed85693b206111d31",
+      "source_characters": 3244,
+      "target_sha256": "978603a3f95c14c7eea17f2dd2b97d3a8cd5ed0ddc306eb6b60e5e10a6dab1b7",
+      "target_characters": 1129,
+      "file": "content/pages/p058.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 59,
+      "source_sha256": "12459a0b66fa9f6b2b34fdcdde5a9252c44191950a8a42b1eb921f0630773549",
+      "source_characters": 2776,
+      "target_sha256": "fb87751ac685cb18a2ade311a2881f6e52e39dff80e1161a3644f2214472d9ea",
+      "target_characters": 1098,
+      "file": "content/pages/p059.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 60,
+      "source_sha256": "c8e7f120f33d18aba92f23c4cfd2b23a1c6d515d686167637bfb0198235d9556",
+      "source_characters": 2953,
+      "target_sha256": "7a7fa09917b1e9884a303105f7738f20fe0a6c28fe37d09c385097dd2ab98591",
+      "target_characters": 1198,
+      "file": "content/pages/p060.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 61,
+      "source_sha256": "03a0605641652ace2912fbaf3f94569215d5ceb20f58a2f8ab586e4eadcdec62",
+      "source_characters": 2413,
+      "target_sha256": "83aaf21710bc52289f86c9c84cd6335687a3fce3651ebaf84eb60e8d4939eb55",
+      "target_characters": 940,
+      "file": "content/pages/p061.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 62,
+      "source_sha256": "ee28f055ba825e385a04a0588c78285bae209c76683257a0f67632ecf0fc29ef",
+      "source_characters": 3024,
+      "target_sha256": "9b5b04cbbb638f7f758d4da28100089a509315ecbb55de0e3a746fdaf8ae9182",
+      "target_characters": 1182,
+      "file": "content/pages/p062.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 63,
+      "source_sha256": "65bddd8249c78cdd95ec8881aa4ad2b37d058f2c5cf2b5fe4287f0afe69408bb",
+      "source_characters": 1779,
+      "target_sha256": "10519d09df91ec5c14ae5510a2dde9cab5098f3b5466d6179af87ebdd18e1a83",
+      "target_characters": 608,
+      "file": "content/pages/p063.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 64,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_characters": 0,
+      "target_sha256": "d1e9d54d7d130ff07c1a4d4b07e4c497b971e526a005a3c7b960ac99a842043a",
+      "target_characters": 6,
+      "file": "content/pages/p064.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 65,
+      "source_sha256": "019658a3780be00fcc7a892fd63dfbfcc2d20c59b4ad6a3398b98db6e0edfcd7",
+      "source_characters": 2945,
+      "target_sha256": "d497785feb59f0296fc8c56b684a1d2d45c7bcf35660cb1c4de7aa1b318f6c3d",
+      "target_characters": 818,
+      "file": "content/pages/p065.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 66,
+      "source_sha256": "bdce3ad69c38df8729dabeb4477f376af2eeb07f7193d871ab9010561e4c205e",
+      "source_characters": 2587,
+      "target_sha256": "3d75d20f01e51d0bf3d20dc2cde269b33cc418557b4e5b347d7fe175729c14cf",
+      "target_characters": 824,
+      "file": "content/pages/p066.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 67,
+      "source_sha256": "07e980f5c30adb7067b18150684524f511b6cbc9e7e1c3e17d83ff966b19f1a2",
+      "source_characters": 3350,
+      "target_sha256": "19b9a2f5614ceda93efba621557576d157c0c71ee160e8442b72f61d09e0f8e8",
+      "target_characters": 935,
+      "file": "content/pages/p067.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 68,
+      "source_sha256": "45b3b01bf533c81b21d7b7e450faf5d23baa03ad7ab3b59483c81f2b1ada8ed9",
+      "source_characters": 4174,
+      "target_sha256": "3381ab4021f275063ba4ab5b32f2b51a5e7289a77caad71975ac6dab13b2713a",
+      "target_characters": 1302,
+      "file": "content/pages/p068.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 69,
+      "source_sha256": "e37f9e041f91e36707f08213de2a2dc744a69041f53435cc1c1a930fa91783bf",
+      "source_characters": 2975,
+      "target_sha256": "d031098bc10c15dc8f7c6bca808d821b9360c215f42406c5367425b872b067b3",
+      "target_characters": 839,
+      "file": "content/pages/p069.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 70,
+      "source_sha256": "41279283fb0c33b373e56d28f61b2e10aedb74605f47f4af0d6ea37242b979de",
+      "source_characters": 4093,
+      "target_sha256": "6c59aad29ea138afd31e6680fd19e47d187dd2db98be259186ac302c2d1d4d3b",
+      "target_characters": 1205,
+      "file": "content/pages/p070.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 71,
+      "source_sha256": "8b5659d088d7b1b7b95cd895bc37869c7ded7954618f50989e2b31a64327288f",
+      "source_characters": 3763,
+      "target_sha256": "2d87fc90c56eaa5b21444977ef27d2542be9496a713205a2b6c5f239771a0f0c",
+      "target_characters": 1378,
+      "file": "content/pages/p071.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 72,
+      "source_sha256": "21a181b4d51e4ca93782a0084b466401f5c04d5f7242fa7d0f3f505ccbfefb94",
+      "source_characters": 4014,
+      "target_sha256": "c5267a1e39bf3d4a2536c9399b9196208154ede55ebdcb4d24852c33f791aacf",
+      "target_characters": 1438,
+      "file": "content/pages/p072.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 73,
+      "source_sha256": "0441157ac2b9e34fe42d32da93a4e23273b9935e84be3b02ae5111cff6b04630",
+      "source_characters": 431,
+      "target_sha256": "a4335d877ab0ebfcdf64bbdf4fb37d04f7bdded48726c2253f70d8ef6cecd733",
+      "target_characters": 190,
+      "file": "content/pages/p073.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 74,
+      "source_sha256": "f5420bb091ccfd712905413ae9a4806e7e9b598461f417d273583af15c3cd3ea",
+      "source_characters": 2670,
+      "target_sha256": "bfabfa31bc192abaca4603cdc33fec026b2da2e15e181dc5b804545abf2e11de",
+      "target_characters": 1356,
+      "file": "content/pages/p074.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 75,
+      "source_sha256": "52b83b53d71dd9f4abf29dba6aab5702893fcd39f31e2bd80093d01af8df331d",
+      "source_characters": 3344,
+      "target_sha256": "04cbd63b6ce4582c9f4e55246b1ce312f1c61e089d8d3d973e854843a7b17485",
+      "target_characters": 1408,
+      "file": "content/pages/p075.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 76,
+      "source_sha256": "eb4536753a2063a8130f92e60cbcc2db08fd41499907c198514251662f24598e",
+      "source_characters": 1704,
+      "target_sha256": "9530cbd95cbbb042e79b45a9a65e1582772edf24e352752f3d1c919c83797541",
+      "target_characters": 1057,
+      "file": "content/pages/p076.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 77,
+      "source_sha256": "4cb0f1ec90a7cef0098e36dadb801ccc2c358f5fe5771bee1bcbec3108e17170",
+      "source_characters": 780,
+      "target_sha256": "97182cc7b34ee3cc6d107f9e49bea4c493cdf564d8cb9fcb7b6a9fb2e15e3946",
+      "target_characters": 442,
+      "file": "content/pages/p077.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 78,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_characters": 0,
+      "target_sha256": "d1e9d54d7d130ff07c1a4d4b07e4c497b971e526a005a3c7b960ac99a842043a",
+      "target_characters": 6,
+      "file": "content/pages/p078.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 79,
+      "source_sha256": "2c606ad9bce77585dd4f8860f9f77ed0f31d8a44accd9eda573e4b3d8193705a",
+      "source_characters": 3932,
+      "target_sha256": "7534ba3f675fdf7fe17bd38491e2b7ca0f14710ccb26fb4a89cbb59367a969e0",
+      "target_characters": 1109,
+      "file": "content/pages/p079.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 80,
+      "source_sha256": "0d6bfe4bb630ad16ab4cb23351fc9f39759145211e746c4e94d148ecf034a7f6",
+      "source_characters": 3212,
+      "target_sha256": "51d55026483374da21ad85b4c29730fd83db16ebc59d3b2a3880d34bf41f810d",
+      "target_characters": 975,
+      "file": "content/pages/p080.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 81,
+      "source_sha256": "89a59292d4ec55edeb9d51f96953be2718046bc4672c12b5c900a929ba88e837",
+      "source_characters": 1455,
+      "target_sha256": "8f3efceede471bf73dab7d01993bd02b6e22cdb18ff69860c511115ee57676ad",
+      "target_characters": 435,
+      "file": "content/pages/p081.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 82,
+      "source_sha256": "7b827ca53a6966e8db46f4d7b0428883e956be632745ca6d5e3b8903b182ff07",
+      "source_characters": 3695,
+      "target_sha256": "e3c09e909494b5880a45a1286874058d28e7ff7a7c1b640e13fa25bfa8b615c3",
+      "target_characters": 1086,
+      "file": "content/pages/p082.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 83,
+      "source_sha256": "c0e7a8098dd873f751480718a88aab0119ae11f3eed14e08771335b8dfdee6dd",
+      "source_characters": 1526,
+      "target_sha256": "a15485f9caa8e4341de9673d319f55372afd1903a53be7b66f53f2ae1cb9f704",
+      "target_characters": 549,
+      "file": "content/pages/p083.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 84,
+      "source_sha256": "35b2045dcd07d337f61c79b332af65b7566d95bff19a66e52242afa42ccc9c90",
+      "source_characters": 2515,
+      "target_sha256": "ad1b74450d432ded251f10f4f738e6df39e59be1c5d9d475a45081fb24cda45b",
+      "target_characters": 765,
+      "file": "content/pages/p084.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 85,
+      "source_sha256": "de959968856ea97e90524a64a1c1aed07b9e22aa5f622a783fc3d4fad6546ed7",
+      "source_characters": 2932,
+      "target_sha256": "17907d3aa676dd5faf94ace173af5c213ae8cecf565ea0b9dc2154619974d04b",
+      "target_characters": 1256,
+      "file": "content/pages/p085.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 86,
+      "source_sha256": "db1c01ad89c42dd2b5e25aa0b23e96319be409e30ff7639460d85794c1d0f175",
+      "source_characters": 2641,
+      "target_sha256": "1b0354805ec4876d9dd2b403696f2956726e32e1e4677dc7fbf8003296c9bfd1",
+      "target_characters": 1224,
+      "file": "content/pages/p086.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 87,
+      "source_sha256": "c3595647dead790a45c4626e9621316720a46e014e8a518568986fea630dc198",
+      "source_characters": 3709,
+      "target_sha256": "45f5551e9297d543af078ddf6e196cb1b3edacb70989bf318fbda03391ef4bbf",
+      "target_characters": 1634,
+      "file": "content/pages/p087.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 88,
+      "source_sha256": "dd5ffd6fe0ce7e41e223555d4bb1e9605d724e50681d3d6833310620e20cea1d",
+      "source_characters": 3201,
+      "target_sha256": "c17cdf9cb4cf130aac931e56eabf937b57d9f9c30a8f9fdf0b2d3b88552bac87",
+      "target_characters": 1661,
+      "file": "content/pages/p088.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 89,
+      "source_sha256": "a8c9f2cfa14994d757793006ac4c89b3f1f3d7b0a38acdf808571ed156517b49",
+      "source_characters": 2679,
+      "target_sha256": "ad6fe380467fe9eb0a7328384d83a3fe5ba499f03f1da15d002f78b1cf593ba9",
+      "target_characters": 1029,
+      "file": "content/pages/p089.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 90,
+      "source_sha256": "bbbbb2760f3866c067d3e3a4449d7a8005eee0d46a02f1d4b7fddc87912e74c0",
+      "source_characters": 2948,
+      "target_sha256": "b62e4c4327a02eff56b5a0122510b842814404365bb8cf4d2c23d170e720ee48",
+      "target_characters": 980,
+      "file": "content/pages/p090.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 91,
+      "source_sha256": "57c26d0b9a031b7b71b0d2a04d70bde8c754cad25087b5282785baadf168daba",
+      "source_characters": 1075,
+      "target_sha256": "84bca2f23dffbc061e2ae3475de4d9c873fe84d717335747c4f228838df9b4d1",
+      "target_characters": 411,
+      "file": "content/pages/p091.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 92,
+      "source_sha256": "69f63c059a2ca7fe2f52651d628a1907e4a895b61f62dd4317a68aa1065bf3a2",
+      "source_characters": 704,
+      "target_sha256": "28db5105cd3455fbe5996f8884c6fe8300248234105a5814511212df8e26914c",
+      "target_characters": 549,
+      "file": "content/pages/p092.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 93,
+      "source_sha256": "d12f56e8947140c1047946e7ffae63586fe52a2ee3877a0d68e1b4afbc9b7e95",
+      "source_characters": 540,
+      "target_sha256": "fad45e2434413e28e46261be4a73ac427f43bdac5b16209f275b4f05cc4aebc1",
+      "target_characters": 456,
+      "file": "content/pages/p093.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 94,
+      "source_sha256": "daacc6d81a68743e94933fcf622641c216070317f4933bca5f09bf87b4d6a45f",
+      "source_characters": 546,
+      "target_sha256": "68a8f8b736cfd87c47101d39fbf61d4a409096767439b2125a6694b723482953",
+      "target_characters": 446,
+      "file": "content/pages/p094.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 95,
+      "source_sha256": "bddf716cb0731baa412c55667315aa307c74f9ff50d85fb850de99a94a2ad680",
+      "source_characters": 714,
+      "target_sha256": "c54012bc4f890fd3685e41537a9e91d7cbb715e9e537858681cc466bf54b85ef",
+      "target_characters": 517,
+      "file": "content/pages/p095.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 96,
+      "source_sha256": "34c150697b45427d9dc2578836d2961a17c783ba208a37a403a0a3c8756e675e",
+      "source_characters": 651,
+      "target_sha256": "e94029c3e6d31288b55ab3c47228fd7140314a769ce3764e3c98ebe8e68b766c",
+      "target_characters": 482,
+      "file": "content/pages/p096.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 97,
+      "source_sha256": "31ad6b226edf6d8650aa33db6a1af5249448b82a91f7b66519a27b0226eb1d9b",
+      "source_characters": 632,
+      "target_sha256": "931447f3afae0628edafdef34a15dee7c02b5f01ff65ed20c691d6c407088910",
+      "target_characters": 469,
+      "file": "content/pages/p097.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 98,
+      "source_sha256": "96ca814fe32aa71db46ca9ebd503e0b4bea1e28e516861cf4d0f17e5c6e09dbd",
+      "source_characters": 620,
+      "target_sha256": "be3cbc38758a04fa4c99290d4d62d164030af1b87faeb829888f775b205c41c2",
+      "target_characters": 406,
+      "file": "content/pages/p098.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 99,
+      "source_sha256": "85540d5d7a4dbb79e9799955122536e0a2ed0e36344d9867f0cf8cb2d7929982",
+      "source_characters": 708,
+      "target_sha256": "d9f6ef64d6e94b092d5abce4af1c39dcdcd2a31430d1417e6b0578fab0299d70",
+      "target_characters": 532,
+      "file": "content/pages/p099.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 100,
+      "source_sha256": "aad4cc569128ea748d776a85b83666f44eaf81f2dba9047b33f5bf0466ee68e8",
+      "source_characters": 675,
+      "target_sha256": "1bfa1370593363dfa82aaf77fcd9e0de3ab4e756dd5907c640be97d10781fe29",
+      "target_characters": 492,
+      "file": "content/pages/p100.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 101,
+      "source_sha256": "d7efa10c34bb992d9eec637e8cf0b42393bfab2aded21b863c8987cd4544c41e",
+      "source_characters": 697,
+      "target_sha256": "043170362cf4434bdfc6ef12cb0ecf9494c2745442f06be18a395720461153b9",
+      "target_characters": 479,
+      "file": "content/pages/p101.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 102,
+      "source_sha256": "a2aae11d11a6839a57d759d4d5f38d45700b7090b00e9ec633f235d08eee9254",
+      "source_characters": 742,
+      "target_sha256": "96bfbc20ea8cfc4374120aa8da9cc9843c59cc0d668261a980cf92f07f859c1a",
+      "target_characters": 505,
+      "file": "content/pages/p102.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 103,
+      "source_sha256": "c5d39a6d54f6464c0273cc6b3e846105c96f9ff647d87b1dc82cabd66dd80cd9",
+      "source_characters": 825,
+      "target_sha256": "24f3a73de67bea4e1d8f63dd6bc5c253bcfb9abdc6baa4650c8795e83299a4c0",
+      "target_characters": 532,
+      "file": "content/pages/p103.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 104,
+      "source_sha256": "19df7616832c55ff01500223d20c7f438d1fbfea3df838409f4b4c2129cd076a",
+      "source_characters": 603,
+      "target_sha256": "640449dc96423915d0260753b55b71b44646b0c0e5a8ecd9a2fb8fd89be7be8c",
+      "target_characters": 474,
+      "file": "content/pages/p104.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 105,
+      "source_sha256": "365935824832c647c1f1536c91447d29511ce344abc447b8215ee33f37ce0650",
+      "source_characters": 1292,
+      "target_sha256": "b562479ce7638e91ee714a44a5698f453ba6eceac47fed4a1ba83f79170a4d68",
+      "target_characters": 445,
+      "file": "content/pages/p105.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 106,
+      "source_sha256": "bc34194d7907115574129aeb6aaeedaee40b5d7d0dd0902ad587fbcc2c94f364",
+      "source_characters": 3529,
+      "target_sha256": "c58f0078e33c54d71663d7861d528e2b523a47889fd210a7f00d588c6f47c416",
+      "target_characters": 985,
+      "file": "content/pages/p106.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 107,
+      "source_sha256": "65f6da9a469198d1f40b58019c9919993cac0aa40dc782158dceff6f9d673d34",
+      "source_characters": 2991,
+      "target_sha256": "f2e6b0c4284f5f535e149f3010bf2a5b0e522acb25ac5fd79e3fc08ed9738973",
+      "target_characters": 1199,
+      "file": "content/pages/p107.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 108,
+      "source_sha256": "f944b69f09ba7e77d5f69b6198bb15aa483c74f3a21a39f0b0f0acb44f6efe63",
+      "source_characters": 2550,
+      "target_sha256": "4ba5c095de1bb421e99ea33dc2173414a1dfd4fa894dbbacfd019ed459539801",
+      "target_characters": 854,
+      "file": "content/pages/p108.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 109,
+      "source_sha256": "64266a90e2671d0df65064403f83c9db9ef360e235d251b103843f30a3aeacd3",
+      "source_characters": 4321,
+      "target_sha256": "5c94bf82987c84c7dac3e6026ee07f729e0e4c8517ff0eb0192b1fa2aedccf65",
+      "target_characters": 1163,
+      "file": "content/pages/p109.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 110,
+      "source_sha256": "a8b2965f6c5ae807e0184989b401c6c3cbccc0594468c835e3b9744e01c7089c",
+      "source_characters": 3583,
+      "target_sha256": "89783f79b90c881296fd21315b114b743e62c50ef4373ca1de3e6af8e9290f6c",
+      "target_characters": 1219,
+      "file": "content/pages/p110.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 111,
+      "source_sha256": "2fe7916601a780cfc960b816c71281c874a6c4290e2e8cc2231d20dedfffe0fd",
+      "source_characters": 1910,
+      "target_sha256": "2160550c7bca7126e3b93faee238302fa22d42f443d399dcefe5d31b6e463d9a",
+      "target_characters": 699,
+      "file": "content/pages/p111.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 112,
+      "source_sha256": "98e1caa144a2a2c2f7eb3f0f3dc132779a6c6357cd1ea0affc9b0abe40863185",
+      "source_characters": 2864,
+      "target_sha256": "fa96257a4df0ca6b10e0d32622a0ca85bb02463162451150acd6c5e8b8f72c7d",
+      "target_characters": 743,
+      "file": "content/pages/p112.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 113,
+      "source_sha256": "550b4d8555687d739a0f5c1def7c502bfcfd2a839c861640d0a27049fcdd306a",
+      "source_characters": 4048,
+      "target_sha256": "a0f334a46e02429d87cbfaa800b4c96584df9f34ca2a32525574aba5abdf2c91",
+      "target_characters": 1057,
+      "file": "content/pages/p113.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 114,
+      "source_sha256": "1bdf4da45fc587abe566547e06ecc23e76fb02013b916ca4aabe4f7ad8876f2c",
+      "source_characters": 2120,
+      "target_sha256": "d6cdcb42f9dfa5c03172bafb67479abec0299864d7250291f1830d4a70ee85df",
+      "target_characters": 536,
+      "file": "content/pages/p114.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 115,
+      "source_sha256": "014a8d23f31aa754120dd5ebd849a327da04464f43f57faa1678dd0cbedf43c9",
+      "source_characters": 3004,
+      "target_sha256": "4f98d8a24d0b2865e01655f99028591486398ef5bce9a4976674e485f53052d9",
+      "target_characters": 952,
+      "file": "content/pages/p115.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 116,
+      "source_sha256": "e5219942b8d9d9a1875fcddc2b5ee13136c830ea3303f4d457aa33e8c77bcecb",
+      "source_characters": 3275,
+      "target_sha256": "a2d367a636bb2b4d9d8c811e9903b09fc749a00700282d662ae9ebde579e1e79",
+      "target_characters": 1044,
+      "file": "content/pages/p116.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 117,
+      "source_sha256": "2decf867cf7325e1e524ef3c6808c4d7a0da3654005a85deef2118a73a372fdb",
+      "source_characters": 3482,
+      "target_sha256": "413c5790e777f8761a81b1e2c1bd63f9761ff16f94708708afc6837fc2f9e691",
+      "target_characters": 1135,
+      "file": "content/pages/p117.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 118,
+      "source_sha256": "1b885d829d80ca78a180d97485a8d06e0de14fa267ace921121613e18008e387",
+      "source_characters": 1054,
+      "target_sha256": "171d985e71fd8afbcb13036d7c6acb40f0017bd2bb6f63e703d3c417f58460e9",
+      "target_characters": 708,
+      "file": "content/pages/p118.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 119,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_characters": 0,
+      "target_sha256": "85710bccd1c163eaa37afbb016138c159132776e21002aab64809028a828391a",
+      "target_characters": 62,
+      "file": "content/pages/p119.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 120,
+      "source_sha256": "a752ccbf1e916cec0f88ca8beaeac0dc5bad26a245b20412a8fc7da5c36ce667",
+      "source_characters": 3063,
+      "target_sha256": "7f53c35355eac6dd418191e70f9b8bb12eea120ec4b4933ed6a7ea133807ba65",
+      "target_characters": 998,
+      "file": "content/pages/p120.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 121,
+      "source_sha256": "b119147b01c107a69e6d30451f7d9c3f4dbc5d54acff1bcf20837e8875a244b1",
+      "source_characters": 4546,
+      "target_sha256": "405f36d2be254b5fa6d9e352465efdebb1dcacb4768827bcc0e7c1299b1c00e0",
+      "target_characters": 1281,
+      "file": "content/pages/p121.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 122,
+      "source_sha256": "7a4f57c249b1707a22a0882a9b19c9c0a087cf503e9e1d9a0d225e38a872f023",
+      "source_characters": 864,
+      "target_sha256": "acb43004db5383b341c5b4a36e2bcad1152ba9a8fefb03523bdc91521cfb634c",
+      "target_characters": 257,
+      "file": "content/pages/p122.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 123,
+      "source_sha256": "6b91e616a6fccd17560afc75af2128d7047875b884ae1f622d1ff073e39a08f5",
+      "source_characters": 2467,
+      "target_sha256": "7028ba990eeafdf4b474eb8d42f162f8361a42725ce16215313c45f39f398107",
+      "target_characters": 864,
+      "file": "content/pages/p123.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 124,
+      "source_sha256": "319ca53c8ffec80413f120da429bdb5012f4b1e61bc31fd3952d4c780484bfea",
+      "source_characters": 3068,
+      "target_sha256": "39351f4d186c48a62c223ab55f9867bdb34bf1c6df2079ba3d645b004008d81d",
+      "target_characters": 999,
+      "file": "content/pages/p124.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 125,
+      "source_sha256": "c6d74db2579cc9eaba153196842be4baf3ff05141dc91f35f5a99a8504a632fa",
+      "source_characters": 3102,
+      "target_sha256": "7ca9dd44e5840e30f9df705a4cf5ac6eec6d88ff2b717719de3b6f00c2f67374",
+      "target_characters": 1066,
+      "file": "content/pages/p125.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 126,
+      "source_sha256": "a1c1eb8122ae39701f32f3ad9fe5091fa3a4443da62315a2ed52ac0df6c41a48",
+      "source_characters": 3266,
+      "target_sha256": "cd48a9827fcb2c02a5fe026169e8c7df8251b66a631448b6c306fd02f44b8fe6",
+      "target_characters": 1103,
+      "file": "content/pages/p126.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 127,
+      "source_sha256": "bfc08ab7520e9119419bab75645fa5c8ea2dd035ee5f0ea0b50f784061aae66a",
+      "source_characters": 3979,
+      "target_sha256": "c1ee9bcb4d858c71622e8d8e05b22e4992cb422bde91674700d0fa257d6a7df1",
+      "target_characters": 1018,
+      "file": "content/pages/p127.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 128,
+      "source_sha256": "54748dda97dd595f91c2d0dce089837d920115fec2579967d22b6ec81f25aaf0",
+      "source_characters": 4084,
+      "target_sha256": "51d4c1d8d8a92af777b8660d011ced77ff723b81de1ee324007c3ace7209432f",
+      "target_characters": 1077,
+      "file": "content/pages/p128.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 129,
+      "source_sha256": "57d2415ff711bf2e33ec8d4e5c1b19ad9bdea7ff7d08f0ffd08d8e41014e8bf1",
+      "source_characters": 4153,
+      "target_sha256": "7180e63ad4a412a2907182df778afcf9163d381f18bdf446b1c2c8eb0deb6b14",
+      "target_characters": 1098,
+      "file": "content/pages/p129.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 130,
+      "source_sha256": "16af8d420fcd657789ece32dcd0bd28b102e87842a03c272908281cd189a6256",
+      "source_characters": 1785,
+      "target_sha256": "9f0eff965d49725304af29a3c13e8953cb56efb9f19d7dd89188515cf0ea6670",
+      "target_characters": 540,
+      "file": "content/pages/p130.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 131,
+      "source_sha256": "e8d23b75d5cce5864835dcb3494535fc837693c025bc84215d0ad6a8d882145f",
+      "source_characters": 1958,
+      "target_sha256": "2ceb8b125ecd09339aff07a772c26e9d24530c15f04e7c63fa4b24faa3267351",
+      "target_characters": 1425,
+      "file": "content/pages/p131.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 132,
+      "source_sha256": "f0517f6b36dbed31f6d3fa9b5448f47148362ec8d98b601f4d43fcddb74f19d6",
+      "source_characters": 1590,
+      "target_sha256": "60e18069c01bd1d670466783e1d2c8b077791a98a2d895584f67595c6cdd73e5",
+      "target_characters": 1043,
+      "file": "content/pages/p132.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 133,
+      "source_sha256": "b699eb7516040b6be8b04b6a599f0ec1efd759d83a1658bde77a8f22ec4fed52",
+      "source_characters": 1675,
+      "target_sha256": "3c5592320ad5360eebc4b11f8092eb7ee220074d061d71eb8d211ca167a84a14",
+      "target_characters": 829,
+      "file": "content/pages/p133.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 134,
+      "source_sha256": "8f1b843cb14d52f03447b8e786817cf40068bc2e3b1ee66bb3c440980079e247",
+      "source_characters": 1673,
+      "target_sha256": "d4a979ee36ace3feb63df879b474b621e239938a2751727b7c3f8742d4e8c0b1",
+      "target_characters": 874,
+      "file": "content/pages/p134.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 135,
+      "source_sha256": "8d0f49d381cd3907802aa7b4f5c2e54811f7858f0f9730aee4d68bd8b5ac57e1",
+      "source_characters": 2970,
+      "target_sha256": "2d00d72cdb9b27ed9d4a346bccf3f0edd0ad5bbdf72874e80e31dea4a75165fc",
+      "target_characters": 1090,
+      "file": "content/pages/p135.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 136,
+      "source_sha256": "27771ce8cda2b8f1349574f68be5ac01e47e6694292d8f5ddce2b1e324bea35d",
+      "source_characters": 4302,
+      "target_sha256": "d33d63436529c84eeb374be1c54e25c07b87e533efcb4d9fb79bc3b20ecc8039",
+      "target_characters": 1194,
+      "file": "content/pages/p136.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 137,
+      "source_sha256": "4e5622dfe7c784258c34a0f61dd229bbfaf9d192df73258766a567948529aa3a",
+      "source_characters": 3327,
+      "target_sha256": "53da72606fbc8a8c5addcbb651d00960853898dd8819ac880d932e901e8dde1e",
+      "target_characters": 1526,
+      "file": "content/pages/p137.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 138,
+      "source_sha256": "db33dbeb24e095f9e31fef571fa4c16358da20d2d532b164d5cb817d0d63bf68",
+      "source_characters": 3533,
+      "target_sha256": "5c4bb2d0bdcb40037b744392f9191652b94c376832151ca525845721948debc4",
+      "target_characters": 987,
+      "file": "content/pages/p138.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 139,
+      "source_sha256": "d7ad6ed7333a61055c407e6a819c9dcca88b0ac8119b58f17d84c565d6f50463",
+      "source_characters": 1707,
+      "target_sha256": "a017c35b0d860dbf461c9eb5916f0c4ae9f21d59acb3446ef5ac8af7adef5287",
+      "target_characters": 797,
+      "file": "content/pages/p139.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 140,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_characters": 0,
+      "target_sha256": "3b6d32a8304d9584339b119750a21b14f9a3a7d83becbe454b2fd4ccde902554",
+      "target_characters": 30,
+      "file": "content/pages/p140.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 141,
+      "source_sha256": "72e655579bb3500bcee7ed5dadd97c9ea4f9a35c6958a778619efbe17ea85742",
+      "source_characters": 1994,
+      "target_sha256": "426586524b10f1cdc2894f0510136550110b030f23bcda80946ff187717ab5f7",
+      "target_characters": 707,
+      "file": "content/pages/p141.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 142,
+      "source_sha256": "9774216d1cae249ac6e4b49278700f14417d935ae250bd06e068a183a42954e3",
+      "source_characters": 1809,
+      "target_sha256": "ae4dbdd891f55b5bfa6351678afd6eb5f302413c56e298b32c3a0ca77ba8328b",
+      "target_characters": 665,
+      "file": "content/pages/p142.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 143,
+      "source_sha256": "cd4362d7cb7f71cb99cce1d5288eb657e2736a9a0375fa8a8c462a309bcd093f",
+      "source_characters": 1824,
+      "target_sha256": "a5389fe4e421c36219acfab2174cf306320d99c49cb51536f78257cc7ec02eb7",
+      "target_characters": 684,
+      "file": "content/pages/p143.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 144,
+      "source_sha256": "aee8051cf60842f9b75acb0470ee1283d2a70f99cc12724cbed134fce658b1ec",
+      "source_characters": 1879,
+      "target_sha256": "09d068899598bbe6aa4e4f3dc1648f019f7e6936034db49c6d613e345ff99077",
+      "target_characters": 723,
+      "file": "content/pages/p144.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 145,
+      "source_sha256": "605434fc95bb2d9512f0839b8b1cd3d2ee3741680755d702c657b7b8d9c455db",
+      "source_characters": 1475,
+      "target_sha256": "9e09f5bb4738eed7ac20d8def64ab53cdc7216007ec39bd6ad3a8b4c1f764b1a",
+      "target_characters": 607,
+      "file": "content/pages/p145.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 146,
+      "source_sha256": "019b14d06e9518fea56a5de22bcdc73cc84b93a57787ffa8990cbd65332a7124",
+      "source_characters": 3189,
+      "target_sha256": "bd11c09a4769a1fbd7e411e81639fc19ab91aaf436f092547da5f70ca2d22ab5",
+      "target_characters": 917,
+      "file": "content/pages/p146.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 147,
+      "source_sha256": "382524bf840411927479375dfcf463934c23eed8642ee177474a7e0dc2b4bff7",
+      "source_characters": 2362,
+      "target_sha256": "8d9e7583bda3c276f53a9f7e741eeb89b4610c0e9df5d1b5e55d7c201870ed41",
+      "target_characters": 947,
+      "file": "content/pages/p147.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 148,
+      "source_sha256": "dc3062316fd180384acd40da63ffa47dd77cfe104731e1e63f9ac60bce64891d",
+      "source_characters": 751,
+      "target_sha256": "9b142e971e62ded68e1c8564faf288eb9fdb7d85a41c86b85b90fb3e850fe7fb",
+      "target_characters": 294,
+      "file": "content/pages/p148.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 149,
+      "source_sha256": "179b50068590b0b7bc6c51fc4a948e1580ca1ee62f9666c64b4aaaedb75263d3",
+      "source_characters": 2307,
+      "target_sha256": "9a0345076f501ca0bb1e82b83ba85764b55d38452e4684c841f997e322c7d34e",
+      "target_characters": 856,
+      "file": "content/pages/p149.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 150,
+      "source_sha256": "e89c9c302abf356fcf987abe69bbd80472e5924e05797ac7ffd486ac130dd039",
+      "source_characters": 2633,
+      "target_sha256": "e188943e9eb7666fa1ef4baad3e53c639ba4909a8cec23f00ca3e895bd18af95",
+      "target_characters": 1569,
+      "file": "content/pages/p150.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 151,
+      "source_sha256": "4ff1e400383498b37edd0c08cdc1ec13c6a69bf4f2fe1a15aa79c282b7f978bc",
+      "source_characters": 2484,
+      "target_sha256": "e04f216682367d28b2f1ff1d474c18f187d64c8a665de772c84d95453d7500bb",
+      "target_characters": 798,
+      "file": "content/pages/p151.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 152,
+      "source_sha256": "2a9c046f8e729c1bff73b0979dc1976191dc77f5679f156178afc9078f94720c",
+      "source_characters": 3118,
+      "target_sha256": "8611db7d76d24492136770869fb492ed7587dacb93f183c8163d2133566d6925",
+      "target_characters": 1015,
+      "file": "content/pages/p152.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 153,
+      "source_sha256": "d5667a6c0691e62ab49c1671f0fa89699ad078e89a6d400c35613cd6a056b3ef",
+      "source_characters": 466,
+      "target_sha256": "6923646402cd652abfb6f6c157f8957c3db84b19194ccb9a24c2228d07cfff7c",
+      "target_characters": 189,
+      "file": "content/pages/p153.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 154,
+      "source_sha256": "ea83f2d2a2a7416c1e1b3267b17493809247cd7cf2803bb8c0464aced2ab9f03",
+      "source_characters": 2934,
+      "target_sha256": "bbffc724fe9a1a02d2e9026be87ca96ba506c622b0757ae74282cde3705c073f",
+      "target_characters": 1005,
+      "file": "content/pages/p154.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 155,
+      "source_sha256": "bdc40deb313b65c9df5648a07b24411cf0b467aa4dc24b640ea4295d2a2824e2",
+      "source_characters": 2331,
+      "target_sha256": "3ba01a4d05fdfb62bb37bff9b547a86a7fe1cd0f2214e03b0b9ac3cabd9b8d45",
+      "target_characters": 1415,
+      "file": "content/pages/p155.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 156,
+      "source_sha256": "1d6f06516e5423ac1583fc5e0490b8ef40a76bffad0d37148798e8383506e0e5",
+      "source_characters": 3156,
+      "target_sha256": "bce6b376c78b4c549f579508f1454956679685a7e93ebd6275dd75fa63b9986f",
+      "target_characters": 1054,
+      "file": "content/pages/p156.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 157,
+      "source_sha256": "8ed570e05c4b2bcdb0eb4d49a64ea5a43111d1acd92e91c7520ab1cfe37bf310",
+      "source_characters": 2684,
+      "target_sha256": "0a2ee133c88f3d8d72eb15dbd09869171533152a15f8c2438ae57ba067fa6e81",
+      "target_characters": 1071,
+      "file": "content/pages/p157.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 158,
+      "source_sha256": "1ac1604904f6d2a2cc4fecc3bcdbbcd729f9f130d8b3f51f52c6dd1d20acd8d8",
+      "source_characters": 1352,
+      "target_sha256": "07d737912e1afa06ea769bc3029828bb9884f58afe12962b041a08d86dceb7b2",
+      "target_characters": 459,
+      "file": "content/pages/p158.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 159,
+      "source_sha256": "dea4e8019005c88736efa377e598df41496c604299900544d512ef2c641ab6be",
+      "source_characters": 2748,
+      "target_sha256": "d0763414ffbfcd354c0557c294ac6930fa9d14922fed48c30b2d1afee57fdc05",
+      "target_characters": 957,
+      "file": "content/pages/p159.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 160,
+      "source_sha256": "98aa69f2d3952f3e97937bd827271543aa243a9074465bb27b12e278fb8ea3cc",
+      "source_characters": 2943,
+      "target_sha256": "991922d86a45f2b918e128472fcbc1183d083da3579b39aaab8bc690c13d39aa",
+      "target_characters": 1793,
+      "file": "content/pages/p160.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 161,
+      "source_sha256": "985c47c294e5532cd83e2d962add11a9be763ac0354225b0967cd3acd0405b0f",
+      "source_characters": 3153,
+      "target_sha256": "ad605e34ff9af091d68b40df65d0671b40e3b7eb21f3abd3678c28be7e2ca8dc",
+      "target_characters": 1105,
+      "file": "content/pages/p161.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 162,
+      "source_sha256": "b86f09f4f72d038e04960f7336cd68ef3cb93daf617b8237a2db5e891997347b",
+      "source_characters": 2622,
+      "target_sha256": "c39883c7fedab3053a36bddf0f98fba93437f4bc49937cabc25f8ea842a5ff8e",
+      "target_characters": 1085,
+      "file": "content/pages/p162.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 163,
+      "source_sha256": "73abab09aa254daf97d2210eea9c0d970171a4ff555e3814a71f341ef53d9a19",
+      "source_characters": 1782,
+      "target_sha256": "2b9cfe591f14c5094b2c9dbdd341906b5328e842521c5d8d005adde920e414d0",
+      "target_characters": 620,
+      "file": "content/pages/p163.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 164,
+      "source_sha256": "da5092d29fe639ef81006de51fd7cba461320dabaefc39f613006efc5258056c",
+      "source_characters": 2417,
+      "target_sha256": "202c237dd456e3b6d7ac515e53f95ad77572f393bd893f7a6ab3d52c47daf0f0",
+      "target_characters": 889,
+      "file": "content/pages/p164.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 165,
+      "source_sha256": "ee5c696fb3ebeedc1cdc00f7a72b1cd8cb531dbeb04b0d34e07ff34983f338f7",
+      "source_characters": 2322,
+      "target_sha256": "2a6cd78953722f7765bbcbb0f689f4f44ed143b9b514483fce386a5a913b4a44",
+      "target_characters": 1442,
+      "file": "content/pages/p165.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 166,
+      "source_sha256": "68eca4572d4d9a578d87fe18c73a2240a903e9d2fd0cf960983d91b4e9ce38ad",
+      "source_characters": 2622,
+      "target_sha256": "049093c6fae9d227a5240ff6494a14596c1cc309bac3d3996d2e48b48bad169d",
+      "target_characters": 749,
+      "file": "content/pages/p166.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 167,
+      "source_sha256": "11899f70a5ae9da6263538fb0d6bac5f39c401ecf64444b24ce0aea1f8063e1b",
+      "source_characters": 2895,
+      "target_sha256": "4783a9ba901f0c63701385dc40bc09671d290ddcf7604cc77356ac8a1c404c06",
+      "target_characters": 1150,
+      "file": "content/pages/p167.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 168,
+      "source_sha256": "6a3ab02d7b121a040a7b804d75d52aa0788827a41196e86f76bbf2871848e383",
+      "source_characters": 2539,
+      "target_sha256": "281147f3b99b6aedada2c38ae753fc2c3af790a842b92b91786de9f7608747a6",
+      "target_characters": 1021,
+      "file": "content/pages/p168.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 169,
+      "source_sha256": "50c5cd660a1fc10bb4ab0a25d25a85f622a18f3e8d1326fa0e26aae36c01bb82",
+      "source_characters": 2674,
+      "target_sha256": "75e24c9cd954edd3257d8d151dc9b7bc3cbc79f9093447244d3ee7bb07af30d5",
+      "target_characters": 1022,
+      "file": "content/pages/p169.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 170,
+      "source_sha256": "2210fb0d8db5677bb5ec2482cdb1ad36bd1140736781717ce66f84d3cd117531",
+      "source_characters": 2471,
+      "target_sha256": "13bd04f79e960a7a9fce4d474c3873bf5a678506c6eb1327a4cd6a1a114f35c2",
+      "target_characters": 713,
+      "file": "content/pages/p170.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 171,
+      "source_sha256": "ec9ee13ab8fdc9b1d688d92cad991989ffffe7a686bb02c66323dbea418f957a",
+      "source_characters": 2775,
+      "target_sha256": "27e247d856914ed05c0add5eac829e8118713992898f43753dae7f5b417bc35e",
+      "target_characters": 844,
+      "file": "content/pages/p171.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 172,
+      "source_sha256": "64601f2be74bf9b8206414ceb1764df2a866a86cacab0c05514f3a526ab3d561",
+      "source_characters": 3270,
+      "target_sha256": "ba07b9e9eb3b7d5040b336b8fadcd329c79c89601a63b51e4f0a817c30a9d142",
+      "target_characters": 2060,
+      "file": "content/pages/p172.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 173,
+      "source_sha256": "c8d8af510bcade78eeb758cb5cfbd83deca6750581717e7101171c827b88b6f2",
+      "source_characters": 178,
+      "target_sha256": "f6675e664817d6291a944203a0ddac758ada78b56711c22e978b6330bf5eb31e",
+      "target_characters": 75,
+      "file": "content/pages/p173.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    },
+    {
+      "page": 174,
+      "source_sha256": "065b2ea871d407767c2f21de260046003511bd5d4fcb1f26376ad7302fd84f78",
+      "source_characters": 1463,
+      "target_sha256": "3b6f5e4ac994d523a32aa8603059aef516b6ceb899142e53ac1abf8d072ede01",
+      "target_characters": 462,
+      "file": "content/pages/p174.md",
+      "status": "translated",
+      "review": "see translation/reviews.json"
+    }
+  ]
+}

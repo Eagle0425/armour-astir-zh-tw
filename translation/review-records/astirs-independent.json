@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "review_type": "Independent semantic review against original English; all 41 pages read completely, including six scene types and all challenges/resolutions.",
+  "read_pages": [
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "findings": [
+    {
+      "page": 116,
+      "severity": "minor",
+      "source_excerpt": "One side is forced to rout: are they cut down as they flee?",
+      "draft_excerpt": "一方被迫潰逃：他們逃跑時遭到追殺嗎？",
+      "problem": "cut down asks whether fleeing people are killed, whereas 追殺 may mean pursuit with intent to kill without establishing killing.",
+      "required_change": "改為『一方被迫潰逃：他們逃跑時遭到殺戮嗎？』或其他明確保留擊殺含義的問句。",
+      "requires_user_decision": false
+    },
+    {
+      "page": 106,
+      "severity": "minor",
+      "source_excerpt": "the Cause is (hopefully) benevolent and driven",
+      "draft_excerpt": "義軍希望是善意而堅定的",
+      "problem": "hopefully is the author's parenthetical hope; 希望是 reads as the Cause wishing to become benevolent.",
+      "required_change": "建議改『義軍（但願）懷有善意、意志堅定』，保留作者插語語氣。",
+      "requires_user_decision": false
+    }
+  ],
+  "term_mapping": [
+    {
+      "english": "mounted",
+      "draft_079_119": "固定",
+      "draft_070_078": "搭載"
+    },
+    {
+      "english": "ward",
+      "draft_079_119": "護佑",
+      "draft_070_078": "守護"
+    },
+    {
+      "english": "blitz",
+      "draft_079_119": "猛攻",
+      "draft_070_078": "突襲"
+    },
+    {
+      "english": "bane",
+      "draft_079_119": "破防",
+      "draft_070_078": "剋敵"
+    },
+    {
+      "english": "weak",
+      "draft_079_119": "弱效",
+      "draft_070_078": "無力"
+    },
+    {
+      "english": "infinite",
+      "draft_079_119": "無盡",
+      "draft_070_078": "無限"
+    },
+    {
+      "english": "distinct",
+      "draft_079_119": "獨特",
+      "draft_070_078": "顯眼"
+    },
+    {
+      "english": "versatile",
+      "draft_079_119": "多用",
+      "draft_070_078": "攻防兼備"
+    },
+    {
+      "english": "vorpal",
+      "draft_079_119": "斬切",
+      "draft_070_078": "斬殺"
+    },
+    {
+      "english": "Flourish Component",
+      "draft_079_119": "儀式構件",
+      "draft_070_078": "繁飾組件（p65）"
+    },
+    {
+      "english": "CREW",
+      "draft_079_119": "艦員",
+      "draft_070_078": "船員（p50–51）"
+    },
+    {
+      "english": "Information Network",
+      "draft_079_119": "情報網絡",
+      "draft_070_078": "情報網（p51）"
+    },
+    {
+      "english": "Mobility",
+      "draft_079_119": "機動",
+      "draft_070_078": "機動身手（p59）"
+    },
+    {
+      "english": "playbook",
+      "draft_079_119": "角色本",
+      "draft_070_078": "角色手冊（p38–61）"
+    }
+  ],
+  "source_ambiguities_not_reported_as_errors": [
+    "p85 Spell Routines can read as choosing a fixed move or choosing dynamically. p104 Medusa explicitly assigns it to Strike Decisively, supporting the draft's fixed-move interpretation; not counted as an established translation error.",
+    "p88 Burstcaster appears under Drain weapons but lacks drain in original profile; draft preserves this.",
+    "p97 Protean combines an Alchemical core with Elemental approach in original; draft preserves this.",
+    "p99 Aries lists Wisp Familiars in matrix part but Mote Familiar weapon in original; draft preserves this.",
+    "p109 minor-Division asset-loss threshold 3+ differs from usual Strength4+; draft faithfully preserves source3+."
+  ],
+  "coverage_notes": "Checked every paragraph, all part/weapon profiles, 13 example Astirs, all Division and Faction outcomes, GRIP/disfavour/tap/stability timings, all six scene types including Discourse special resolution, and every inventory quantity/unit. No confirmed critical/major translation error. Cross-batch terminology still needs unification. No machine translation consulted.",
+  "prompt": "https://github.com/wayne930242/game-doc-template/blob/main/.claude/skills/translate/semantic-reviewer-prompt.md"
+}

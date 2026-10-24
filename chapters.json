@@ -1,0 +1,466 @@
+[
+  {
+    "id": "intro",
+    "title": "前言與快速開局",
+    "english": "Introduction",
+    "start": 1,
+    "end": 6,
+    "group": "開始閱讀"
+  },
+  {
+    "id": "contents",
+    "title": "原書目錄",
+    "english": "Contents",
+    "start": 7,
+    "end": 7,
+    "group": "開始閱讀"
+  },
+  {
+    "id": "concepts",
+    "title": "主要概念",
+    "english": "Main Concepts",
+    "start": 8,
+    "end": 13,
+    "group": "開始閱讀"
+  },
+  {
+    "id": "setup",
+    "title": "世界與角色建立",
+    "english": "Setting Up",
+    "start": 14,
+    "end": 18,
+    "group": "開始閱讀"
+  },
+  {
+    "id": "basic-summary",
+    "title": "基本動作速查",
+    "english": "Basic Moves Summary",
+    "start": 19,
+    "end": 20,
+    "group": "動作與休整"
+  },
+  {
+    "id": "weather-the-storm",
+    "title": "挺過風暴",
+    "english": "Weather the Storm",
+    "start": 21,
+    "end": 21,
+    "group": "動作與休整"
+  },
+  {
+    "id": "read-the-room",
+    "title": "察言觀色",
+    "english": "Read the Room",
+    "start": 22,
+    "end": 22,
+    "group": "動作與休整"
+  },
+  {
+    "id": "dispel-uncertainties",
+    "title": "釐清疑惑",
+    "english": "Dispel Uncertainties",
+    "start": 23,
+    "end": 23,
+    "group": "動作與休整"
+  },
+  {
+    "id": "help-or-hinder",
+    "title": "協助或妨礙",
+    "english": "Help or Hinder",
+    "start": 24,
+    "end": 24,
+    "group": "動作與休整"
+  },
+  {
+    "id": "weave-magic",
+    "title": "編織魔法",
+    "english": "Weave Magic",
+    "start": 25,
+    "end": 25,
+    "group": "動作與休整"
+  },
+  {
+    "id": "cool-off",
+    "title": "冷卻",
+    "english": "Cool Off",
+    "start": 26,
+    "end": 26,
+    "group": "動作與休整"
+  },
+  {
+    "id": "exchange-blows",
+    "title": "交鋒過招",
+    "english": "Exchange Blows",
+    "start": 27,
+    "end": 27,
+    "group": "動作與休整"
+  },
+  {
+    "id": "strike-decisively",
+    "title": "決定性打擊",
+    "english": "Strike Decisively",
+    "start": 28,
+    "end": 28,
+    "group": "動作與休整"
+  },
+  {
+    "id": "bite-the-dust",
+    "title": "倒下",
+    "english": "Bite the Dust",
+    "start": 29,
+    "end": 29,
+    "group": "動作與休整"
+  },
+  {
+    "id": "group-moves",
+    "title": "團體與特殊動作速查",
+    "english": "Group & Special Moves",
+    "start": 30,
+    "end": 30,
+    "group": "動作與休整"
+  },
+  {
+    "id": "lead-a-sortie",
+    "title": "率領出擊",
+    "english": "Lead a Sortie",
+    "start": 31,
+    "end": 31,
+    "group": "動作與休整"
+  },
+  {
+    "id": "subsystems",
+    "title": "子系統",
+    "english": "Subsystems",
+    "start": 32,
+    "end": 32,
+    "group": "動作與休整"
+  },
+  {
+    "id": "b-plot",
+    "title": "支線劇情",
+    "english": "B-Plot",
+    "start": 33,
+    "end": 34,
+    "group": "動作與休整"
+  },
+  {
+    "id": "downtime",
+    "title": "休整場景",
+    "english": "Downtime Scenes",
+    "start": 35,
+    "end": 36,
+    "group": "動作與休整"
+  },
+  {
+    "id": "plan-prepare",
+    "title": "籌畫與準備",
+    "english": "Plan & Prepare",
+    "start": 37,
+    "end": 37,
+    "group": "動作與休整"
+  },
+  {
+    "id": "playbooks",
+    "title": "扮演書總覽",
+    "english": "Playbooks",
+    "start": 38,
+    "end": 38,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "arcanist",
+    "title": "奧術師",
+    "english": "Arcanist",
+    "start": 39,
+    "end": 41,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "impostor",
+    "title": "僭取者",
+    "english": "Impostor",
+    "start": 42,
+    "end": 44,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "paradigm",
+    "title": "典範",
+    "english": "Paradigm",
+    "start": 45,
+    "end": 47,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "witch",
+    "title": "巫者",
+    "english": "Witch",
+    "start": 48,
+    "end": 49,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "captain",
+    "title": "艦長",
+    "english": "Captain",
+    "start": 50,
+    "end": 52,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "diplomat",
+    "title": "外交官",
+    "english": "Diplomat",
+    "start": 53,
+    "end": 54,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "artificer",
+    "title": "工匠",
+    "english": "Artificer",
+    "start": 55,
+    "end": 57,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "scout",
+    "title": "斥候",
+    "english": "Scout",
+    "start": 58,
+    "end": 59,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "cantrips",
+    "title": "戲法",
+    "english": "Cantrips",
+    "start": 60,
+    "end": 60,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "advancement",
+    "title": "成長與士兵動作",
+    "english": "Advancement",
+    "start": 61,
+    "end": 64,
+    "group": "八種扮演書"
+  },
+  {
+    "id": "conflict-tiers",
+    "title": "對抗、路數與階級",
+    "english": "Conflict & Tiers",
+    "start": 65,
+    "end": 69,
+    "group": "裝備與魔鎧"
+  },
+  {
+    "id": "tags",
+    "title": "標籤與取得裝備",
+    "english": "Tags & Gear",
+    "start": 70,
+    "end": 73,
+    "group": "裝備與魔鎧"
+  },
+  {
+    "id": "gear",
+    "title": "裝備清單",
+    "english": "Equipment",
+    "start": 74,
+    "end": 78,
+    "group": "裝備與魔鎧"
+  },
+  {
+    "id": "carrier",
+    "title": "母艦與艙室",
+    "english": "The Carrier",
+    "start": 79,
+    "end": 81,
+    "group": "裝備與魔鎧"
+  },
+  {
+    "id": "astir",
+    "title": "建造阿斯提爾",
+    "english": "Creating an Astir",
+    "start": 82,
+    "end": 90,
+    "group": "裝備與魔鎧"
+  },
+  {
+    "id": "example-astirs",
+    "title": "範例魔鎧",
+    "english": "Example Astirs",
+    "start": 91,
+    "end": 105,
+    "group": "裝備與魔鎧"
+  },
+  {
+    "id": "conflict-turn",
+    "title": "衝突回合與雙方勢力",
+    "english": "The Conflict Turn",
+    "start": 106,
+    "end": 114,
+    "group": "戰略與導演"
+  },
+  {
+    "id": "conflict-scenes",
+    "title": "衝突場景",
+    "english": "Conflict Scenes",
+    "start": 115,
+    "end": 119,
+    "group": "戰略與導演"
+  },
+  {
+    "id": "director",
+    "title": "主持遊戲",
+    "english": "Running the Game",
+    "start": 120,
+    "end": 129,
+    "group": "戰略與導演"
+  },
+  {
+    "id": "foes",
+    "title": "敵人與行動者範例",
+    "english": "Example Foes",
+    "start": 130,
+    "end": 134,
+    "group": "戰略與導演"
+  },
+  {
+    "id": "rivals",
+    "title": "宿敵與冒險引子",
+    "english": "Rivals",
+    "start": 135,
+    "end": 135,
+    "group": "戰略與導演"
+  },
+  {
+    "id": "optional-rules",
+    "title": "多方與世代衝突",
+    "english": "Optional Rules",
+    "start": 136,
+    "end": 140,
+    "group": "戰略與導演"
+  },
+  {
+    "id": "mission-grand-melee",
+    "title": "任務：大混戰",
+    "english": "The Grand Melee",
+    "start": 141,
+    "end": 141,
+    "group": "任務與世界"
+  },
+  {
+    "id": "mission-neutral-ground",
+    "title": "任務：中立地帶",
+    "english": "Neutral Ground",
+    "start": 142,
+    "end": 142,
+    "group": "任務與世界"
+  },
+  {
+    "id": "mission-escort",
+    "title": "任務：護送",
+    "english": "Escort Duty",
+    "start": 143,
+    "end": 143,
+    "group": "任務與世界"
+  },
+  {
+    "id": "mission-eleventh-hour",
+    "title": "任務：最後關頭",
+    "english": "Eleventh Hour",
+    "start": 144,
+    "end": 144,
+    "group": "任務與世界"
+  },
+  {
+    "id": "mission-authority-attack",
+    "title": "任務：威權來襲",
+    "english": "Authority Attack",
+    "start": 145,
+    "end": 145,
+    "group": "任務與世界"
+  },
+  {
+    "id": "ghost-reaches",
+    "title": "幽魂群島",
+    "english": "The Ghost Reaches",
+    "start": 146,
+    "end": 150,
+    "group": "任務與世界"
+  },
+  {
+    "id": "academy-arcane",
+    "title": "奧術學院",
+    "english": "The Academy Arcane",
+    "start": 151,
+    "end": 155,
+    "group": "任務與世界"
+  },
+  {
+    "id": "palus-somni",
+    "title": "睡夢沼澤",
+    "english": "Palus Somni",
+    "start": 156,
+    "end": 160,
+    "group": "任務與世界"
+  },
+  {
+    "id": "ice-valdemar",
+    "title": "Valdemar 的冰原",
+    "english": "The Ice of Valdemar",
+    "start": 161,
+    "end": 165,
+    "group": "任務與世界"
+  },
+  {
+    "id": "dangers-examples",
+    "title": "風險與險境範例",
+    "english": "Risk & Peril Examples",
+    "start": 166,
+    "end": 166,
+    "group": "附錄"
+  },
+  {
+    "id": "glossary",
+    "title": "術語與簡稱",
+    "english": "Glossary",
+    "start": 167,
+    "end": 167,
+    "group": "附錄"
+  },
+  {
+    "id": "magic-objects",
+    "title": "魔法物件表",
+    "english": "Magical Objects",
+    "start": 168,
+    "end": 168,
+    "group": "附錄"
+  },
+  {
+    "id": "magic-weapons",
+    "title": "魔法武器表",
+    "english": "Magical Weapons",
+    "start": 169,
+    "end": 169,
+    "group": "附錄"
+  },
+  {
+    "id": "enchanting-game",
+    "title": "魔鎧附魔敘事遊戲",
+    "english": "Enchanting",
+    "start": 170,
+    "end": 170,
+    "group": "附錄"
+  },
+  {
+    "id": "credits",
+    "title": "版本紀錄與致謝",
+    "english": "Release Notes & Credits",
+    "start": 171,
+    "end": 174,
+    "group": "附錄"
+  }
+]

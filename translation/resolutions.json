@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-25",
+  "resolutions": [
+    {
+      "page": 12,
+      "issue": "GRAVITY graphic value mismatch",
+      "resolution": "圖例依原PDF改為朋友+1、戀人+3、宿敵+1、追求同一男孩+2、手足+2。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "ca0615053bfaa6db71c851f0f7702a861a52c6fb5253d4dceb6306944044d07d",
+      "status": "resolved"
+    },
+    {
+      "page": 13,
+      "issue": "Desperation scope",
+      "resolution": "僅在本次出擊後續「倒下」擲骰處於絕境，非套用全部動作。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "e01962116cf3614b5a09b09eb3bdb6529f57b7e26f11f49fe43101409e0a74fa",
+      "status": "resolved"
+    },
+    {
+      "page": 22,
+      "issue": "Optional failure question",
+      "resolution": "恢復「可立即問」的玩家選擇權。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "9cc3c1d0fb0efb6eb951c87088b354b035c607e4c6921c6eca2933c42302bf6e",
+      "status": "resolved"
+    },
+    {
+      "page": 40,
+      "issue": "Identify information scope",
+      "resolution": "source譯為「來源」，不自行限縮為魔力來源。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "28094ef00bf7b534e4fd67920adaab447503d0b6faf2d7b6981a04984c06ddc6",
+      "status": "resolved"
+    },
+    {
+      "page": 50,
+      "issue": "Narrative endanger versus peril",
+      "resolution": "以「陷入危險」避免誤解全員自動承受險境。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "29b60b08eedc16389b7cf05ae3e0481693e77b4285d96b55bd93cb8fc30ed3f7",
+      "status": "resolved"
+    },
+    {
+      "page": 106,
+      "issue": "Author parenthetical hope",
+      "resolution": "恢復「義軍（但願）」作者插語。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "0bda8454728f5bfe7bad01aece0b5b78b23a6bb365fa93354d815ab71614f841",
+      "status": "resolved"
+    },
+    {
+      "page": 116,
+      "issue": "Cut down while fleeing",
+      "resolution": "改為「逃跑時遭到殺戮嗎」，保留擊殺含義。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "cbcb754949a7f6e4276c45fba45d192a0c7aad810893a41eb4600ea9a7e9e291",
+      "status": "resolved"
+    },
+    {
+      "page": 129,
+      "issue": "Complete Chinese equipment tags",
+      "resolution": "所有標準射程／標籤與額外敘事標籤加中文，原文識別與數值仍保留。p129 decisive改決勝，p130 ward改守護。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "29cbe3ba03cc55011f9396e98c0868c420c18df6f0e9c90fb39a2b7bf2533194",
+      "status": "resolved"
+    },
+    {
+      "page": 138,
+      "issue": "Playbook permission",
+      "resolution": "劇本改扮演書。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "0f031d221acc2bb6534e6036e12c9a226aab2b257de326f1430c5c33b4c5573f",
+      "status": "resolved"
+    },
+    {
+      "page": 148,
+      "issue": "Mercenary company",
+      "resolution": "公司改傭兵團。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "44d00c6c04132c77b6d0ed6473658771426624e8f3aa94c8129021c1daf44ae3",
+      "status": "resolved"
+    },
+    {
+      "page": 150,
+      "issue": "Astir card structural categories",
+      "resolution": "150/155/160/165過熱欄獨立保留，兩個Parts列統一為零件。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "0e3e93ae671979b24ddb9f8834ecfffe0103358d2332fbfcfb376d94156aa8df",
+      "status": "resolved"
+    },
+    {
+      "page": 160,
+      "issue": "Attendant swarms",
+      "resolution": "蟲群改使魔群，不額外指定昆蟲形態。",
+      "verification": "Direct targeted source comparison and canonical-text check after integration",
+      "target_sha256": "6f36646c3f9b6c2308050452e6a87178862866d0c76ef29439e6e9164bdd2d31",
+      "status": "resolved"
+    }
+  ]
+}

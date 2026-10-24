@@ -1,0 +1,191 @@
+{
+  "pass": false,
+  "review_type": "Independent semantic review of another translator's complete draft",
+  "prompt": "https://github.com/wayne930242/game-doc-template/blob/main/.claude/skills/translate/semantic-reviewer-prompt.md",
+  "source": "source/pages.json; original ArmourAstir_af_illus.pdf for illustrated pages",
+  "draft_scope": "drafts/pages-038-078/p038.md–p078.md",
+  "read_pages": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+  ],
+  "read_page_count": 41,
+  "method": "Read every English page and matching Chinese page in full in sequential batches. Directly compared all prose, examples, questions, moves, starting choices, quantities, conditions, exceptions, tables, weapon profiles and tags. Visually checked PDF p41,47,52,57,64,78 to confirm labels or absence of text on illustration pages. Source and translation files were not modified.",
+  "review_snapshot": "Findings describe the draft before parent corrections. Parent was notified; resolutions should be documented separately. No automatic pass is claimed before fixes are verified.",
+  "findings": [
+    {
+      "severity": "major",
+      "source_location": "p040, Identify move",
+      "source_excerpt": "identify an Astir, learning its approach, source and general capabilities",
+      "draft_excerpt": "辨識一具阿斯提爾，得知它的路數、魔力來源，以及大致能力",
+      "problem": "原文只說 source，沒有將辨識到的來源限定為魔力來源。譯文額外加入『魔力』，把資訊範圍限縮為能源或魔法的來源，可能排除機體出處、製作者等來源資訊。應保留原文的開放程度。",
+      "required_change": "將『魔力來源』改為『來源』，其餘效果、保留點成本與重現機體要素時的優勢不變。",
+      "requires_user_decision": false
+    },
+    {
+      "severity": "minor",
+      "source_location": "p050, In Command explanatory paragraph",
+      "source_excerpt": "If things go bad rolling +CREW, you endanger everyone.",
+      "draft_excerpt": "用 +船員擲骰而出事，你就讓所有人陷入險境。",
+      "problem": "endanger everyone 是一般敘事性危險，不是明定所有人取得 peril。『陷入險境』在本書是規則術語，可能被解讀為一旦 +CREW 擲骰出事，全員自動取得險境，超出原文。",
+      "required_change": "改為『用 +船員擲骰而出事，你就讓所有人陷入危險。』或『危及所有人』，避開技術用語 peril。",
+      "requires_user_decision": false
+    }
+  ],
+  "coverage_checks": {
+    "p038": "Both playbook categories, their lists, subsystems cost, all four B-Plot hold options and starting hold are present.",
+    "p039–049": "All four Channeler playbooks retain appearances, discussion questions, GRAVITY triggers, fixed CHANNEL values, starting move plus Astir move choices, complete gear choices and approaches. Every additional move, all six Witch boons, numerical thresholds, timing restrictions and conditional exceptions compared directly. Impostor body/disability commentary retained in full.",
+    "p050–059": "All four Support playbooks retain appearances, questions, GRAVITY triggers, equipment quantities and choices, and starting move counts. Captain/Diplomat/Artificer each start with fixed move plus two additional moves; Scout chooses Field Scout or Giant Slayer plus two. Complete additional move lists and all their sub-options retained. Scout Tier II/III effects and custom weapon restrictions retained.",
+    "p060": "All 11 Cantrips are present, including Advanced Evocation prerequisite and tag choices, non-CHANNEL user's effective +1 rule, limits on frequency and duration, up-to-four targets for Don't Die Yet, simultaneous Haste rule, and all Deny results.",
+    "p061–062": "All advancement sources, repeated once-each options, three-advancement unlock condition and all 14 Soldier Moves retained. Rival/Main exclusion, locked GRAVITY resolution without advancement, unavoidable death timing, six-step project, upkeep requirement and all other restrictions compared.",
+    "p063–065": "Narrative quotation details, numbers, source names/dates, conflict overview and Flourish Theory excerpt retained. p064 is a text-free illustration.",
+    "p066–069": "All range definitions, relative ranges, five approach descriptions and correct counter cycle retained. +TALK social mechanics, fiction-based exceptions, complete tier comparisons, Bane/Ruin gap compensation, outnumbering threshold, all defenceless-vs-defenceless cases and uninterrupted-damage example of 4 × 5 = 20 minutes retained.",
+    "p070–072": "Equipment acquisition values, tier squares, valuable/treasure bonuses, Somewhere Nearby scene and every option retained. All 40 listed tag entries retained: seven -2, fifteen -1, fifteen +1 entries including combined approach entry, and three +2. Every cost, once-per-scene/Sortie limit, trigger, reroll effect, danger conversion, equipment capacity effect and descriptive qualifier compared. Costs total zero rule and special starting equipment exception retained.",
+    "p073–078": "Both narrative excerpts retained. All 12 Tier I example weapons, seven Tier I gear items, four Tier II weapons and four Ardent cards retain tier, approach, tags, descriptions and listed alternative identities. Recording transcript preserves 150 decibels and approximately two seconds. p078 is a text-free illustration."
+  },
+  "preserved_original_inconsistencies_not_findings": [
+    "p039 references expend rituals without a matching listed Additional Move; the translation preserves the reference rather than inventing a move.",
+    "p045 references bless without a matching listed Additional Move; preserved rather than silently replaced.",
+    "p060 references borrowed time; preserved rather than replaced with Borrowed Power.",
+    "p068 says five usual tiers while also listing Tier VI; preserved.",
+    "p062 That's Dialectics refers to plan and prepare succeeding as 10+ and gaining all benefits regardless of hold, although the current p037 procedure uses separate d6 results. The translated text preserves this source wording.",
+    "p069 uninterrupted-damage prose leaves multiplication implicit while the numerical example establishes 4 × 5 = 20. The translation preserves both rather than inventing a replacement procedure."
+  ],
+  "integration_terms": [
+    {
+      "english": "playbook",
+      "pages_038_078": "角色手冊",
+      "pages_079_119": "角色本",
+      "front_draft": "扮演書",
+      "recommendation": "全書選定一詞後統一；三者不是不同規則物件。"
+    },
+    {
+      "english": "CREW",
+      "pages_038_078": "船員",
+      "pages_079_119": "艦員",
+      "front_draft": "艦員",
+      "recommendation": "依共用術語統一為艦員，保留 +CREW 識別。"
+    },
+    {
+      "english": "Power",
+      "pages_038_078": "動力",
+      "pages_079_119": "動力",
+      "front_draft": "能量",
+      "recommendation": "動力與能量須統一；此二者為同一阿斯提爾資源。"
+    },
+    {
+      "english": "part",
+      "pages_038_078": "部件",
+      "pages_079_119": "零件",
+      "front_draft": "零件／部件",
+      "recommendation": "統一用詞。"
+    },
+    {
+      "english": "bane",
+      "pages_038_078": "剋敵",
+      "pages_079_119": "破防",
+      "front_draft": "剋制（版本紀錄）",
+      "recommendation": "統一到標籤定義頁所選名稱，不能把破防另當新標籤。"
+    },
+    {
+      "english": "blitz",
+      "pages_038_078": "突襲",
+      "pages_079_119": "猛攻",
+      "recommendation": "統一到標籤定義頁所選名稱。"
+    },
+    {
+      "english": "distinct",
+      "pages_038_078": "顯眼",
+      "pages_079_119": "獨特",
+      "recommendation": "以顯眼為佳，因原定義是響亮、難忘、難以隱匿；獨特易誤解成唯一性。"
+    },
+    {
+      "english": "mounted",
+      "pages_038_078": "搭載",
+      "pages_079_119": "固定",
+      "recommendation": "統一到標籤定義頁所選名稱。"
+    },
+    {
+      "english": "versatile",
+      "pages_038_078": "攻防兼備",
+      "pages_079_119": "多用",
+      "recommendation": "攻防兼備較能反映結合 decisive 與 defensive 的精確效果。"
+    },
+    {
+      "english": "weak",
+      "pages_038_078": "無力",
+      "pages_079_119": "弱效",
+      "recommendation": "統一到標籤定義頁所選名稱。"
+    },
+    {
+      "english": "ward",
+      "pages_038_078": "守護",
+      "pages_079_119": "護佑",
+      "recommendation": "統一到標籤定義頁所選名稱，並與 Paradigm 的 Safeguard 動作分清。"
+    },
+    {
+      "english": "vorpal",
+      "pages_038_078": "斬殺",
+      "pages_079_119": "斬切",
+      "recommendation": "統一到標籤定義頁所選名稱。"
+    },
+    {
+      "english": "infinite",
+      "pages_038_078": "無限",
+      "pages_079_119": "無盡",
+      "recommendation": "統一到標籤定義頁所選名稱。"
+    },
+    {
+      "english": "Flourish Component",
+      "pages_038_078": "繁飾組件（p065）",
+      "pages_079_119": "儀式構件（p085）",
+      "recommendation": "同一設定／零件術語，建議統一為繁飾組件。"
+    },
+    {
+      "english": "Rayrifle",
+      "pages_038_078": "射線步銃",
+      "pages_079_119": "射線步槍",
+      "front_draft": "射線／光線／光束步槍",
+      "recommendation": "統一武器名，原文 beamrifle 與 rayrifle 的區別可按原文保留。"
+    }
+  ],
+  "source_policy": "English originals and specified Chinese drafts only. No machine-translated files consulted."
+}
