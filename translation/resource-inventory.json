@@ -1,0 +1,254 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "工作區原始PDF；排除本專案衍生草稿、建置與機翻檔",
+  "method": "檔案與頁數盤點、全文抽字比對、章節／表單欄位對照及具體規則差異核對；不是所有配套PDF的逐句翻譯或終校。",
+  "core_source": "ArmourAstir_af_illus.pdf",
+  "supplement_count": 5,
+  "supporting_pdf_count": 4,
+  "resources": [
+    {
+      "file": "ArmourAstir_af_basic.pdf",
+      "pages": 127,
+      "title": "免費基本規則版",
+      "kind": "另一排版的核心規則",
+      "status": "主要正文已由插畫版翻譯；未另製中文PDF",
+      "content_status": "大部分為現有核心規則的另一排版，不是新增擴充。",
+      "artifact_status": "本檔未另行翻譯或重排為中文PDF。",
+      "chapters": [
+        "concepts",
+        "setup",
+        "basic-summary",
+        "playbooks",
+        "astir",
+        "conflict-turn",
+        "director"
+      ],
+      "details": "同樣列有 v1.5 版本紀錄。免費版有四個任務引子；插畫版另有護送任務與四個範例世界，網站已翻譯較完整的插畫版。",
+      "priority": "不必為重複核心規則另做全書翻譯",
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "finding": "目錄列四個任務，未列四個範例世界。"
+        },
+        {
+          "pdf_page": 115,
+          "core_pages": [
+            138,
+            139
+          ],
+          "finding": "世代衝突正文對應插畫版，版面與頁序不同。"
+        },
+        {
+          "pdf_page": 124,
+          "core_pages": [
+            171
+          ],
+          "finding": "兩版都列有 v1.5 版本紀錄，不能只因免費版就推定為舊版。"
+        }
+      ],
+      "relative_path": "Resources_FreeVersion/ArmourAstir_af_basic.pdf",
+      "sha256": "cd5570caa37b5e759493a95e2ec528f283c55901772c7d51729f29ca29a12bca",
+      "chinese_pdf_available": false
+    },
+    {
+      "file": "ArmourAstir_sheets.pdf",
+      "pages": 17,
+      "title": "八種角色卡與母艦表",
+      "kind": "可列印遊玩表單",
+      "status": "角色規則多已收錄；中文表單尚未製作",
+      "content_status": "八種扮演書的動作與設定已收錄於玩家手冊，但表單含異版規則。",
+      "artifact_status": "尚無中文角色卡、母艦表或可填寫PDF。",
+      "chapters": [
+        "arcanist",
+        "impostor",
+        "paradigm",
+        "witch",
+        "captain",
+        "diplomat",
+        "scout",
+        "artificer",
+        "carrier"
+      ],
+      "details": "第1–16頁為八種角色各兩頁；第17頁為母艦表。姓名、危難、引力時鐘、牽引、聚光、機體／艙室與記錄欄位仍是英文，尚未製作中文表單。",
+      "priority": "優先製作中文版角色卡與母艦表，先決定採用核心書規則",
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "core_pages": [
+            43
+          ],
+          "finding": "僭取者 Let Loose：角色卡為有重擔時交鋒過招／決定性打擊有優勢；核心書為每個重擔使一項特質+1，且不受通常+3上限限制。"
+        },
+        {
+          "pdf_page": 16,
+          "core_pages": [
+            56
+          ],
+          "finding": "工匠 Arcane Generator：核心書明列有效引導+1，並以物件大小與複雜度互換；角色卡沒有這句+1，造物描述也不同。"
+        },
+        {
+          "pdf_page": 17,
+          "core_pages": [
+            79,
+            80,
+            81
+          ],
+          "finding": "獨立母艦記錄表，包含艦員、移動類型、路數、武器與艙室等欄位。"
+        }
+      ],
+      "relative_path": "Resources_FreeVersion/ArmourAstir_sheets.pdf",
+      "sha256": "7d273619c35430f7b1862b30a7618e73aa2c0c3f50e9dacb70a2120e8147b4c6",
+      "chinese_pdf_available": false
+    },
+    {
+      "file": "AAA_RulesReference.pdf",
+      "pages": 6,
+      "title": "玩家規則速查",
+      "kind": "獨立速查表",
+      "status": "規則多已收錄；此速查PDF尚未中文化",
+      "content_status": "創角、危難、基本動作與休整的主要規則已在玩家手冊，獨立摘要的編排與文字尚未逐頁翻譯。",
+      "artifact_status": "尚無同用途的六頁中文速查PDF。",
+      "chapters": [
+        "setup",
+        "concepts",
+        "basic-summary",
+        "downtime",
+        "plan-prepare"
+      ],
+      "details": "第1頁創角／扮演書／擲骰；第2頁危難、牽引、成長與引力；第3–4頁基本動作；第5–6頁休整。這是摘要與重新編排，不能以核心書已譯就宣稱本PDF已完成。",
+      "priority": "其次製作玩家桌上速查表",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "core_pages": [
+            9,
+            10,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "finding": "創角、扮演書及擲骰摘要，並非新的扮演書。"
+        },
+        {
+          "pdf_page": 3,
+          "core_pages": [
+            19,
+            20
+          ],
+          "finding": "基本動作與核心書正文重複。"
+        },
+        {
+          "pdf_page": 5,
+          "core_pages": [
+            35,
+            36
+          ],
+          "finding": "休整場景主要內容重複。"
+        }
+      ],
+      "relative_path": "Resources_FreeVersion/AAA_RulesReference.pdf",
+      "sha256": "95a5d3951b0b717034b73c9e6020f087acfea08a482e9cb0cfbac83badb40dbe",
+      "chinese_pdf_available": false
+    },
+    {
+      "file": "AAA_ConflictTurnRef.pdf",
+      "pages": 4,
+      "title": "衝突回合速查",
+      "kind": "主持／全桌共用速查表",
+      "status": "相關規則已在GM工作台；此PDF尚未中文化",
+      "content_status": "衝突回合流程、六種場景及雙方成果已在GM工作台，獨立摘要文字與表格尚未逐頁翻譯。",
+      "artifact_status": "尚無四頁中文衝突回合速查PDF。",
+      "chapters": [
+        "conflict-turn",
+        "conflict-scenes"
+      ],
+      "details": "包含回合概要、場景挑戰／結局、部門及派系成果。衝突回合由全桌參與，集中在GM工作台方便主持和共用。",
+      "priority": "製作GM／全桌共用衝突回合速查表",
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "core_pages": [
+            106,
+            113,
+            114
+          ],
+          "finding": "概要寫一個5+主要部門與兩個4+次要部門，與核心書標準部門實力一致。"
+        },
+        {
+          "pdf_page": 4,
+          "core_pages": [
+            106,
+            107,
+            108,
+            110,
+            114
+          ],
+          "finding": "整理雙方類型與勝利成果，不是額外擴充派系。"
+        }
+      ],
+      "relative_path": "Resources_FreeVersion/AAA_ConflictTurnRef.pdf",
+      "sha256": "ed4cbafb59752a88abfeed78dca2dc2c44ad58ddce8115752c5db67a951c578d",
+      "chinese_pdf_available": false
+    },
+    {
+      "file": "Reference_Sheets.pdf",
+      "pages": 10,
+      "title": "綜合參考表",
+      "kind": "玩家／主持混合參考表",
+      "status": "主要題材已有譯文；本PDF未中文化且有異版差異",
+      "content_status": "包含擲骰、動作、休整、衝突場景及雙方類型；多數內容已分別收錄玩家手冊與GM工作台。",
+      "artifact_status": "尚無十頁中文對應PDF。",
+      "chapters": [
+        "concepts",
+        "basic-summary",
+        "downtime",
+        "conflict-turn",
+        "conflict-scenes"
+      ],
+      "details": "第1–5頁主要為玩家規則與休整；第6–9頁為衝突與勢力；第10頁彙整優劣勢／自信與絕境來源，另有衝突回合流程。該彙整尚未作為獨立中文速查頁整理。",
+      "priority": "先比對異版再整合，不直接照抄門檻",
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "core_pages": [
+            106,
+            113
+          ],
+          "finding": "參考表寫實力5+或3+；核心書的預設是主要部門5+、次要部門4+。"
+        },
+        {
+          "pdf_page": 10,
+          "core_pages": [
+            106,
+            113
+          ],
+          "finding": "再次寫次要部門3+成功，與核心書4+不同。兩版差異已記錄，不覆蓋網站核心規則。"
+        },
+        {
+          "pdf_page": 10,
+          "core_pages": [
+            9,
+            11,
+            12,
+            24,
+            33,
+            66
+          ],
+          "finding": "集中列出優劣勢及自信／絕境來源；各機制多已在正文，但這份彙整本身尚未獨立翻譯。"
+        }
+      ],
+      "relative_path": "Resources_FreeVersion/Reference_Sheets.pdf",
+      "sha256": "f981f360275cc9a6af52352a0f6cc4e8b0dc5b4f0b662b94ba361d7bca49a5d4",
+      "chinese_pdf_available": false
+    }
+  ],
+  "conclusion": "尚未中文化的配套成品主要是17頁角色／母艦表、6頁玩家速查、4頁衝突速查、10頁綜合參考表。127頁免費核心版多為重複內容，無須當成另一部擴充重翻。",
+  "next_priority": [
+    "以核心書版本為準重製角色卡及母艦表",
+    "製作玩家規則速查PDF",
+    "製作衝突回合速查PDF",
+    "比對綜合參考表異版並整理來源彙整"
+  ]
+}

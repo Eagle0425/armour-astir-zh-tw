@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#143c3a">
+  <meta name="description" content="Armour Astir: Advent 非官方繁體中文規則庫。完整章節譯稿、八種扮演書、魔鎧建造與導演規則，依英文原書翻譯並標示來源頁碼。">
+  <title>GM 工作台 · Armour Astir: Advent</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261025-3">
+  <script src="gm-data.js?v=20261025-3" defer></script><script src="app.js?v=20261025-3" defer></script>
+</head>
+<body class="gm-workshop">
+  <a class="skip" href="#main">跳至內容</a>
+  <header class="topbar">
+    <button id="menu-toggle" class="icon-button mobile-only" aria-label="開啟章節目錄" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <a class="brand" href="#home"><span class="sigil" aria-hidden="true">A<span>A</span></span><span>ARMOUR ASTIR<small>ADVENT ／ GM 工作台</small></span></a>
+    <div class="top-actions"><a id="role-switch" class="role-switch" href="index.html#home">← 玩家手冊</a><button id="search-open" class="search-trigger"><span aria-hidden="true">⌕</span> 搜尋規則 <kbd>/</kbd></button><button id="theme-toggle" class="icon-button" aria-label="切換深色模式">◐</button><a class="repo-link" href="https://github.com/Eagle0425/armour-astir-zh-tw" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+  </header>
+  <div id="menu-scrim" hidden></div>
+  <div class="layout"><aside id="sidebar" aria-label="規則章節"><div class="sidebar-top"><span class="eyebrow">DIRECTOR / WORKSHOP</span><p>魔法、鋼鐵與反抗</p></div><nav id="chapter-nav"></nav><div class="sidebar-bottom"><button id="saved-open">☆ 本區收藏 <span id="saved-count">0</span></button><a href="#resources">資源翻譯盤點</a><a href="#about">來源與翻譯紀錄</a><a id="reader-link" href="gm-reader.html">GM 工作台列印版 ↗</a><span>非官方譯稿 · 依英文原書翻譯</span></div></aside>
+  <main id="main" tabindex="-1"><div id="view"></div></main>
+  <aside id="on-this-page" aria-label="本章目錄"></aside></div>
+  <footer class="footer">原作與美術 © Briar Sovereign 及各權利人 · 非官方繁體中文譯稿 · <a href="https://weregazelle.itch.io/armour-astir">支持原作 ↗</a></footer>
+  <dialog id="search-dialog" aria-labelledby="search-title"><div class="dialog-top"><h2 id="search-title">搜尋 GM 工作台</h2><button id="search-close" class="icon-button" aria-label="關閉搜尋">✕</button></div><label class="search-label" for="search-input">中文關鍵字、英文名稱或來源頁碼</label><input id="search-input" type="search" placeholder="試試：引力、奧術師、過熱、p83" autocomplete="off"><div class="search-meta"><label>範圍 <select id="search-scope"><option value="">本區全部</option></select></label><span id="search-status" role="status" aria-live="polite"></span></div><div id="search-results"></div><div class="dialog-hint">多個關鍵字以空格分隔 · Esc 關閉 · / 開啟搜尋</div></dialog>
+  <noscript><div class="noscript">請啟用 JavaScript 使用搜尋與章節導覽，或直接開啟<a href="gm-reader.html">GM 工作台靜態閱讀版</a>。</div></noscript>
+</body></html>

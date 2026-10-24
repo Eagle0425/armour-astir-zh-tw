@@ -5,7 +5,8 @@
     "english": "Introduction",
     "start": 1,
     "end": 6,
-    "group": "開始閱讀"
+    "group": "開始閱讀",
+    "audience": "player"
   },
   {
     "id": "contents",
@@ -13,7 +14,8 @@
     "english": "Contents",
     "start": 7,
     "end": 7,
-    "group": "開始閱讀"
+    "group": "開始閱讀",
+    "audience": "shared"
   },
   {
     "id": "concepts",
@@ -21,7 +23,8 @@
     "english": "Main Concepts",
     "start": 8,
     "end": 13,
-    "group": "開始閱讀"
+    "group": "開始閱讀",
+    "audience": "shared"
   },
   {
     "id": "setup",
@@ -29,7 +32,8 @@
     "english": "Setting Up",
     "start": 14,
     "end": 18,
-    "group": "開始閱讀"
+    "group": "開始閱讀",
+    "audience": "player"
   },
   {
     "id": "basic-summary",
@@ -37,7 +41,8 @@
     "english": "Basic Moves Summary",
     "start": 19,
     "end": 20,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "weather-the-storm",
@@ -45,7 +50,8 @@
     "english": "Weather the Storm",
     "start": 21,
     "end": 21,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "read-the-room",
@@ -53,7 +59,8 @@
     "english": "Read the Room",
     "start": 22,
     "end": 22,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "dispel-uncertainties",
@@ -61,7 +68,8 @@
     "english": "Dispel Uncertainties",
     "start": 23,
     "end": 23,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "help-or-hinder",
@@ -69,7 +77,8 @@
     "english": "Help or Hinder",
     "start": 24,
     "end": 24,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "weave-magic",
@@ -77,7 +86,8 @@
     "english": "Weave Magic",
     "start": 25,
     "end": 25,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "cool-off",
@@ -85,7 +95,8 @@
     "english": "Cool Off",
     "start": 26,
     "end": 26,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "exchange-blows",
@@ -93,7 +104,8 @@
     "english": "Exchange Blows",
     "start": 27,
     "end": 27,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "strike-decisively",
@@ -101,7 +113,8 @@
     "english": "Strike Decisively",
     "start": 28,
     "end": 28,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "bite-the-dust",
@@ -109,7 +122,8 @@
     "english": "Bite the Dust",
     "start": 29,
     "end": 29,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "group-moves",
@@ -117,7 +131,8 @@
     "english": "Group & Special Moves",
     "start": 30,
     "end": 30,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "lead-a-sortie",
@@ -125,7 +140,8 @@
     "english": "Lead a Sortie",
     "start": 31,
     "end": 31,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "subsystems",
@@ -133,7 +149,8 @@
     "english": "Subsystems",
     "start": 32,
     "end": 32,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "b-plot",
@@ -141,7 +158,8 @@
     "english": "B-Plot",
     "start": 33,
     "end": 34,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "downtime",
@@ -149,7 +167,8 @@
     "english": "Downtime Scenes",
     "start": 35,
     "end": 36,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "plan-prepare",
@@ -157,7 +176,8 @@
     "english": "Plan & Prepare",
     "start": 37,
     "end": 37,
-    "group": "動作與休整"
+    "group": "動作與休整",
+    "audience": "player"
   },
   {
     "id": "playbooks",
@@ -165,7 +185,8 @@
     "english": "Playbooks",
     "start": 38,
     "end": 38,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "arcanist",
@@ -173,7 +194,8 @@
     "english": "Arcanist",
     "start": 39,
     "end": 41,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "impostor",
@@ -181,7 +203,8 @@
     "english": "Impostor",
     "start": 42,
     "end": 44,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "paradigm",
@@ -189,7 +212,8 @@
     "english": "Paradigm",
     "start": 45,
     "end": 47,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "witch",
@@ -197,7 +221,8 @@
     "english": "Witch",
     "start": 48,
     "end": 49,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "captain",
@@ -205,7 +230,8 @@
     "english": "Captain",
     "start": 50,
     "end": 52,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "diplomat",
@@ -213,7 +239,8 @@
     "english": "Diplomat",
     "start": 53,
     "end": 54,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "artificer",
@@ -221,7 +248,8 @@
     "english": "Artificer",
     "start": 55,
     "end": 57,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "scout",
@@ -229,7 +257,8 @@
     "english": "Scout",
     "start": 58,
     "end": 59,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "cantrips",
@@ -237,7 +266,8 @@
     "english": "Cantrips",
     "start": 60,
     "end": 60,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "advancement",
@@ -245,7 +275,8 @@
     "english": "Advancement",
     "start": 61,
     "end": 64,
-    "group": "八種扮演書"
+    "group": "八種扮演書",
+    "audience": "player"
   },
   {
     "id": "conflict-tiers",
@@ -253,7 +284,8 @@
     "english": "Conflict & Tiers",
     "start": 65,
     "end": 69,
-    "group": "裝備與魔鎧"
+    "group": "裝備與魔鎧",
+    "audience": "player"
   },
   {
     "id": "tags",
@@ -261,7 +293,8 @@
     "english": "Tags & Gear",
     "start": 70,
     "end": 73,
-    "group": "裝備與魔鎧"
+    "group": "裝備與魔鎧",
+    "audience": "player"
   },
   {
     "id": "gear",
@@ -269,7 +302,8 @@
     "english": "Equipment",
     "start": 74,
     "end": 78,
-    "group": "裝備與魔鎧"
+    "group": "裝備與魔鎧",
+    "audience": "player"
   },
   {
     "id": "carrier",
@@ -277,7 +311,8 @@
     "english": "The Carrier",
     "start": 79,
     "end": 81,
-    "group": "裝備與魔鎧"
+    "group": "裝備與魔鎧",
+    "audience": "player"
   },
   {
     "id": "astir",
@@ -285,7 +320,8 @@
     "english": "Creating an Astir",
     "start": 82,
     "end": 90,
-    "group": "裝備與魔鎧"
+    "group": "裝備與魔鎧",
+    "audience": "player"
   },
   {
     "id": "example-astirs",
@@ -293,7 +329,8 @@
     "english": "Example Astirs",
     "start": 91,
     "end": 105,
-    "group": "裝備與魔鎧"
+    "group": "裝備與魔鎧",
+    "audience": "player"
   },
   {
     "id": "conflict-turn",
@@ -301,7 +338,8 @@
     "english": "The Conflict Turn",
     "start": 106,
     "end": 114,
-    "group": "戰略與導演"
+    "group": "戰略與導演",
+    "audience": "gm"
   },
   {
     "id": "conflict-scenes",
@@ -309,7 +347,8 @@
     "english": "Conflict Scenes",
     "start": 115,
     "end": 119,
-    "group": "戰略與導演"
+    "group": "戰略與導演",
+    "audience": "gm"
   },
   {
     "id": "director",
@@ -317,7 +356,8 @@
     "english": "Running the Game",
     "start": 120,
     "end": 129,
-    "group": "戰略與導演"
+    "group": "戰略與導演",
+    "audience": "gm"
   },
   {
     "id": "foes",
@@ -325,7 +365,8 @@
     "english": "Example Foes",
     "start": 130,
     "end": 134,
-    "group": "戰略與導演"
+    "group": "戰略與導演",
+    "audience": "gm"
   },
   {
     "id": "rivals",
@@ -333,7 +374,8 @@
     "english": "Rivals",
     "start": 135,
     "end": 135,
-    "group": "戰略與導演"
+    "group": "戰略與導演",
+    "audience": "gm"
   },
   {
     "id": "optional-rules",
@@ -341,7 +383,8 @@
     "english": "Optional Rules",
     "start": 136,
     "end": 140,
-    "group": "戰略與導演"
+    "group": "戰略與導演",
+    "audience": "gm"
   },
   {
     "id": "mission-grand-melee",
@@ -349,7 +392,8 @@
     "english": "The Grand Melee",
     "start": 141,
     "end": 141,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "mission-neutral-ground",
@@ -357,7 +401,8 @@
     "english": "Neutral Ground",
     "start": 142,
     "end": 142,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "mission-escort",
@@ -365,7 +410,8 @@
     "english": "Escort Duty",
     "start": 143,
     "end": 143,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "mission-eleventh-hour",
@@ -373,7 +419,8 @@
     "english": "Eleventh Hour",
     "start": 144,
     "end": 144,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "mission-authority-attack",
@@ -381,7 +428,8 @@
     "english": "Authority Attack",
     "start": 145,
     "end": 145,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "ghost-reaches",
@@ -389,7 +437,8 @@
     "english": "The Ghost Reaches",
     "start": 146,
     "end": 150,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "academy-arcane",
@@ -397,7 +446,8 @@
     "english": "The Academy Arcane",
     "start": 151,
     "end": 155,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "palus-somni",
@@ -405,7 +455,8 @@
     "english": "Palus Somni",
     "start": 156,
     "end": 160,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "ice-valdemar",
@@ -413,7 +464,8 @@
     "english": "The Ice of Valdemar",
     "start": 161,
     "end": 165,
-    "group": "任務與世界"
+    "group": "任務與世界",
+    "audience": "gm"
   },
   {
     "id": "dangers-examples",
@@ -421,7 +473,8 @@
     "english": "Risk & Peril Examples",
     "start": 166,
     "end": 166,
-    "group": "附錄"
+    "group": "附錄",
+    "audience": "shared"
   },
   {
     "id": "glossary",
@@ -429,7 +482,8 @@
     "english": "Glossary",
     "start": 167,
     "end": 167,
-    "group": "附錄"
+    "group": "附錄",
+    "audience": "shared"
   },
   {
     "id": "magic-objects",
@@ -437,7 +491,8 @@
     "english": "Magical Objects",
     "start": 168,
     "end": 168,
-    "group": "附錄"
+    "group": "GM附錄",
+    "audience": "gm"
   },
   {
     "id": "magic-weapons",
@@ -445,7 +500,8 @@
     "english": "Magical Weapons",
     "start": 169,
     "end": 169,
-    "group": "附錄"
+    "group": "GM附錄",
+    "audience": "gm"
   },
   {
     "id": "enchanting-game",
@@ -453,7 +509,8 @@
     "english": "Enchanting",
     "start": 170,
     "end": 170,
-    "group": "附錄"
+    "group": "GM附錄",
+    "audience": "gm"
   },
   {
     "id": "credits",
@@ -461,6 +518,7 @@
     "english": "Release Notes & Credits",
     "start": 171,
     "end": 174,
-    "group": "附錄"
+    "group": "附錄",
+    "audience": "shared"
   }
 ]

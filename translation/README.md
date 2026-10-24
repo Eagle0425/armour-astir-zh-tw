@@ -8,6 +8,8 @@
 | --- | --- |
 | `sources.json` | 英文來源版本、總頁數、完整 PDF SHA-256。 |
 | `coverage.json` | 每頁來源及中文正文的 SHA-256、字元數與對應檔案。 |
+| `editions.json` | 玩家／GM 各區章節與頁數；共用規則在兩區皆可讀。 |
+| `resource-inventory.json` | 核心書以外五份英文PDF的狀態、對應正文、版本差異與檔案指紋。 |
 | `context.json` | 全書架構、核心機制與來源政策的工作脈絡。 |
 | `reviews.json` | 已覆核頁面、覆核種類與報告索引。 |
 | `review-records/` | 不同工作單元逐頁讀完英文及譯稿後的原始語義初校紀錄。 |

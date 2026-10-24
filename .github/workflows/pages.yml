@@ -31,6 +31,7 @@ jobs:
           python scripts/validate.py
           node --check site/app.js
           node --check site/data.js
+          node --check site/gm-data.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
