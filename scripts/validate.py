@@ -70,5 +70,5 @@ reviews=json.loads((ROOT/'translation/reviews.json').read_text(encoding='utf8'))
 check(reviews['reviewed_pages']==list(range(1,175)),'Independent review coverage incomplete')
 for resolution in json.loads((ROOT/'translation/resolutions.json').read_text(encoding='utf8'))['resolutions']:
     target=ROOT/f'content/pages/p{resolution["page"]:03}.md'
-    check(hashlib.sha256(target.read_bytes()).hexdigest()==resolution['target_sha256'],f'Review resolution stale p{resolution["page"]}; update review rather than just rebuilding')
+    check(hashlib.sha256(target.read_text(encoding='utf8').encode()).hexdigest()==resolution['target_sha256'],f'Review resolution stale p{resolution["page"]}; update review rather than just rebuilding')
 print('PASS: 174 source-page fingerprints; 58 chapters; eight complete playbook ranges; cantrip/Soldier inventory; internal routes; reader links; source card structure; relative static assets; review regression checks.')

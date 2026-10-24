@@ -6,7 +6,7 @@
       "issue": "GRAVITY graphic value mismatch",
       "resolution": "圖例依原PDF改為朋友+1、戀人+3、宿敵+1、追求同一男孩+2、手足+2。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "ca0615053bfaa6db71c851f0f7702a861a52c6fb5253d4dceb6306944044d07d",
+      "target_sha256": "3160e7ac66b20a6bac281738535bfcc95476de307b5a06bff3b630beeea744e1",
       "status": "resolved"
     },
     {
@@ -14,7 +14,7 @@
       "issue": "Desperation scope",
       "resolution": "僅在本次出擊後續「倒下」擲骰處於絕境，非套用全部動作。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "e01962116cf3614b5a09b09eb3bdb6529f57b7e26f11f49fe43101409e0a74fa",
+      "target_sha256": "dfe3a02db1875e83c29a990e7b143e013b35f8f4b944c228fa9cffd6118a66f1",
       "status": "resolved"
     },
     {
@@ -22,7 +22,7 @@
       "issue": "Optional failure question",
       "resolution": "恢復「可立即問」的玩家選擇權。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "9cc3c1d0fb0efb6eb951c87088b354b035c607e4c6921c6eca2933c42302bf6e",
+      "target_sha256": "00f085734c02cea2178fe7d6e30c7c8db32bfd15312736c0cf9cc426ee7eb8ff",
       "status": "resolved"
     },
     {
@@ -30,7 +30,7 @@
       "issue": "Identify information scope",
       "resolution": "source譯為「來源」，不自行限縮為魔力來源。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "28094ef00bf7b534e4fd67920adaab447503d0b6faf2d7b6981a04984c06ddc6",
+      "target_sha256": "acaf9a5c0c65041330308a2efccec7c3df6e55a5c2735c97bbf2756b6e61c727",
       "status": "resolved"
     },
     {
@@ -38,7 +38,7 @@
       "issue": "Narrative endanger versus peril",
       "resolution": "以「陷入危險」避免誤解全員自動承受險境。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "29b60b08eedc16389b7cf05ae3e0481693e77b4285d96b55bd93cb8fc30ed3f7",
+      "target_sha256": "ef30257d513d7942a08b2a145f1f7adf4e73ec23f8273520fb1bd8ea714e5264",
       "status": "resolved"
     },
     {
@@ -46,7 +46,7 @@
       "issue": "Author parenthetical hope",
       "resolution": "恢復「義軍（但願）」作者插語。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "0bda8454728f5bfe7bad01aece0b5b78b23a6bb365fa93354d815ab71614f841",
+      "target_sha256": "c58f0078e33c54d71663d7861d528e2b523a47889fd210a7f00d588c6f47c416",
       "status": "resolved"
     },
     {
@@ -54,7 +54,7 @@
       "issue": "Cut down while fleeing",
       "resolution": "改為「逃跑時遭到殺戮嗎」，保留擊殺含義。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "cbcb754949a7f6e4276c45fba45d192a0c7aad810893a41eb4600ea9a7e9e291",
+      "target_sha256": "a2d367a636bb2b4d9d8c811e9903b09fc749a00700282d662ae9ebde579e1e79",
       "status": "resolved"
     },
     {
@@ -62,7 +62,7 @@
       "issue": "Complete Chinese equipment tags",
       "resolution": "所有標準射程／標籤與額外敘事標籤加中文，原文識別與數值仍保留。p129 decisive改決勝，p130 ward改守護。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "29cbe3ba03cc55011f9396e98c0868c420c18df6f0e9c90fb39a2b7bf2533194",
+      "target_sha256": "7180e63ad4a412a2907182df778afcf9163d381f18bdf446b1c2c8eb0deb6b14",
       "status": "resolved"
     },
     {
@@ -70,7 +70,7 @@
       "issue": "Playbook permission",
       "resolution": "劇本改扮演書。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "0f031d221acc2bb6534e6036e12c9a226aab2b257de326f1430c5c33b4c5573f",
+      "target_sha256": "5c4bb2d0bdcb40037b744392f9191652b94c376832151ca525845721948debc4",
       "status": "resolved"
     },
     {
@@ -78,7 +78,7 @@
       "issue": "Mercenary company",
       "resolution": "公司改傭兵團。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "44d00c6c04132c77b6d0ed6473658771426624e8f3aa94c8129021c1daf44ae3",
+      "target_sha256": "9b142e971e62ded68e1c8564faf288eb9fdb7d85a41c86b85b90fb3e850fe7fb",
       "status": "resolved"
     },
     {
@@ -86,7 +86,7 @@
       "issue": "Astir card structural categories",
       "resolution": "150/155/160/165過熱欄獨立保留，兩個Parts列統一為零件。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "0e3e93ae671979b24ddb9f8834ecfffe0103358d2332fbfcfb376d94156aa8df",
+      "target_sha256": "e188943e9eb7666fa1ef4baad3e53c639ba4909a8cec23f00ca3e895bd18af95",
       "status": "resolved"
     },
     {
@@ -94,8 +94,9 @@
       "issue": "Attendant swarms",
       "resolution": "蟲群改使魔群，不額外指定昆蟲形態。",
       "verification": "Direct targeted source comparison and canonical-text check after integration",
-      "target_sha256": "6f36646c3f9b6c2308050452e6a87178862866d0c76ef29439e6e9164bdd2d31",
+      "target_sha256": "991922d86a45f2b918e128472fcbc1183d083da3579b39aaab8bc690c13d39aa",
       "status": "resolved"
     }
-  ]
+  ],
+  "hash_encoding": "UTF-8 text with LF newlines, normalized by text reading for Windows/Linux reproducibility"
 }
