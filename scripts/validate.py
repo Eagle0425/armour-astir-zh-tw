@@ -48,6 +48,7 @@ for record in coverage['pages']:
 readers={}
 for name in ['reader.html','player-reader.html','gm-reader.html']:
     parser=Scan();parser.feed((ROOT/'site'/name).read_text(encoding='utf8'));readers[name]=parser
+    check('loading="lazy"' not in (ROOT/'site'/name).read_text(encoding='utf8'),'Print art must load without scrolling '+name)
     check(len(parser.ids)==len(set(parser.ids)),f'Duplicate reader anchors in {name}')
 for name,parser in readers.items():
     for href in parser.links:

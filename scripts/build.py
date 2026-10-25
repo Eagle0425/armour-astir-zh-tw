@@ -188,6 +188,8 @@ def write_reader(site, chapters, directory, name, title):
                 path='gm-reader.html' if other['audience']=='gm' else 'player-reader.html'
                 return 'href="'+path+'#'+anchor+'"'
             body=re.sub(r'href="#([a-z0-9-]+)(?:/([a-z0-9-]+))?"',target,p['html'])
+            # Static print editions must load art beyond the viewport before printing.
+            body=body.replace('loading="lazy"','loading="eager"')
             reader.append(f'<section class="page-block" id="{page_anchor(p)}"><div class="page-marker">{html.escape(page_source(p))}</div>{body}</section>')
     reader.append('</main></body></html>')
     (site/name).write_text('\n'.join(reader),encoding='utf8',newline='\n')
