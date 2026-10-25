@@ -1,0 +1,1829 @@
+{
+  "source_pdf": "ArmourAstir_af_illus.pdf",
+  "source_sha256": "4cd050a63e44be1a15fabef147e1b4e4b561b40ccf937ab5e832767e7e9ffeae",
+  "policy": "Extract original embedded illustrations, preserve complete image and signatures, composite transparency on white, resize and encode WebP. Exclude page decorations, rule diagrams, text/table backgrounds and duplicate artwork. No generated art or machine-translated files used.",
+  "credit": "內頁美術署名見原書第3頁製作名單；未推定個別作品的繪者。",
+  "items": [
+    {
+      "id": "witch-and-familiars",
+      "source_page": 6,
+      "object": "/I40",
+      "title": "巫帽施法者與使魔",
+      "alt": "巫帽施法者與使魔",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 6,
+          "chapter": "intro",
+          "position": "after"
+        }
+      ],
+      "original_width": 1763,
+      "original_height": 1763,
+      "variants": [
+        {
+          "src": "assets/illustrations/witch-and-familiars.webp",
+          "width": 1400,
+          "height": 1400,
+          "bytes": 365052,
+          "sha256": "674ca7ccb213e4ce74d44e9d82288b54fe05aeb81d1ec43e1d7e4e049090defe"
+        },
+        {
+          "src": "assets/illustrations/witch-and-familiars-small.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 100538,
+          "sha256": "f456d961481bda227e82d4e09152b16295a8686017af28cfea0e59e893979a0d"
+        }
+      ]
+    },
+    {
+      "id": "authority-patrol",
+      "source_page": 16,
+      "object": "/I84",
+      "title": "威權與魔鎧",
+      "alt": "威權與魔鎧",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 16,
+          "chapter": "setup",
+          "position": "after"
+        }
+      ],
+      "original_width": 2296,
+      "original_height": 960,
+      "variants": [
+        {
+          "src": "assets/illustrations/authority-patrol.webp",
+          "width": 1400,
+          "height": 585,
+          "bytes": 146860,
+          "sha256": "971e05d74398fbd64352184887114eabdc5e3d7b333cb905a4c517d07af0495e"
+        },
+        {
+          "src": "assets/illustrations/authority-patrol-small.webp",
+          "width": 640,
+          "height": 268,
+          "bytes": 29712,
+          "sha256": "ff698f16c967f8d27ee5a747fc193320bfcd3232a9df99e54653c3bc2aa6f8ac"
+        }
+      ]
+    },
+    {
+      "id": "cause-allies",
+      "source_page": 18,
+      "object": "/I103",
+      "title": "義軍成員與同伴",
+      "alt": "義軍成員與同伴",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 18,
+          "chapter": "setup",
+          "position": "after"
+        }
+      ],
+      "original_width": 2294,
+      "original_height": 1618,
+      "variants": [
+        {
+          "src": "assets/illustrations/cause-allies.webp",
+          "width": 1400,
+          "height": 987,
+          "bytes": 420684,
+          "sha256": "119b39eed20fe95011197246b8d555bf750cbb4ab85f219c9804bb06dea9c6cf"
+        },
+        {
+          "src": "assets/illustrations/cause-allies-small.webp",
+          "width": 640,
+          "height": 451,
+          "bytes": 68524,
+          "sha256": "a108db32a390222af2ac47e71b0df7f86ce61c164463e223d96afede7113f73d"
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "source_page": 34,
+      "object": "/I172",
+      "title": "夜間的機體與營地",
+      "alt": "夜間的機體與營地",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 34,
+          "chapter": "b-plot",
+          "position": "after"
+        }
+      ],
+      "original_width": 2248,
+      "original_height": 1590,
+      "variants": [
+        {
+          "src": "assets/illustrations/shelter.webp",
+          "width": 1400,
+          "height": 990,
+          "bytes": 268112,
+          "sha256": "5fe12f99be351b5a77cbb418856a1ea3d317e17c2b3c81d3074f7082016f5080"
+        },
+        {
+          "src": "assets/illustrations/shelter-small.webp",
+          "width": 640,
+          "height": 453,
+          "bytes": 78684,
+          "sha256": "b6fef6a9de151ae1e223aadfc9fd07c0d1bb96f0e2e1e591dc9eaa49c3f95a75"
+        }
+      ]
+    },
+    {
+      "id": "arcanist",
+      "source_page": 41,
+      "object": "/I208",
+      "title": "奧術師立繪",
+      "alt": "戴護目鏡的捲髮奧術師，身旁有書本與魔法符號。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 39,
+          "chapter": "arcanist",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1098,
+      "original_height": 3003,
+      "variants": [
+        {
+          "src": "assets/illustrations/arcanist.webp",
+          "width": 585,
+          "height": 1600,
+          "bytes": 250534,
+          "sha256": "3631e96f67278664b021240169110b1a46b5fe32fe26ae8eab4c6dd304ff7626"
+        },
+        {
+          "src": "assets/illustrations/arcanist-small.webp",
+          "width": 351,
+          "height": 960,
+          "bytes": 116118,
+          "sha256": "182f15ac40e5e4ae2229e665ac98d2d85794a3d67446805ce0957c3d26f17307"
+        }
+      ]
+    },
+    {
+      "id": "impostor",
+      "source_page": 41,
+      "object": "/I207",
+      "title": "僭取者立繪",
+      "alt": "長黑髮的僭取者，穿著長外套，掌上呈現眼睛般的魔法。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 42,
+          "chapter": "impostor",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1088,
+      "original_height": 3004,
+      "variants": [
+        {
+          "src": "assets/illustrations/impostor.webp",
+          "width": 579,
+          "height": 1600,
+          "bytes": 245882,
+          "sha256": "25ae7b133e7453fb8a463e22a2ff413cbc84ab0f62d121620c19a343e997737e"
+        },
+        {
+          "src": "assets/illustrations/impostor-small.webp",
+          "width": 348,
+          "height": 960,
+          "bytes": 110682,
+          "sha256": "c8486b18f63a5441e73d156ef8af0caa1a70f1255811bfb7c87f57f0505b34a4"
+        }
+      ]
+    },
+    {
+      "id": "augments",
+      "source_page": 44,
+      "object": "/I221",
+      "title": "改造與魔法增幅的意象",
+      "alt": "改造與魔法增幅的意象",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 44,
+          "chapter": "gm-notes",
+          "position": "after"
+        }
+      ],
+      "original_width": 2193,
+      "original_height": 1309,
+      "variants": [
+        {
+          "src": "assets/illustrations/augments.webp",
+          "width": 1400,
+          "height": 836,
+          "bytes": 323380,
+          "sha256": "295cda7b93b4eacf06a9f86327cec997f5f05fa491808a8c9123820569a67b26"
+        },
+        {
+          "src": "assets/illustrations/augments-small.webp",
+          "width": 640,
+          "height": 382,
+          "bytes": 59490,
+          "sha256": "38fed747f3b8052fdfa44458c54a72ae680641e9fd42d0e0ebe82d8d43d7d002"
+        }
+      ]
+    },
+    {
+      "id": "paradigm",
+      "source_page": 47,
+      "object": "/I231",
+      "title": "典範立繪",
+      "alt": "穿戴鎧甲、持杖並帶有光環的典範。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 45,
+          "chapter": "paradigm",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1120,
+      "original_height": 3010,
+      "variants": [
+        {
+          "src": "assets/illustrations/paradigm.webp",
+          "width": 595,
+          "height": 1600,
+          "bytes": 164176,
+          "sha256": "968e7a3b59430440532c9d9411f4d372c4ed4fa66ea5998b7778a42888d09644"
+        },
+        {
+          "src": "assets/illustrations/paradigm-small.webp",
+          "width": 357,
+          "height": 960,
+          "bytes": 78978,
+          "sha256": "de98526cc5c9c68fd6d042d1887f8268be449a1fed5417b04481401a7d46958a"
+        }
+      ]
+    },
+    {
+      "id": "witch",
+      "source_page": 47,
+      "object": "/I232",
+      "title": "巫者立繪",
+      "alt": "巫者持著魔法書，身旁展開有翼存在的輪廓。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 48,
+          "chapter": "witch",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1094,
+      "original_height": 3010,
+      "variants": [
+        {
+          "src": "assets/illustrations/witch.webp",
+          "width": 582,
+          "height": 1600,
+          "bytes": 220978,
+          "sha256": "1895aac8cdd5b38c801eefb0c2a89a9149737e479f560a4c5e249e7c75166e3a"
+        },
+        {
+          "src": "assets/illustrations/witch-small.webp",
+          "width": 349,
+          "height": 960,
+          "bytes": 101638,
+          "sha256": "84a39e1c3e39a4a182699cdf3a232b6bd50ac3a335453ab497e8038490e59339"
+        }
+      ]
+    },
+    {
+      "id": "captain",
+      "source_page": 52,
+      "object": "/I255",
+      "title": "艦長立繪",
+      "alt": "穿著軍官制服、披著外衣並配劍的艦長。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 50,
+          "chapter": "captain",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1211,
+      "original_height": 2902,
+      "variants": [
+        {
+          "src": "assets/illustrations/captain.webp",
+          "width": 668,
+          "height": 1600,
+          "bytes": 175670,
+          "sha256": "b0dea31aaeb725f668c711a6d519f231f729ff76094af335dfaa5bdaa3c973e4"
+        },
+        {
+          "src": "assets/illustrations/captain-small.webp",
+          "width": 401,
+          "height": 960,
+          "bytes": 85148,
+          "sha256": "b51e9fec7f254a9458002592d293b7aa893a54e3cdfa6184a7ae347126381957"
+        }
+      ]
+    },
+    {
+      "id": "diplomat",
+      "source_page": 52,
+      "object": "/I256",
+      "title": "外交官立繪",
+      "alt": "穿著正式服裝、戴手套的黑髮外交官。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 53,
+          "chapter": "diplomat",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1068,
+      "original_height": 2902,
+      "variants": [
+        {
+          "src": "assets/illustrations/diplomat.webp",
+          "width": 589,
+          "height": 1600,
+          "bytes": 108500,
+          "sha256": "c793ec8b8bf8ac99fcec823971c1a2e3104a2fbc2bb6a90c330b43fef8c14ae7"
+        },
+        {
+          "src": "assets/illustrations/diplomat-small.webp",
+          "width": 353,
+          "height": 960,
+          "bytes": 54396,
+          "sha256": "747253cae075a8c209350fc81d154301745e6e83533ad9ed8f120b8074438990"
+        }
+      ]
+    },
+    {
+      "id": "artificer",
+      "source_page": 57,
+      "object": "/I276",
+      "title": "工匠立繪",
+      "alt": "戴著護目鏡、攜帶工具與機械裝備的工匠。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 55,
+          "chapter": "artificer",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1120,
+      "original_height": 2994,
+      "variants": [
+        {
+          "src": "assets/illustrations/artificer.webp",
+          "width": 599,
+          "height": 1600,
+          "bytes": 195538,
+          "sha256": "ab6815371bbfe4bffc36de9b73bd144e733104fae78b14ea033613983da7504d"
+        },
+        {
+          "src": "assets/illustrations/artificer-small.webp",
+          "width": 359,
+          "height": 960,
+          "bytes": 93512,
+          "sha256": "b84d8724b1060c9b765dd8dc977c465edfd97acabe0f2e23e1646abde87e1c7f"
+        }
+      ]
+    },
+    {
+      "id": "scout",
+      "source_page": 57,
+      "object": "/I277",
+      "title": "斥候立繪",
+      "alt": "披著斗篷、戴面罩並攜帶刀刃的斥候。",
+      "layout": "portrait",
+      "placements": [
+        {
+          "page": 58,
+          "chapter": "scout",
+          "position": "after-heading"
+        }
+      ],
+      "original_width": 1100,
+      "original_height": 2994,
+      "variants": [
+        {
+          "src": "assets/illustrations/scout.webp",
+          "width": 588,
+          "height": 1600,
+          "bytes": 220782,
+          "sha256": "ad01ffce09ae348649cf269bf9122930db8374254172ef4968fb42b5aec7c353"
+        },
+        {
+          "src": "assets/illustrations/scout-small.webp",
+          "width": 353,
+          "height": 960,
+          "bytes": 105610,
+          "sha256": "2f88e4ee4105609bdc6f6545fa7efcf22286843a8dbcf44c61e25dbbd5fd155b"
+        }
+      ]
+    },
+    {
+      "id": "arcane-treatise",
+      "source_page": 63,
+      "object": "/I308",
+      "title": "奧術文獻",
+      "alt": "奧術文獻",
+      "layout": "compact",
+      "placements": [
+        {
+          "page": 63,
+          "chapter": "advancement",
+          "position": "after"
+        }
+      ],
+      "original_width": 616,
+      "original_height": 851,
+      "variants": [
+        {
+          "src": "assets/illustrations/arcane-treatise.webp",
+          "width": 616,
+          "height": 851,
+          "bytes": 136054,
+          "sha256": "872d6757732304deba773729254a31ab85add13054c5cfdd43854f757fd365da"
+        },
+        {
+          "src": "assets/illustrations/arcane-treatise-small.webp",
+          "width": 616,
+          "height": 851,
+          "bytes": 136054,
+          "sha256": "872d6757732304deba773729254a31ab85add13054c5cfdd43854f757fd365da"
+        }
+      ]
+    },
+    {
+      "id": "armour-and-bridge",
+      "source_page": 64,
+      "object": "/I309",
+      "title": "橋上的魔鎧與人物",
+      "alt": "橋上的魔鎧與人物",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 64,
+          "chapter": "advancement",
+          "position": "after"
+        }
+      ],
+      "original_width": 2481,
+      "original_height": 3508,
+      "variants": [
+        {
+          "src": "assets/illustrations/armour-and-bridge.webp",
+          "width": 1132,
+          "height": 1600,
+          "bytes": 500890,
+          "sha256": "991935dd22a82f5ee7063d2f9c7e56f458b414f350103febcb4e9e2124a1bb20"
+        },
+        {
+          "src": "assets/illustrations/armour-and-bridge-small.webp",
+          "width": 640,
+          "height": 905,
+          "bytes": 196064,
+          "sha256": "6f323de62aeb29683409759494713d1dbbb19879dc5f2d7be170f05c81372d2f"
+        }
+      ]
+    },
+    {
+      "id": "equipment-workbench",
+      "source_page": 73,
+      "object": "/I346",
+      "title": "藥劑與工具工作臺",
+      "alt": "藥劑與工具工作臺",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 73,
+          "chapter": "tags",
+          "position": "after"
+        }
+      ],
+      "original_width": 2293,
+      "original_height": 2386,
+      "variants": [
+        {
+          "src": "assets/illustrations/equipment-workbench.webp",
+          "width": 1400,
+          "height": 1457,
+          "bytes": 525794,
+          "sha256": "b31aef8f925758ca6a9fabb0cea981db3eb242eafbd7774e5b882c3bb179baa4"
+        },
+        {
+          "src": "assets/illustrations/equipment-workbench-small.webp",
+          "width": 640,
+          "height": 666,
+          "bytes": 97092,
+          "sha256": "c1cd84ead65f7b3ec76e1a08446485d078758c520f3fea44f3d06e473a70e191"
+        }
+      ]
+    },
+    {
+      "id": "tower-construct",
+      "source_page": 76,
+      "object": "/I359",
+      "title": "塔樓般的構裝體",
+      "alt": "塔樓般的構裝體",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 76,
+          "chapter": "gear",
+          "position": "after"
+        }
+      ],
+      "original_width": 1277,
+      "original_height": 3046,
+      "variants": [
+        {
+          "src": "assets/illustrations/tower-construct.webp",
+          "width": 671,
+          "height": 1600,
+          "bytes": 171166,
+          "sha256": "0912e8d06c052ef98681da38e4dbf3765d210ab770361586b1db23182b641800"
+        },
+        {
+          "src": "assets/illustrations/tower-construct-small.webp",
+          "width": 402,
+          "height": 960,
+          "bytes": 83322,
+          "sha256": "59d7a916349dcc058a6a5301485486cac3bb30b0860d32e44e41c4c4f8e5e545"
+        }
+      ]
+    },
+    {
+      "id": "spell-vine",
+      "source_page": 77,
+      "object": "/I362",
+      "title": "魔法與枝蔓",
+      "alt": "魔法與枝蔓",
+      "layout": "compact",
+      "placements": [
+        {
+          "page": 77,
+          "chapter": "gear",
+          "position": "after"
+        }
+      ],
+      "original_width": 800,
+      "original_height": 1013,
+      "variants": [
+        {
+          "src": "assets/illustrations/spell-vine.webp",
+          "width": 800,
+          "height": 1013,
+          "bytes": 58178,
+          "sha256": "0d29dd9891a9fdd19a65f5a317b3627633cba3dd84c52c19bb1cc0a5884454bf"
+        },
+        {
+          "src": "assets/illustrations/spell-vine-small.webp",
+          "width": 640,
+          "height": 810,
+          "bytes": 39320,
+          "sha256": "c6550d6efb0ba857ea4c470e1e50aa564c1ad367b6e6818725f80dd98ea8c2d7"
+        }
+      ]
+    },
+    {
+      "id": "astir-battle",
+      "source_page": 78,
+      "object": "/I363",
+      "title": "彩色魔鎧交戰場景",
+      "alt": "彩色魔鎧交戰場景",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 78,
+          "chapter": "gear",
+          "position": "after"
+        }
+      ],
+      "original_width": 2463,
+      "original_height": 3483,
+      "variants": [
+        {
+          "src": "assets/illustrations/astir-battle.webp",
+          "width": 1131,
+          "height": 1600,
+          "bytes": 358922,
+          "sha256": "a8ced243052394454cf4411c092747e441b7b1d094e4804b9eadee33ab8dfbcc"
+        },
+        {
+          "src": "assets/illustrations/astir-battle-small.webp",
+          "width": 640,
+          "height": 905,
+          "bytes": 138246,
+          "sha256": "2d32b46cbb9464daeb27130bda8e9a90952cd787011144f847572a92da05eab7"
+        }
+      ]
+    },
+    {
+      "id": "astir-workshop",
+      "source_page": 83,
+      "object": "/I387",
+      "title": "阿斯提爾的機體與零件",
+      "alt": "阿斯提爾的機體與零件",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 83,
+          "chapter": "astir",
+          "position": "after"
+        }
+      ],
+      "original_width": 1900,
+      "original_height": 1384,
+      "variants": [
+        {
+          "src": "assets/illustrations/astir-workshop.webp",
+          "width": 1400,
+          "height": 1020,
+          "bytes": 330426,
+          "sha256": "fde3d07ad320c93d44b58671993e82beb7e7021449059492bfb93b897dbe00ee"
+        },
+        {
+          "src": "assets/illustrations/astir-workshop-small.webp",
+          "width": 640,
+          "height": 466,
+          "bytes": 94504,
+          "sha256": "58b1fa228e7bd7f39c9956a09bbe51a6b2efce37e5c0b6388f9408cce4cfeaad"
+        }
+      ]
+    },
+    {
+      "id": "winged-core",
+      "source_page": 89,
+      "object": "/I407",
+      "title": "展翼的魔法核心意象",
+      "alt": "展翼的魔法核心意象",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 89,
+          "chapter": "astir",
+          "position": "after"
+        }
+      ],
+      "original_width": 2132,
+      "original_height": 1065,
+      "variants": [
+        {
+          "src": "assets/illustrations/winged-core.webp",
+          "width": 1400,
+          "height": 699,
+          "bytes": 170120,
+          "sha256": "f5d6af985f96e1363aa6ebae0b78607a46953b5a8221e1bfcd01ebc45761e50d"
+        },
+        {
+          "src": "assets/illustrations/winged-core-small.webp",
+          "width": 640,
+          "height": 320,
+          "bytes": 46160,
+          "sha256": "4734817454b00906af976d08561aeca2955282a1ecabe897d7fa7447891e2def"
+        }
+      ]
+    },
+    {
+      "id": "woven-protection",
+      "source_page": 91,
+      "object": "/I411",
+      "title": "魔鎧與織物",
+      "alt": "魔鎧與織物",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 91,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2233,
+      "original_height": 1755,
+      "variants": [
+        {
+          "src": "assets/illustrations/woven-protection.webp",
+          "width": 1400,
+          "height": 1100,
+          "bytes": 306696,
+          "sha256": "2acdeded8d25de65c3439df2b65cf0ad04310ed2b4942e1361b48ae9515db120"
+        },
+        {
+          "src": "assets/illustrations/woven-protection-small.webp",
+          "width": 640,
+          "height": 503,
+          "bytes": 93140,
+          "sha256": "337dc6c016403bf07bdc634847c353160bbe97e6723ef31e56130f744b34a139"
+        }
+      ]
+    },
+    {
+      "id": "goliath",
+      "source_page": 92,
+      "object": "/I415",
+      "title": "歌利亞（Goliath）",
+      "alt": "歌利亞（Goliath）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 92,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2484,
+      "original_height": 2284,
+      "variants": [
+        {
+          "src": "assets/illustrations/goliath.webp",
+          "width": 1400,
+          "height": 1287,
+          "bytes": 381668,
+          "sha256": "fd2f321d89c15a336ae5caa43a135c0929eec731ea8365d7f9b2a3e14b93eecd"
+        },
+        {
+          "src": "assets/illustrations/goliath-small.webp",
+          "width": 640,
+          "height": 588,
+          "bytes": 95410,
+          "sha256": "a7849aa36a596e1dfe645d54feb064ea9199f137abfb0e034ce03caafdef69ef"
+        }
+      ]
+    },
+    {
+      "id": "advent",
+      "source_page": 93,
+      "object": "/I418",
+      "title": "降臨（Advent）",
+      "alt": "降臨（Advent）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 93,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2294,
+      "original_height": 2259,
+      "variants": [
+        {
+          "src": "assets/illustrations/advent.webp",
+          "width": 1400,
+          "height": 1379,
+          "bytes": 551904,
+          "sha256": "8b511fc3402e2da99792de4d6c90334e4d78033ed515b2d155e06fd608817716"
+        },
+        {
+          "src": "assets/illustrations/advent-small.webp",
+          "width": 640,
+          "height": 630,
+          "bytes": 125558,
+          "sha256": "2bf6479917794bdb283f5fc7a5c70b9e921e1484dedb03678f81a8fc0711b8c0"
+        }
+      ]
+    },
+    {
+      "id": "summoner",
+      "source_page": 94,
+      "object": "/I422",
+      "title": "召喚者（Summoner）",
+      "alt": "召喚者（Summoner）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 94,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2354,
+      "original_height": 2419,
+      "variants": [
+        {
+          "src": "assets/illustrations/summoner.webp",
+          "width": 1400,
+          "height": 1439,
+          "bytes": 214398,
+          "sha256": "90961cd74a23132d81ab7b6fda4b7d858ce55100a85c47668ec326aa0df7eccf"
+        },
+        {
+          "src": "assets/illustrations/summoner-small.webp",
+          "width": 640,
+          "height": 658,
+          "bytes": 67704,
+          "sha256": "b6b9d2dba7c64a104a9f99ba10c7369dbf7cf7e7d1fd019f988f87267fa3d157"
+        }
+      ]
+    },
+    {
+      "id": "tarrasque",
+      "source_page": 95,
+      "object": "/I426",
+      "title": "塔拉斯克（Tarrasque）",
+      "alt": "塔拉斯克（Tarrasque）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 95,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 1826,
+      "original_height": 2325,
+      "variants": [
+        {
+          "src": "assets/illustrations/tarrasque.webp",
+          "width": 1257,
+          "height": 1600,
+          "bytes": 132452,
+          "sha256": "f3977218ea73c350f198e9bd3e4e17f2fdcc925237af0e368610baaa444163ea"
+        },
+        {
+          "src": "assets/illustrations/tarrasque-small.webp",
+          "width": 640,
+          "height": 815,
+          "bytes": 56914,
+          "sha256": "3b979ca5d73a181f8b59186821937f17d1ad998c176ddb16a4cfe4e285ad43f8"
+        }
+      ]
+    },
+    {
+      "id": "lance-minor",
+      "source_page": 96,
+      "object": "/I430",
+      "title": "小騎槍（Lance-Minor）",
+      "alt": "小騎槍（Lance-Minor）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 96,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2285,
+      "original_height": 2076,
+      "variants": [
+        {
+          "src": "assets/illustrations/lance-minor.webp",
+          "width": 1400,
+          "height": 1272,
+          "bytes": 131238,
+          "sha256": "9e918672b3199173b988ddc298d4b56c14d273f9c283aedc0f5e600afd169583"
+        },
+        {
+          "src": "assets/illustrations/lance-minor-small.webp",
+          "width": 640,
+          "height": 581,
+          "bytes": 45516,
+          "sha256": "f6770ce340c06ea07c06c7dfcec978d6f3f079da5176ae08ca8e6b556702006a"
+        }
+      ]
+    },
+    {
+      "id": "protean",
+      "source_page": 97,
+      "object": "/I434",
+      "title": "千變者（Protean）",
+      "alt": "千變者（Protean）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 97,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 1974,
+      "original_height": 2206,
+      "variants": [
+        {
+          "src": "assets/illustrations/protean.webp",
+          "width": 1400,
+          "height": 1565,
+          "bytes": 288038,
+          "sha256": "5ccf5a3fcf5c6e84f3d8cef8a995588efafb9c87d46ea265dc08ff492b9906ed"
+        },
+        {
+          "src": "assets/illustrations/protean-small.webp",
+          "width": 640,
+          "height": 715,
+          "bytes": 96852,
+          "sha256": "19d0a892dd1707844c40a1303767aec181fb996e1039badbdedf0a9c7f319e59"
+        }
+      ]
+    },
+    {
+      "id": "omen",
+      "source_page": 98,
+      "object": "/I438",
+      "title": "預兆（Omen）",
+      "alt": "預兆（Omen）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 98,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2286,
+      "original_height": 2344,
+      "variants": [
+        {
+          "src": "assets/illustrations/omen.webp",
+          "width": 1400,
+          "height": 1436,
+          "bytes": 183556,
+          "sha256": "88f702ea8b5f11ab45fe0bde32438b987016cea63411d0fb50ce0e11a5323d7a"
+        },
+        {
+          "src": "assets/illustrations/omen-small.webp",
+          "width": 640,
+          "height": 656,
+          "bytes": 52154,
+          "sha256": "529040d9ced93cc1b3c3d681376f6a0c5d9bac530944155609f643abefd8a34b"
+        }
+      ]
+    },
+    {
+      "id": "aries",
+      "source_page": 99,
+      "object": "/I442",
+      "title": "牡羊（Aries）",
+      "alt": "牡羊（Aries）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 99,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2297,
+      "original_height": 2371,
+      "variants": [
+        {
+          "src": "assets/illustrations/aries.webp",
+          "width": 1400,
+          "height": 1445,
+          "bytes": 189346,
+          "sha256": "640c9e1f515be9e2c1520c301489ad8ee158955f17ff6b1a7e4ec2a94d3a962f"
+        },
+        {
+          "src": "assets/illustrations/aries-small.webp",
+          "width": 640,
+          "height": 661,
+          "bytes": 62564,
+          "sha256": "845d70b61e46010138f763f15ef85dff6cdea8da22bea898b8f930f0c73df362"
+        }
+      ]
+    },
+    {
+      "id": "jester",
+      "source_page": 100,
+      "object": "/I445",
+      "title": "弄臣（Jester）",
+      "alt": "弄臣（Jester）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 100,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2134,
+      "original_height": 2239,
+      "variants": [
+        {
+          "src": "assets/illustrations/jester.webp",
+          "width": 1400,
+          "height": 1469,
+          "bytes": 171056,
+          "sha256": "292544c1acbd03f0ac1ee285a37bb4e67af334cd6afb9899f3b96b62a63b585c"
+        },
+        {
+          "src": "assets/illustrations/jester-small.webp",
+          "width": 640,
+          "height": 671,
+          "bytes": 58324,
+          "sha256": "712ca0ba99277342b66b73abb297952e15a0a5606f211a1d8e6720556d0cf5b6"
+        }
+      ]
+    },
+    {
+      "id": "pursuer",
+      "source_page": 101,
+      "object": "/I449",
+      "title": "追獵者（Pursuer）",
+      "alt": "追獵者（Pursuer）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 101,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2289,
+      "original_height": 2094,
+      "variants": [
+        {
+          "src": "assets/illustrations/pursuer.webp",
+          "width": 1400,
+          "height": 1281,
+          "bytes": 240518,
+          "sha256": "e936f143bf828523b97c7e141341326e0ca20dd0ee521ba2e7787f21a97c6e39"
+        },
+        {
+          "src": "assets/illustrations/pursuer-small.webp",
+          "width": 640,
+          "height": 585,
+          "bytes": 72922,
+          "sha256": "703f49359e2b59eed6519c6a00e05bc2fc7cf7c7701ab78551485a4650edddb6"
+        }
+      ]
+    },
+    {
+      "id": "birdcage",
+      "source_page": 102,
+      "object": "/I452",
+      "title": "鳥籠（Birdcage）",
+      "alt": "鳥籠（Birdcage）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 102,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2388,
+      "original_height": 2026,
+      "variants": [
+        {
+          "src": "assets/illustrations/birdcage.webp",
+          "width": 1400,
+          "height": 1188,
+          "bytes": 187664,
+          "sha256": "00b0c73f5010108564260ae7ea15d2f77ace385a30a820516d9f847ebb34a46f"
+        },
+        {
+          "src": "assets/illustrations/birdcage-small.webp",
+          "width": 640,
+          "height": 543,
+          "bytes": 66778,
+          "sha256": "c6fb575f554dfbbb8adc74dfd6459ad37d63fdca0eaff9b4cff067f0910aa697"
+        }
+      ]
+    },
+    {
+      "id": "jack-of-blades",
+      "source_page": 103,
+      "object": "/I455",
+      "title": "刀刃傑克（Jack-of-Blades）",
+      "alt": "刀刃傑克（Jack-of-Blades）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 103,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2400,
+      "original_height": 2129,
+      "variants": [
+        {
+          "src": "assets/illustrations/jack-of-blades.webp",
+          "width": 1400,
+          "height": 1242,
+          "bytes": 139096,
+          "sha256": "fc3ad8482bb808050e9ea6418811b249e695a60713a144013efcc8e9f1a89827"
+        },
+        {
+          "src": "assets/illustrations/jack-of-blades-small.webp",
+          "width": 640,
+          "height": 568,
+          "bytes": 35378,
+          "sha256": "029b51813c5fb90b2167f55319dd0950886acbfadbc9e420a38d57005c3467d3"
+        }
+      ]
+    },
+    {
+      "id": "medusa",
+      "source_page": 104,
+      "object": "/I458",
+      "title": "美杜莎（Medusa）",
+      "alt": "美杜莎（Medusa）",
+      "layout": "astir",
+      "placements": [
+        {
+          "page": 104,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2251,
+      "original_height": 1952,
+      "variants": [
+        {
+          "src": "assets/illustrations/medusa.webp",
+          "width": 1400,
+          "height": 1214,
+          "bytes": 164066,
+          "sha256": "e18274f100469623d108ca07fad666a90597b40c8d992fa46fb27e5a3b6b3747"
+        },
+        {
+          "src": "assets/illustrations/medusa-small.webp",
+          "width": 640,
+          "height": 555,
+          "bytes": 55452,
+          "sha256": "31afa59c5a33bf2a06639921a3f49a7daef1a8e815c731a9dc6ab890ea1f50bf"
+        }
+      ]
+    },
+    {
+      "id": "mountain-pass",
+      "source_page": 105,
+      "object": "/I459",
+      "title": "山口與魔法武裝",
+      "alt": "山口與魔法武裝",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 105,
+          "chapter": "example-astirs",
+          "position": "after"
+        }
+      ],
+      "original_width": 2293,
+      "original_height": 1831,
+      "variants": [
+        {
+          "src": "assets/illustrations/mountain-pass.webp",
+          "width": 1400,
+          "height": 1118,
+          "bytes": 276184,
+          "sha256": "96df2648792d925ed0d37e23a00d54aae9ae8499e793b0c0b4380bbc84b18121"
+        },
+        {
+          "src": "assets/illustrations/mountain-pass-small.webp",
+          "width": 640,
+          "height": 511,
+          "bytes": 73036,
+          "sha256": "1cecc2f8c4287c63fef0b8a571e69321f05515326c1862ebc99900a56d7e495a"
+        }
+      ]
+    },
+    {
+      "id": "conflict-creature",
+      "source_page": 112,
+      "object": "/I495",
+      "title": "衝突中的巨獸",
+      "alt": "衝突中的巨獸",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 112,
+          "chapter": "conflict-turn",
+          "position": "after"
+        }
+      ],
+      "original_width": 2293,
+      "original_height": 1073,
+      "variants": [
+        {
+          "src": "assets/illustrations/conflict-creature.webp",
+          "width": 1400,
+          "height": 655,
+          "bytes": 212726,
+          "sha256": "a8c9c5dda97d8d3a087f939b0be0b798fe6d643bf366739b85536674c67863cb"
+        },
+        {
+          "src": "assets/illustrations/conflict-creature-small.webp",
+          "width": 640,
+          "height": 299,
+          "bytes": 48344,
+          "sha256": "d3dc7284ff1a9eb14b032622b35235d5cec25de373ef587210c95278d7651d94"
+        }
+      ]
+    },
+    {
+      "id": "conflict-aftermath",
+      "source_page": 114,
+      "object": "/I505",
+      "title": "戰場與魔鎧",
+      "alt": "戰場與魔鎧",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 114,
+          "chapter": "conflict-turn",
+          "position": "after"
+        }
+      ],
+      "original_width": 2265,
+      "original_height": 1333,
+      "variants": [
+        {
+          "src": "assets/illustrations/conflict-aftermath.webp",
+          "width": 1400,
+          "height": 824,
+          "bytes": 243894,
+          "sha256": "7687d46f8507cbb3aaa829a8c763619488ee1ba7e1e1284f4585368ef2bae95b"
+        },
+        {
+          "src": "assets/illustrations/conflict-aftermath-small.webp",
+          "width": 640,
+          "height": 377,
+          "bytes": 56868,
+          "sha256": "261e5df96982ab91bf2a7c4508e92c9554b0d72bdd2ee36520557b23a2dd7e6f"
+        }
+      ]
+    },
+    {
+      "id": "supplies",
+      "source_page": 118,
+      "object": "/I518",
+      "title": "木桶與補給",
+      "alt": "木桶與補給",
+      "layout": "compact",
+      "placements": [
+        {
+          "page": 118,
+          "chapter": "conflict-scenes",
+          "position": "after"
+        }
+      ],
+      "original_width": 1122,
+      "original_height": 1122,
+      "variants": [
+        {
+          "src": "assets/illustrations/supplies.webp",
+          "width": 1122,
+          "height": 1122,
+          "bytes": 145286,
+          "sha256": "9a2352408edd39700d734275e826b929a0c675bf8707899207aabbc5c1b2a06f"
+        },
+        {
+          "src": "assets/illustrations/supplies-small.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 63882,
+          "sha256": "8902fbc73751e8364d83090bbb7fb5ceb775a8fa9ff09e9d4bd673ac72e5d3e2"
+        }
+      ]
+    },
+    {
+      "id": "beetle-carrier",
+      "source_page": 119,
+      "object": "/I519",
+      "title": "甲蟲形飛行母艦與同行者",
+      "alt": "甲蟲形飛行母艦與同行者",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 119,
+          "chapter": "conflict-scenes",
+          "position": "after"
+        },
+        {
+          "page": 81,
+          "chapter": "carrier",
+          "position": "after"
+        }
+      ],
+      "original_width": 2450,
+      "original_height": 3466,
+      "variants": [
+        {
+          "src": "assets/illustrations/beetle-carrier.webp",
+          "width": 1131,
+          "height": 1600,
+          "bytes": 244336,
+          "sha256": "82702952f2f40d0e4d49f6b89a283bcd63a36b40436cab743bd474c72468b7f9"
+        },
+        {
+          "src": "assets/illustrations/beetle-carrier-small.webp",
+          "width": 640,
+          "height": 905,
+          "bytes": 102078,
+          "sha256": "2d195ad26e54f6c4acf803fd6d6c896a25c01d439006131b8e74b498f4121812"
+        }
+      ]
+    },
+    {
+      "id": "arcane-director",
+      "source_page": 122,
+      "object": "/I538",
+      "title": "繁複的魔法構裝體",
+      "alt": "繁複的魔法構裝體",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 122,
+          "chapter": "director",
+          "position": "after"
+        }
+      ],
+      "original_width": 1334,
+      "original_height": 3334,
+      "variants": [
+        {
+          "src": "assets/illustrations/arcane-director.webp",
+          "width": 640,
+          "height": 1600,
+          "bytes": 342310,
+          "sha256": "34f6c273446cbc9c31d475418f542cd5cb41b508892cd0b9cbce436b6018e017"
+        },
+        {
+          "src": "assets/illustrations/arcane-director-small.webp",
+          "width": 384,
+          "height": 960,
+          "bytes": 152832,
+          "sha256": "9910512b51da82eeaae79aca7f52d8c7b92ae5ea64809785af3e12aad32f26ee"
+        }
+      ]
+    },
+    {
+      "id": "foe-channeler",
+      "source_page": 130,
+      "object": "/I578",
+      "title": "引導者與魔法武裝",
+      "alt": "引導者與魔法武裝",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 130,
+          "chapter": "foes",
+          "position": "after"
+        }
+      ],
+      "original_width": 1309,
+      "original_height": 1460,
+      "variants": [
+        {
+          "src": "assets/illustrations/foe-channeler.webp",
+          "width": 1309,
+          "height": 1460,
+          "bytes": 341236,
+          "sha256": "627c3f19bec40b9405d25dd6dd629ba2b1db77cfa9818e45424f0d51767222a2"
+        },
+        {
+          "src": "assets/illustrations/foe-channeler-small.webp",
+          "width": 640,
+          "height": 714,
+          "bytes": 105774,
+          "sha256": "9ba6ad2d318de896ca34a37ef3204ba99e58b40fd871c1207ed4f6bd52af7b33"
+        }
+      ]
+    },
+    {
+      "id": "foe-firearms",
+      "source_page": 132,
+      "object": "/I594",
+      "title": "持槍的威權部隊",
+      "alt": "持槍的威權部隊",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 132,
+          "chapter": "foes",
+          "position": "after"
+        }
+      ],
+      "original_width": 2269,
+      "original_height": 952,
+      "variants": [
+        {
+          "src": "assets/illustrations/foe-firearms.webp",
+          "width": 1400,
+          "height": 587,
+          "bytes": 157174,
+          "sha256": "76b63bb17ce2a6c6221b038ed552e376adf43ac08df3f868f4cb8089477d9d76"
+        },
+        {
+          "src": "assets/illustrations/foe-firearms-small.webp",
+          "width": 640,
+          "height": 269,
+          "bytes": 30584,
+          "sha256": "f8a02179c290c92c31319d0d0e45d4b25da943ce0afcbafcb6bb3256dd863b1b"
+        }
+      ]
+    },
+    {
+      "id": "foe-monster",
+      "source_page": 133,
+      "object": "/I603",
+      "title": "巨獸",
+      "alt": "巨獸",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 133,
+          "chapter": "foes",
+          "position": "after"
+        }
+      ],
+      "original_width": 2126,
+      "original_height": 1023,
+      "variants": [
+        {
+          "src": "assets/illustrations/foe-monster.webp",
+          "width": 1400,
+          "height": 674,
+          "bytes": 120992,
+          "sha256": "d199f1e6c05454efb62b4c96246e0b325a73af51362fa6bd47f71bd9f1b0b7c3"
+        },
+        {
+          "src": "assets/illustrations/foe-monster-small.webp",
+          "width": 640,
+          "height": 308,
+          "bytes": 32206,
+          "sha256": "222c4801fec6e576a592cd21c8a44b58301dc2f47d42fd9542b494c306926d28"
+        }
+      ]
+    },
+    {
+      "id": "outsider",
+      "source_page": 134,
+      "object": "/I611",
+      "title": "異界存在",
+      "alt": "異界存在",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 134,
+          "chapter": "foes",
+          "position": "after"
+        }
+      ],
+      "original_width": 2143,
+      "original_height": 1071,
+      "variants": [
+        {
+          "src": "assets/illustrations/outsider.webp",
+          "width": 1400,
+          "height": 700,
+          "bytes": 218306,
+          "sha256": "28382f6d59a0a05117780dcb271a8778c10b9f227b6be67d2cee97923ac32de4"
+        },
+        {
+          "src": "assets/illustrations/outsider-small.webp",
+          "width": 640,
+          "height": 320,
+          "bytes": 54590,
+          "sha256": "3b37c86613954439b54d77e8d313b5d0a6f619e621263a99f761fce3ce845763"
+        }
+      ]
+    },
+    {
+      "id": "bound-seraph",
+      "source_page": 139,
+      "object": "/I627",
+      "title": "束縛的有翼存在",
+      "alt": "束縛的有翼存在",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 139,
+          "chapter": "optional-rules",
+          "position": "after"
+        }
+      ],
+      "original_width": 1180,
+      "original_height": 890,
+      "variants": [
+        {
+          "src": "assets/illustrations/bound-seraph.webp",
+          "width": 1180,
+          "height": 890,
+          "bytes": 133424,
+          "sha256": "161f979c12834d86b2ec08ba6f54a52006050e0cf7864577c53f1689b180ee66"
+        },
+        {
+          "src": "assets/illustrations/bound-seraph-small.webp",
+          "width": 640,
+          "height": 483,
+          "bytes": 53482,
+          "sha256": "e8dd2e1ca7301c5c5d9f847cff03efab31c5a1837ed0063fee6665e6aeb7e3bb"
+        }
+      ]
+    },
+    {
+      "id": "mission-frontispiece",
+      "source_page": 140,
+      "object": "/I628",
+      "title": "魔鎧與奇幻戰場",
+      "alt": "魔鎧與奇幻戰場",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 141,
+          "chapter": "mission-grand-melee",
+          "position": "after"
+        }
+      ],
+      "original_width": 2481,
+      "original_height": 3507,
+      "variants": [
+        {
+          "src": "assets/illustrations/mission-frontispiece.webp",
+          "width": 1132,
+          "height": 1600,
+          "bytes": 545544,
+          "sha256": "72216a4915a13d97048c6aa0d1a0c490c2fb31efb987c03041ec1e881fd1612c"
+        },
+        {
+          "src": "assets/illustrations/mission-frontispiece-small.webp",
+          "width": 640,
+          "height": 905,
+          "bytes": 225744,
+          "sha256": "a345c512c1e033f14c44aca3c7b36fc921488d045466bb370dc6f1ffadcf5c4f"
+        }
+      ]
+    },
+    {
+      "id": "ghost-reaches",
+      "source_page": 148,
+      "object": "/I667",
+      "title": "幽魂群島的魔鎧與人物",
+      "alt": "幽魂群島的魔鎧與人物",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 148,
+          "chapter": "ghost-reaches",
+          "position": "after"
+        }
+      ],
+      "original_width": 2271,
+      "original_height": 2250,
+      "variants": [
+        {
+          "src": "assets/illustrations/ghost-reaches.webp",
+          "width": 1400,
+          "height": 1387,
+          "bytes": 801820,
+          "sha256": "765cffe2c686ad4eb96b54ae5fc0bfb49b982d7024eee4bed0870958725d748a"
+        },
+        {
+          "src": "assets/illustrations/ghost-reaches-small.webp",
+          "width": 640,
+          "height": 634,
+          "bytes": 172050,
+          "sha256": "bb9d2716f1eb87b513daa451a9e5c1ee3deb7b391f453656f58f8899c129bda9"
+        }
+      ]
+    },
+    {
+      "id": "academy-fire",
+      "source_page": 153,
+      "object": "/I695",
+      "title": "奧術學院徽章：火焰與冠冕",
+      "alt": "奧術學院徽章：火焰與冠冕",
+      "layout": "emblem",
+      "placements": [
+        {
+          "page": 153,
+          "chapter": "academy-arcane",
+          "position": "after"
+        }
+      ],
+      "original_width": 792,
+      "original_height": 792,
+      "variants": [
+        {
+          "src": "assets/illustrations/academy-fire.webp",
+          "width": 792,
+          "height": 792,
+          "bytes": 97506,
+          "sha256": "7e3df8198ae8e3559a7df2b06a1e1607439443cbaf62cbb9635952c47c1b978a"
+        },
+        {
+          "src": "assets/illustrations/academy-fire-small.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 72418,
+          "sha256": "9a2156b1c58d4ed0c47ce54064b4649e210980b84d0c7914f7333e848e25b41d"
+        }
+      ]
+    },
+    {
+      "id": "academy-sun",
+      "source_page": 153,
+      "object": "/I697",
+      "title": "奧術學院徽章：太陽與聖杯",
+      "alt": "奧術學院徽章：太陽與聖杯",
+      "layout": "emblem",
+      "placements": [
+        {
+          "page": 153,
+          "chapter": "academy-arcane",
+          "position": "after"
+        }
+      ],
+      "original_width": 792,
+      "original_height": 792,
+      "variants": [
+        {
+          "src": "assets/illustrations/academy-sun.webp",
+          "width": 792,
+          "height": 792,
+          "bytes": 113872,
+          "sha256": "ea21a5635e3c4d58ebe4ee84046c4ba903c65ebd3f5388ec0f4fb43790c22795"
+        },
+        {
+          "src": "assets/illustrations/academy-sun-small.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 83954,
+          "sha256": "2c1c1dbc991024d7dae18c910be8a3ffcdf5a1d34abeeec1aebe85e6ab90b7c2"
+        }
+      ]
+    },
+    {
+      "id": "academy-water",
+      "source_page": 153,
+      "object": "/I699",
+      "title": "奧術學院徽章：流水與海洋生物",
+      "alt": "奧術學院徽章：流水與海洋生物",
+      "layout": "emblem",
+      "placements": [
+        {
+          "page": 153,
+          "chapter": "academy-arcane",
+          "position": "after"
+        }
+      ],
+      "original_width": 792,
+      "original_height": 792,
+      "variants": [
+        {
+          "src": "assets/illustrations/academy-water.webp",
+          "width": 792,
+          "height": 792,
+          "bytes": 81898,
+          "sha256": "b23c28eaaba1b6929473762100ba03139ec816d98a0bfa7eb4b829bbeb9627f6"
+        },
+        {
+          "src": "assets/illustrations/academy-water-small.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 63782,
+          "sha256": "0816ff30f266f9c5cb82928b082227d7634f59a1b04de4b6429726c10ec33555"
+        }
+      ]
+    },
+    {
+      "id": "academy-tree",
+      "source_page": 153,
+      "object": "/I701",
+      "title": "奧術學院徽章：山岳與樹木",
+      "alt": "奧術學院徽章：山岳與樹木",
+      "layout": "emblem",
+      "placements": [
+        {
+          "page": 153,
+          "chapter": "academy-arcane",
+          "position": "after"
+        }
+      ],
+      "original_width": 792,
+      "original_height": 792,
+      "variants": [
+        {
+          "src": "assets/illustrations/academy-tree.webp",
+          "width": 792,
+          "height": 792,
+          "bytes": 81966,
+          "sha256": "bc6c2eef605daa0b21f0102c002ed9c0149926dcd7d46067b0ab5ea8fed76e59"
+        },
+        {
+          "src": "assets/illustrations/academy-tree-small.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 62486,
+          "sha256": "bd2d52cd83ad1d0a99be17acc1dd4e82ff12a9f48f782bdb58a9af370eb76f95"
+        }
+      ]
+    },
+    {
+      "id": "palus-somni",
+      "source_page": 158,
+      "object": "/I728",
+      "title": "睡夢沼澤的奇異樹形構造",
+      "alt": "睡夢沼澤的奇異樹形構造",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 158,
+          "chapter": "palus-somni",
+          "position": "after"
+        }
+      ],
+      "original_width": 2021,
+      "original_height": 1498,
+      "variants": [
+        {
+          "src": "assets/illustrations/palus-somni.webp",
+          "width": 1400,
+          "height": 1038,
+          "bytes": 176118,
+          "sha256": "a8b110b1558678a1f0670dba579b5804c8e84e848144cc29300bef1df488f56c"
+        },
+        {
+          "src": "assets/illustrations/palus-somni-small.webp",
+          "width": 640,
+          "height": 474,
+          "bytes": 55218,
+          "sha256": "a5a9f575bac8edf3773e6036d6e3c0cd2dbbe410579da49f5936c979b1539bb9"
+        }
+      ]
+    },
+    {
+      "id": "valdemar",
+      "source_page": 163,
+      "object": "/I754",
+      "title": "Valdemar 的花朵與器物",
+      "alt": "Valdemar 的花朵與器物",
+      "layout": "wide",
+      "placements": [
+        {
+          "page": 163,
+          "chapter": "ice-valdemar",
+          "position": "after"
+        }
+      ],
+      "original_width": 1786,
+      "original_height": 833,
+      "variants": [
+        {
+          "src": "assets/illustrations/valdemar.webp",
+          "width": 1400,
+          "height": 653,
+          "bytes": 118878,
+          "sha256": "d52a48b8f671324db0b815c23b3fb5faff79eb68e215fc3156b3d60686308fb9"
+        },
+        {
+          "src": "assets/illustrations/valdemar-small.webp",
+          "width": 640,
+          "height": 299,
+          "bytes": 38098,
+          "sha256": "9db32ce61eb9c0a0ee31777a6b5d44206f7ee7650111c9afbff4e5d87423cb03"
+        }
+      ]
+    },
+    {
+      "id": "author-study",
+      "source_page": 173,
+      "object": "/I801",
+      "title": "書房中的人物與魔法機械",
+      "alt": "書房中的人物與魔法機械",
+      "layout": "standard",
+      "placements": [
+        {
+          "page": 173,
+          "chapter": "credits",
+          "position": "after"
+        }
+      ],
+      "original_width": 2126,
+      "original_height": 3001,
+      "variants": [
+        {
+          "src": "assets/illustrations/author-study.webp",
+          "width": 1133,
+          "height": 1600,
+          "bytes": 612498,
+          "sha256": "aa55871435178e6b5f97c37604ad8c2f7df7d3203fd8fb623c1ecb002a4c712b"
+        },
+        {
+          "src": "assets/illustrations/author-study-small.webp",
+          "width": 640,
+          "height": 903,
+          "bytes": 249582,
+          "sha256": "71d2fd757de6593391e9ea3de4ebab2a05a1891d99b0a70e5512b9703efec7bd"
+        }
+      ]
+    }
+  ],
+  "prepared_on": "2026-10-26"
+}

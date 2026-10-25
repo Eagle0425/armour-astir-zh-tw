@@ -102,6 +102,34 @@ def load_supplements():
         c['pages']=[{'page':None,'anchor':anchor,'sourceLabel':label,'title':c['title'],'html':body,'text':md,'headings':heads,'chapter':c['id']}]
     return items
 
+def attach_illustrations(chapters):
+    data=json.loads((ROOT/'illustrations.json').read_text(encoding='utf8'))
+    pages={p['page']:p for c in chapters for p in c['pages']}
+    relocated={}
+    for item in data['items']:
+        large,small=item['variants'];title=html.escape(item['title']);alt=html.escape(item['alt'],quote=True)
+        src=html.escape(large['src'],quote=True)
+        srcset=(small['src']+' '+str(small['width'])+'w, ' if small['width']<large['width'] else '')+src+' '+str(large['width'])+'w'
+        sizes='(max-width:480px) 240px, 280px' if item['layout']=='portrait' else '(max-width:800px) calc(100vw - 46px), 760px'
+        figure=(f'<figure class="book-art art-{item["layout"]}" data-art="{item["id"]}">'
+                f'<a class="art-open" href="{src}" target="_blank" rel="noopener" aria-label="開啟{alt}插圖">'
+                f'<img src="{src}" srcset="{srcset}" sizes="{sizes}" '
+                f'width="{large["width"]}" height="{large["height"]}" alt="{alt}" loading="lazy" decoding="async"></a>'
+                f'<figcaption>{title} · 原書 p.{item["source_page"]} · <a href="#intro/p003">美術製作名單</a></figcaption></figure>')
+        for placement in item['placements']:
+            p=pages[placement['page']]
+            placed_figure=figure.replace('<figure ',f'<figure id="art-{item["id"]}-p{placement["page"]:03}" ',1)
+            if placement['position']=='after-heading':
+                p['html']=re.sub(r'(</h[2-6]>)',lambda m:m[0]+placed_figure,p['html'],count=1)
+            else:p['html']+='\n'+placed_figure
+        if item['source_page'] not in [x['page'] for x in item['placements']]:
+            dest=item['placements'][0]
+            link=f'<a href="#{dest["chapter"]}/art-{item["id"]}-p{dest["page"]:03}">{title}</a>'
+            relocated.setdefault(item['source_page'],[]).append(link)
+    for n,links in relocated.items():
+        pages[n]['html']+='<p class="source-note">本頁原書插圖依主題放在對應章節：'+'、'.join(links)+'。</p>'
+    (ROOT/'site/illustrations.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
+
 def split_director_notes(chapters):
     views=copy.deepcopy(chapters);notes=[];routes={}
     for c in views:
@@ -144,7 +172,7 @@ def split_director_notes(chapters):
 def write_reader(site, chapters, directory, name, title):
     is_full=name=='reader.html'; included={p['page'] for c in chapters for p in c['pages']};included_chapters={c['id'] for c in chapters}
     home='gm.html' if name=='gm-reader.html' else 'index.html'
-    reader=['<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' · Armour Astir</title><link rel="stylesheet" href="styles.css?v=20261025-4"></head><body><main style="max-width:900px;margin:auto"><h1>'+title+'</h1><p>Armour Astir: Advent · <a href="'+home+'">回到閱讀介面</a></p>']
+    reader=['<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' · Armour Astir</title><link rel="stylesheet" href="styles.css?v=20261026-1"></head><body><main style="max-width:900px;margin:auto"><h1>'+title+'</h1><p>Armour Astir: Advent · <a href="'+home+'">回到閱讀介面</a></p>']
     if is_full:reader.append('<p class="notice">這是含 GM 內容的完整原書列印版。分區列印請開啟<a href="player-reader.html">玩家手冊</a>或<a href="gm-reader.html">GM 工作台</a>。</p>')
     reader.append('<nav><ol>')
     reader += [f'<li><a href="#{c["id"]}">{html.escape(c["title"])}</a>'+('（配套補充）' if c.get('supplement') else f'（{c["start"]}–{c["end"]}）')+'</li>' for c in chapters]
@@ -185,6 +213,7 @@ def build():
             else:sh=previous[n]['source_sha256'];sl=previous[n]['source_characters']
             audit.append({'page':n,'source_sha256':sh,'source_characters':sl,'target_sha256':digest(md),'target_characters':len(md),'file':f'content/pages/p{n:03}.md','status':'translated','review':'see translation/reviews.json'})
     assert sorted(p['page'] for p in all_pages)==list(range(1,175)), 'Page coverage must be 1–174 exactly once'
+    attach_illustrations(chapters)
     sources=json.loads((ROOT/'translation/sources.json').read_text(encoding='utf8'))
     reviews_path=ROOT/'translation/reviews.json'
     reviews=json.loads(reviews_path.read_text(encoding='utf8')) if reviews_path.exists() else {'status':'draft','note':'獨立初校尚在進行。'}
@@ -197,7 +226,7 @@ def build():
     counts={}
     for mode,name in [('player','data.js'),('gm','gm-data.js')]:
         selected=edition(view_chapters,mode)
-        data={'title':'Armour Astir: Advent','updated':'2026-10-25','mode':mode,'chapters':selected,'directory':directory,'anchorRoutes':anchor_routes,'sources':sources,'reviews':reviews,'totalPages':174,'totalChapters':len(chapters),'resources':inventory}
+        data={'title':'Armour Astir: Advent','updated':'2026-10-26','mode':mode,'chapters':selected,'directory':directory,'anchorRoutes':anchor_routes,'sources':sources,'reviews':reviews,'totalPages':174,'totalChapters':len(chapters),'resources':inventory}
         (site/name).write_text('window.AA_DATA = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf8',newline='\n')
         counts[mode]={'chapters':len(selected),'pages':sum(len(c['pages']) for c in selected if not c.get('supplement')),'supplements':sum(bool(c.get('supplement')) for c in selected),'chapter_ids':[c['id'] for c in selected]}
     shell=(site/'index.html').read_text(encoding='utf8').replace('src="data.js?', 'src="gm-data.js?').replace('<body>','<body class="gm-workshop">').replace('玩家手冊 · Armour Astir','GM 工作台 · Armour Astir').replace('ADVENT ／ 玩家手冊','ADVENT ／ GM 工作台').replace('PLAYER / FIELD MANUAL','DIRECTOR / WORKSHOP').replace('href="gm.html#home">GM 工作台 ↗','href="index.html#home">← 玩家手冊').replace('id="reader-link" href="player-reader.html">玩家手冊列印版','id="reader-link" href="gm-reader.html">GM 工作台列印版').replace('搜尋玩家手冊','搜尋 GM 工作台').replace('href="player-reader.html">玩家手冊靜態閱讀版','href="gm-reader.html">GM 工作台靜態閱讀版')

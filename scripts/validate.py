@@ -140,3 +140,33 @@ for c in supplements:
     check(page_anchor(p) in readers['reader.html'].ids,'Companion missing from full reader')
 check(len(supplements)==5,'Expected five companion chapters')
 print('PASS: five companion chapters; source/target fingerprints; role isolation; core cross-links; distinct supplemental pagination and print anchors.')
+
+# Art is attached to source-aligned pages without changing reviewed Markdown.
+art=json.loads((ROOT/'illustrations.json').read_text(encoding='utf8'))
+core_source=json.loads((ROOT/'translation/sources.json').read_text(encoding='utf8'))[0]
+check(art['source_sha256']==core_source['sha256'],'Art extracted from a different core PDF')
+check(len(art['items'])==55 and len({x['id'] for x in art['items']})==55,'Art inventory incomplete or duplicated')
+check(json.loads((ROOT/'site/illustrations.json').read_text(encoding='utf8'))==art,'Stale public illustration provenance')
+asset_paths=set();placements=0
+for item in art['items']:
+    check(1<=item['source_page']<=174 and item['alt'] and item['title'],'Missing art source or accessible description')
+    check(len(item['variants'])==2,'Missing responsive art variant')
+    for variant in item['variants']:
+        path=variant['src'];check(path.startswith('assets/illustrations/') and '..' not in path,'Unsafe art path')
+        check(path not in asset_paths,'Repeated illustration asset path');asset_paths.add(path)
+        raw=(ROOT/'site'/path).read_bytes()
+        check(hashlib.sha256(raw).hexdigest()==variant['sha256'] and len(raw)==variant['bytes'],'Art fingerprint mismatch '+path)
+        check(raw[:4]==b'RIFF' and raw[8:12]==b'WEBP','Invalid WebP file '+path)
+        check(abs(variant['width']/variant['height']-item['original_width']/item['original_height'])<0.01,'Art aspect ratio changed '+path)
+    for placement in item['placements']:
+        placements+=1
+        for mode,data in datasets.items():
+            expected=[c for c in data['chapters'] if c['id']==placement['chapter']]
+            matches=[(c,p) for c in data['chapters'] for p in c['pages'] if 'data-art="'+item['id']+'"' in p['html'] and p['page']==placement['page']]
+            check(len(matches)==(1 if expected else 0),'Art in wrong reader or page: '+item['id']+' '+mode)
+            if matches:check(matches[0][0]['id']==placement['chapter'],'Art in wrong chapter: '+item['id'])
+    for reader in readers.values():
+        check(item['variants'][0]['src'] in reader.resources or reader is not readers['reader.html'],'Art missing from full print edition '+item['id'])
+check(placements==56,'Missing art placement')
+check(len([x for x in art['items'] if x['layout']=='portrait'])==8,'Expected one portrait per playbook')
+print('PASS: 55 original illustrations, 56 placements, 110 WebP fingerprints; aspect ratios, player/GM placement and printable assets.')
